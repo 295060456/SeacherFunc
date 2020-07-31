@@ -1,0 +1,149 @@
+//
+//  PrefixHeader.pch
+//  Search
+//
+//  Created by Jobs on 2020/7/31.
+//  Copyright © 2020 Jobs. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AABlock.h"
+#import <Masonry/Masonry.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <LYEmptyView/LYEmptyViewHeader.h>
+#import "AFNetworking.h"
+#import <ReactiveObjC.h>
+#import "TZImagePickerController.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import <BRPickerView.h>
+#import "GKNavigationBar.h"
+#import "JXCategoryView.h"
+#import "ECAuthorizationTools.h"
+#import "YYKit.h"
+#import "SDWebImage-umbrella.h"//不支持图片后处理
+#import "UIView+Extras.h"
+#import "UIImage+YBGIF.h"
+#import "SceneDelegate.h"
+//#import "MKCommentModel.h"
+//#import "RBCLikeButton.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+WJExtension.h"
+#import <YXAlertController.h>
+#import "BaseVC.h"
+#import "NSString+Extras.h"
+#import "UIControl+XY.h"
+
+#import "ViewController.h"
+#import "SearchVC.h"
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+#define StrongSelf __strong typeof(self) strongSelf = self;
+#define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
+
+#define ReuseIdentifier NSStringFromClass ([self class])
+
+#ifndef SCREEN_BOUNDS
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#endif
+#ifndef SCREEN_WIDTH
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#endif
+#ifndef SCREEN_HEIGHT
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#endif
+#define kIMG(imgName) [UIImage imageNamed:imgName]
+
+#define RGBCOLOR(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define COLOR_RGB(r,g,b,a)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define HEXCOLOR(hexValue)  [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:1]
+#define COLOR_HEX(hexValue, al)  [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:al]
+#define MianScreen          UIScreen.mainScreen.bounds.size
+#define Device_Width        MianScreen.width//获取屏幕宽高
+#define SCALING_RATIO(UISize) (UISize) * Device_Width / 375.0f//全局比例尺
+///常见颜色
+#define kClearColor     [UIColor clearColor]
+#define kBlackColor     [UIColor blackColor]
+#define kBlueColor      [UIColor blueColor]
+#define kWhiteColor     [UIColor whiteColor]
+#define kCyanColor      [UIColor cyanColor]
+#define kGrayColor      [UIColor grayColor]
+#define kOrangeColor    [UIColor orangeColor]
+#define kRedColor       [UIColor redColor]
+#define KBrownColor     [UIColor brownColor]
+#define KDarkGrayColor  [UIColor darkGrayColor]
+#define KDarkTextColor  [UIColor darkTextColor]
+#define KYellowColor    [UIColor yellowColor]
+#define KPurpleColor    [UIColor purpleColor]
+#define KLightTextColor [UIColor lightTextColor]
+#define KLightGrayColor [UIColor lightGrayColor]
+#define KGreenColor     [UIColor greenColor]
+#define KMagentaColor   [UIColor magentaColor]
+
+static inline UIWindow * getMainWindow(){
+    UIWindow *window = nil;
+    if (@available(iOS 13.0, *)) {
+        window = [SceneDelegate sharedInstance].window;
+    }else{
+        window = UIApplication.sharedApplication.delegate.window;
+//        [UIApplication sharedApplication].keyWindow
+    }return window;
+}
+
+static inline BOOL isiPhoneX_series() {
+    BOOL iPhoneXSeries = NO;
+    if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
+        return iPhoneXSeries;
+    }
+
+    if (@available(iOS 11.0, *)) {
+        UIWindow *mainWindow = getMainWindow();
+        if (mainWindow.safeAreaInsets.bottom > 0.0) {
+            iPhoneXSeries = YES;
+        }
+    }return iPhoneXSeries;
+}
+
+///系统控件高度
+static inline id getSceneDelegate(){
+    id sceneDelegate = nil;
+    
+    if (@available(iOS 13.0, *)) {
+        sceneDelegate = UIApplication.sharedApplication.connectedScenes.allObjects.firstObject.delegate;
+    }return sceneDelegate;
+}
+
+static inline CGFloat rectOfStatusbar(){
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wdeprecated-declarations"
+    CGFloat RectOfStatusbar = 0.0f;
+    if (@available(iOS 13.0, *)){
+        id WINDOW = UIApplication.sharedApplication.windows.firstObject;
+        if ([WINDOW isKindOfClass:UIWindow.class]) {
+            UIWindow *window = (UIWindow *)WINDOW;
+            UIWindowScene *windowScene = window.windowScene;
+            UIStatusBarManager *statusBarManager = windowScene.statusBarManager;
+            if (statusBarManager.statusBarHidden == NO) {
+                RectOfStatusbar = statusBarManager.statusBarFrame.size.height;
+//                statusBarManager.statusBarFrame.mj_h
+            }else{}
+        }
+    }else{
+        RectOfStatusbar = UIApplication.sharedApplication.statusBarFrame.size.height;
+    }return RectOfStatusbar;
+}
+
+/** DEBUG LOG **/
+#ifdef DEBUG
+
+#define DLog( s, ... ) NSLog( @"< %@:(%d) > %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+
+#else
+
+#define DLog( s, ... )
+
+#endif
+
+#endif /* PrefixHeader_pch */
