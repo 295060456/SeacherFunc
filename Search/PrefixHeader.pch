@@ -18,7 +18,6 @@
 #import "TZImagePickerController.h"
 #import "MJExtension.h"
 #import "MJRefresh.h"
-#import <BRPickerView.h>
 #import "GKNavigationBar.h"
 #import "JXCategoryView.h"
 #import "ECAuthorizationTools.h"
@@ -32,6 +31,7 @@
 #import "MBProgressHUD.h"
 #import "MBProgressHUD+WJExtension.h"
 #import <YXAlertController.h>
+#import "BRPickerView.h"
 #import "BaseVC.h"
 #import "NSString+Extras.h"
 #import "UIControl+XY.h"

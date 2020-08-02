@@ -13,7 +13,6 @@ target 'Search' do
   pod 'ReactiveObjC'
   pod 'MJRefresh'
   pod 'MJExtension'
-  pod 'BRPickerView'
   pod 'GKNavigationBar'
   pod 'JXCategoryView'
   pod 'YYKit'
