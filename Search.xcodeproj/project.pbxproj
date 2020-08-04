@@ -21,6 +21,7 @@
 		C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */; };
 		C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F524D6F9BE00EC342E /* BRBaseView.m */; };
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
+		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5324D3E2A600307DFA /* AppDelegate.m */; };
 		C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */; };
 		C5DDFF5A24D3E2A600307DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
@@ -101,6 +102,8 @@
 		C56FE8F724D6F9BE00EC342E /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
 		C56FE8F924D6F9BE00EC342E /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
+		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
 		C5DDFF4F24D3E2A600307DFA /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DDFF5224D3E2A600307DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5DDFF5324D3E2A600307DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
+				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
+				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -745,6 +750,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
 				C5DDFFC424D3FDBD00307DFA /* BaseVC.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SearchVC.h"
+#import "ViewController+Category.h"
 
 @interface ViewController ()
 
@@ -34,7 +35,10 @@
 //                   success:^(id data) {}
 //                  animated:YES];
     
-    [self.datePickerView show];
+//    [self.datePickerView show];
+    
+//    self.ly_name = @"hello world";
+    NSLog(@"%@",self.ly_name);
     
 }
 #pragma mark —— lazyLoad
