@@ -10,6 +10,14 @@
 		00031B1C851AFE14C92341BB /* Pods_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */; };
 		117A85792A9573527F095CDB /* Pods_Search_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */; };
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
+		C5336FE924DABD160082847C /* BaseVC+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FD924DABD150082847C /* BaseVC+AlertController.m */; };
+		C5336FEA24DABD160082847C /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */; };
+		C5336FEB24DABD160082847C /* BaseVC+FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */; };
+		C5336FEC24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */; };
+		C5336FED24DABD160082847C /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE024DABD160082847C /* BaseVC.m */; };
+		C5336FEE24DABD160082847C /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */; };
+		C5336FEF24DABD160082847C /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */; };
+		C5336FF024DABD160082847C /* BaseVC+BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */; };
 		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
 		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
 		C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E524D6F9BE00EC342E /* BRResultModel.m */; };
@@ -45,7 +53,6 @@
 		C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFB824D3FD8C00307DFA /* TBVCell_style_02.m */; };
 		C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBC24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m */; };
 		C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBD24D3FD8C00307DFA /* TBVCell_style_01.m */; };
-		C5DDFFC424D3FDBD00307DFA /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFC324D3FDBD00307DFA /* BaseVC.m */; };
 		C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */; };
 		C5DDFFD024D3FE4500307DFA /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFCE24D3FE4400307DFA /* FSCustomButton.m */; };
 		C5DDFFD124D3FE4500307DFA /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFCF24D3FE4500307DFA /* CALayer+FSUI.m */; };
@@ -79,6 +86,24 @@
 		5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5336FD924DABD150082847C /* BaseVC+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AlertController.m"; sourceTree = "<group>"; };
+		C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+GifImageView.m"; sourceTree = "<group>"; };
+		C5336FDB24DABD150082847C /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
+		C5336FDC24DABD150082847C /* BaseVC+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZImagePickerController.h"; sourceTree = "<group>"; };
+		C5336FDD24DABD150082847C /* BaseVC+AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AlertController.h"; sourceTree = "<group>"; };
+		C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+FSCustomButton.m"; sourceTree = "<group>"; };
+		C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
+		C5336FE024DABD160082847C /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
+		C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AFNReachability.m"; sourceTree = "<group>"; };
+		C5336FE324DABD160082847C /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
+		C5336FE424DABD160082847C /* BaseVC+AFNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AFNReachability.h"; sourceTree = "<group>"; };
+		C5336FE524DABD160082847C /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		C5336FE624DABD160082847C /* BaseVC+FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+FSCustomButton.h"; sourceTree = "<group>"; };
+		C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BRStringPickerView.m"; sourceTree = "<group>"; };
+		C5336FE824DABD160082847C /* BaseVC+BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BRStringPickerView.h"; sourceTree = "<group>"; };
+		C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
+		C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
 		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		C56FE8E124D6F9BE00EC342E /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
 		C56FE8E224D6F9BE00EC342E /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
@@ -150,8 +175,6 @@
 		C5DDFFBB24D3FD8C00307DFA /* TBVCell_style_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVCell_style_01.h; sourceTree = "<group>"; };
 		C5DDFFBC24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WhiteArrows.m"; sourceTree = "<group>"; };
 		C5DDFFBD24D3FD8C00307DFA /* TBVCell_style_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVCell_style_01.m; sourceTree = "<group>"; };
-		C5DDFFC224D3FDBD00307DFA /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
-		C5DDFFC324D3FDBD00307DFA /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
 		C5DDFFC524D3FDF300307DFA /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
 		C5DDFFC824D3FE1500307DFA /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
@@ -202,6 +225,15 @@
 				BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5336FF124DABD1D0082847C /* 存在疑问的 */ = {
+			isa = PBXGroup;
+			children = (
+				C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */,
+				C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */,
+			);
+			path = "存在疑问的";
 			sourceTree = "<group>";
 		};
 		C56FE8DF24D6F9BE00EC342E /* AddressPickerView */ = {
@@ -448,8 +480,23 @@
 		C5DDFFC124D3FDAE00307DFA /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDFFC224D3FDBD00307DFA /* BaseVC.h */,
-				C5DDFFC324D3FDBD00307DFA /* BaseVC.m */,
+				C5336FF124DABD1D0082847C /* 存在疑问的 */,
+				C5336FE524DABD160082847C /* BaseVC.h */,
+				C5336FE024DABD160082847C /* BaseVC.m */,
+				C5336FE424DABD160082847C /* BaseVC+AFNReachability.h */,
+				C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */,
+				C5336FDD24DABD150082847C /* BaseVC+AlertController.h */,
+				C5336FD924DABD150082847C /* BaseVC+AlertController.m */,
+				C5336FE824DABD160082847C /* BaseVC+BRStringPickerView.h */,
+				C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */,
+				C5336FE624DABD160082847C /* BaseVC+FSCustomButton.h */,
+				C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */,
+				C5336FE324DABD160082847C /* BaseVC+GifImageView.h */,
+				C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */,
+				C5336FDB24DABD150082847C /* BaseVC+JXCategoryListContentViewDelegate.h */,
+				C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */,
+				C5336FDC24DABD150082847C /* BaseVC+TZImagePickerController.h */,
+				C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -751,9 +798,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
+				C5336FED24DABD160082847C /* BaseVC.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
-				C5DDFFC424D3FDBD00307DFA /* BaseVC.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
 				C5DDFF5A24D3E2A600307DFA /* ViewController.m in Sources */,
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
@@ -762,15 +809,19 @@
 				C5DDFFB524D3FA7000307DFA /* UIView+Extras.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
+				C5336FF024DABD160082847C /* BaseVC+BRStringPickerView.m in Sources */,
 				C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */,
 				C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */,
 				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
+				C5336FEF24DABD160082847C /* BaseVC+AFNReachability.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
+				C5336FEA24DABD160082847C /* BaseVC+GifImageView.m in Sources */,
+				C5336FE924DABD160082847C /* BaseVC+AlertController.m in Sources */,
 				C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
@@ -782,8 +833,11 @@
 				C5DDFFB124D3FA5E00307DFA /* UIImage+YBGIF.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
 				C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */,
+				C5336FEB24DABD160082847C /* BaseVC+FSCustomButton.m in Sources */,
+				C5336FEC24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
 				C5DDFFA824D3FA1C00307DFA /* HQTextField.m in Sources */,
 				C5DDFF9424D3E2C100307DFA /* SearchBar.m in Sources */,
+				C5336FEE24DABD160082847C /* BaseVC+TZImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

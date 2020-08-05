@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewController (Category)
 
-@property (nonatomic,strong) NSString *ly_name;
+@property(nonatomic,strong)NSString *ly_name;
 
 @end
 

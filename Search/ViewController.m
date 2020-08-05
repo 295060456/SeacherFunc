@@ -27,7 +27,7 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
-    @weakify(self)
+//    @weakify(self)
 //    [SearchVC ComingFromVC:weak_self
 //               comingStyle:ComingStyle_PUSH
 //         presentationStyle:UIModalPresentationAutomatic
@@ -37,9 +37,9 @@
     
 //    [self.datePickerView show];
     
-//    self.ly_name = @"hello world";
-    NSLog(@"%@",self.ly_name);
+    self.ly_name = @"hello world";
     
+    NSLog(@"%@",self.ly_name);
 }
 #pragma mark —— lazyLoad
 -(BRDatePickerView *)datePickerView{

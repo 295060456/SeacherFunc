@@ -14,26 +14,26 @@
 @dynamic ly_name;
 static char *name;
 
-//- (void)setLy_name:(NSString *)ly_name
-//{
-//    objc_setAssociatedObject(self, name, ly_name, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-//}
-//
-//- (NSString *)ly_name get
-//{
-//    return objc_getAssociatedObject(self, name);
-//}
+static char *BaseVC_TZImagePickerController_maxImagesCount = "setLy_name";
+static char *BaseVC_TZImagePickerController_columnNumber = "ly_name";
 
--(NSString *)ly_name{
-    NSString *Ly_name = objc_getAssociatedObject(self, name);
-    if (!Ly_name) {
-        Ly_name = @"123";
-        objc_setAssociatedObject(self,
-                                 name,
-                                 Ly_name,
-                                 OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    }return Ly_name;
+- (void)setLy_name:(NSString *)ly_name{
+    objc_setAssociatedObject(self, name, ly_name, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
+- (NSString *)ly_name{
+    return objc_getAssociatedObject(self, name);
+}
+
+//-(NSString *)ly_name{
+//    NSString *Ly_name = objc_getAssociatedObject(self, name);
+//    if (!Ly_name) {
+//        Ly_name = @"123";
+//        objc_setAssociatedObject(self,
+//                                 name,
+//                                 Ly_name,
+//                                 OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//    }return Ly_name;
+//}
 
 @end
