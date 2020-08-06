@@ -10,14 +10,6 @@
 		00031B1C851AFE14C92341BB /* Pods_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */; };
 		117A85792A9573527F095CDB /* Pods_Search_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */; };
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
-		C5336FE924DABD160082847C /* BaseVC+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FD924DABD150082847C /* BaseVC+AlertController.m */; };
-		C5336FEA24DABD160082847C /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */; };
-		C5336FEB24DABD160082847C /* BaseVC+FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */; };
-		C5336FEC24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */; };
-		C5336FED24DABD160082847C /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE024DABD160082847C /* BaseVC.m */; };
-		C5336FEE24DABD160082847C /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */; };
-		C5336FEF24DABD160082847C /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */; };
-		C5336FF024DABD160082847C /* BaseVC+BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */; };
 		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
 		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
 		C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E524D6F9BE00EC342E /* BRResultModel.m */; };
@@ -29,6 +21,15 @@
 		C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */; };
 		C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F524D6F9BE00EC342E /* BRBaseView.m */; };
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
+		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
+		C5748A4A24DC4EEC00A842B2 /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A3B24DC4EEC00A842B2 /* BaseVC+AFNReachability.m */; };
+		C5748A4B24DC4EEC00A842B2 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A3C24DC4EEC00A842B2 /* BaseVC.m */; };
+		C5748A4C24DC4EEC00A842B2 /* BaseVC+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4024DC4EEC00A842B2 /* BaseVC+BRPickerView.m */; };
+		C5748A4D24DC4EEC00A842B2 /* BaseVC+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4124DC4EEC00A842B2 /* BaseVC+AlertController.m */; };
+		C5748A4E24DC4EEC00A842B2 /* BaseVC+FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4324DC4EEC00A842B2 /* BaseVC+FSCustomButton.m */; };
+		C5748A4F24DC4EEC00A842B2 /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4424DC4EEC00A842B2 /* BaseVC+GifImageView.m */; };
+		C5748A5024DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4624DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m */; };
+		C5748A5124DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4824DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m */; };
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5324D3E2A600307DFA /* AppDelegate.m */; };
 		C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */; };
@@ -86,22 +87,6 @@
 		5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5336FD924DABD150082847C /* BaseVC+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AlertController.m"; sourceTree = "<group>"; };
-		C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+GifImageView.m"; sourceTree = "<group>"; };
-		C5336FDB24DABD150082847C /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
-		C5336FDC24DABD150082847C /* BaseVC+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZImagePickerController.h"; sourceTree = "<group>"; };
-		C5336FDD24DABD150082847C /* BaseVC+AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AlertController.h"; sourceTree = "<group>"; };
-		C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+FSCustomButton.m"; sourceTree = "<group>"; };
-		C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
-		C5336FE024DABD160082847C /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
-		C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
-		C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AFNReachability.m"; sourceTree = "<group>"; };
-		C5336FE324DABD160082847C /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
-		C5336FE424DABD160082847C /* BaseVC+AFNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AFNReachability.h"; sourceTree = "<group>"; };
-		C5336FE524DABD160082847C /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
-		C5336FE624DABD160082847C /* BaseVC+FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+FSCustomButton.h"; sourceTree = "<group>"; };
-		C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BRStringPickerView.m"; sourceTree = "<group>"; };
-		C5336FE824DABD160082847C /* BaseVC+BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BRStringPickerView.h"; sourceTree = "<group>"; };
 		C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
 		C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
 		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
@@ -127,6 +112,24 @@
 		C56FE8F724D6F9BE00EC342E /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
 		C56FE8F924D6F9BE00EC342E /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		C5748A1F24DC325300A842B2 /* TestBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
+		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
+		C5748A3A24DC4EEB00A842B2 /* BaseVC+AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AlertController.h"; sourceTree = "<group>"; };
+		C5748A3B24DC4EEC00A842B2 /* BaseVC+AFNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AFNReachability.m"; sourceTree = "<group>"; };
+		C5748A3C24DC4EEC00A842B2 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		C5748A3D24DC4EEC00A842B2 /* BaseVC+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BRPickerView.h"; sourceTree = "<group>"; };
+		C5748A3E24DC4EEC00A842B2 /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
+		C5748A3F24DC4EEC00A842B2 /* BaseVC+AFNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AFNReachability.h"; sourceTree = "<group>"; };
+		C5748A4024DC4EEC00A842B2 /* BaseVC+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BRPickerView.m"; sourceTree = "<group>"; };
+		C5748A4124DC4EEC00A842B2 /* BaseVC+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AlertController.m"; sourceTree = "<group>"; };
+		C5748A4224DC4EEC00A842B2 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		C5748A4324DC4EEC00A842B2 /* BaseVC+FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+FSCustomButton.m"; sourceTree = "<group>"; };
+		C5748A4424DC4EEC00A842B2 /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+GifImageView.m"; sourceTree = "<group>"; };
+		C5748A4524DC4EEC00A842B2 /* BaseVC+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZImagePickerController.h"; sourceTree = "<group>"; };
+		C5748A4624DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
+		C5748A4724DC4EEC00A842B2 /* BaseVC+FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+FSCustomButton.h"; sourceTree = "<group>"; };
+		C5748A4824DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
+		C5748A4924DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
 		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
 		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
 		C5DDFF4F24D3E2A600307DFA /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,6 +320,8 @@
 				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
+				C5748A1F24DC325300A842B2 /* TestBlock.h */,
+				C5748A2024DC325300A842B2 /* TestBlock.m */,
 				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
 				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
 			);
@@ -481,22 +486,22 @@
 			isa = PBXGroup;
 			children = (
 				C5336FF124DABD1D0082847C /* 存在疑问的 */,
-				C5336FE524DABD160082847C /* BaseVC.h */,
-				C5336FE024DABD160082847C /* BaseVC.m */,
-				C5336FE424DABD160082847C /* BaseVC+AFNReachability.h */,
-				C5336FE224DABD160082847C /* BaseVC+AFNReachability.m */,
-				C5336FDD24DABD150082847C /* BaseVC+AlertController.h */,
-				C5336FD924DABD150082847C /* BaseVC+AlertController.m */,
-				C5336FE824DABD160082847C /* BaseVC+BRStringPickerView.h */,
-				C5336FE724DABD160082847C /* BaseVC+BRStringPickerView.m */,
-				C5336FE624DABD160082847C /* BaseVC+FSCustomButton.h */,
-				C5336FDE24DABD150082847C /* BaseVC+FSCustomButton.m */,
-				C5336FE324DABD160082847C /* BaseVC+GifImageView.h */,
-				C5336FDA24DABD150082847C /* BaseVC+GifImageView.m */,
-				C5336FDB24DABD150082847C /* BaseVC+JXCategoryListContentViewDelegate.h */,
-				C5336FDF24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m */,
-				C5336FDC24DABD150082847C /* BaseVC+TZImagePickerController.h */,
-				C5336FE124DABD160082847C /* BaseVC+TZImagePickerController.m */,
+				C5748A4224DC4EEC00A842B2 /* BaseVC.h */,
+				C5748A3C24DC4EEC00A842B2 /* BaseVC.m */,
+				C5748A3F24DC4EEC00A842B2 /* BaseVC+AFNReachability.h */,
+				C5748A3B24DC4EEC00A842B2 /* BaseVC+AFNReachability.m */,
+				C5748A3A24DC4EEB00A842B2 /* BaseVC+AlertController.h */,
+				C5748A4124DC4EEC00A842B2 /* BaseVC+AlertController.m */,
+				C5748A3D24DC4EEC00A842B2 /* BaseVC+BRPickerView.h */,
+				C5748A4024DC4EEC00A842B2 /* BaseVC+BRPickerView.m */,
+				C5748A4724DC4EEC00A842B2 /* BaseVC+FSCustomButton.h */,
+				C5748A4324DC4EEC00A842B2 /* BaseVC+FSCustomButton.m */,
+				C5748A3E24DC4EEC00A842B2 /* BaseVC+GifImageView.h */,
+				C5748A4424DC4EEC00A842B2 /* BaseVC+GifImageView.m */,
+				C5748A4924DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.h */,
+				C5748A4824DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m */,
+				C5748A4524DC4EEC00A842B2 /* BaseVC+TZImagePickerController.h */,
+				C5748A4624DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -798,9 +803,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
-				C5336FED24DABD160082847C /* BaseVC.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
+				C5748A4D24DC4EEC00A842B2 /* BaseVC+AlertController.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
+				C5748A4B24DC4EEC00A842B2 /* BaseVC.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
 				C5DDFF5A24D3E2A600307DFA /* ViewController.m in Sources */,
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
@@ -809,35 +815,35 @@
 				C5DDFFB524D3FA7000307DFA /* UIView+Extras.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
-				C5336FF024DABD160082847C /* BaseVC+BRStringPickerView.m in Sources */,
 				C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */,
 				C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */,
 				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
-				C5336FEF24DABD160082847C /* BaseVC+AFNReachability.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
-				C5336FEA24DABD160082847C /* BaseVC+GifImageView.m in Sources */,
-				C5336FE924DABD160082847C /* BaseVC+AlertController.m in Sources */,
 				C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */,
+				C5748A4A24DC4EEC00A842B2 /* BaseVC+AFNReachability.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
+				C5748A4C24DC4EEC00A842B2 /* BaseVC+BRPickerView.m in Sources */,
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
 				C5DDFFD024D3FE4500307DFA /* FSCustomButton.m in Sources */,
+				C5748A5024DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m in Sources */,
 				C5DDFFD124D3FE4500307DFA /* CALayer+FSUI.m in Sources */,
 				C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */,
 				C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */,
 				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
+				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
+				C5748A4E24DC4EEC00A842B2 /* BaseVC+FSCustomButton.m in Sources */,
 				C5DDFFB124D3FA5E00307DFA /* UIImage+YBGIF.m in Sources */,
+				C5748A4F24DC4EEC00A842B2 /* BaseVC+GifImageView.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
 				C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */,
-				C5336FEB24DABD160082847C /* BaseVC+FSCustomButton.m in Sources */,
-				C5336FEC24DABD160082847C /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
+				C5748A5124DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
 				C5DDFFA824D3FA1C00307DFA /* HQTextField.m in Sources */,
 				C5DDFF9424D3E2C100307DFA /* SearchBar.m in Sources */,
-				C5336FEE24DABD160082847C /* BaseVC+TZImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = kRedColor;
+    
+    self.tsb.testBlock(1);
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches

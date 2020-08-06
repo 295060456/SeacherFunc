@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestBlock.h"
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)TestBlock *tsb;
 
 @end
 
