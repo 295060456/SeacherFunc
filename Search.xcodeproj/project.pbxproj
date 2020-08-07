@@ -30,6 +30,7 @@
 		C5748A4F24DC4EEC00A842B2 /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4424DC4EEC00A842B2 /* BaseVC+GifImageView.m */; };
 		C5748A5024DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4624DC4EEC00A842B2 /* BaseVC+TZImagePickerController.m */; };
 		C5748A5124DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A4824DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m */; };
+		C5748A8324DD13B900A842B2 /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A8224DD13B900A842B2 /* BaseVC+JPImageresizerView.m */; };
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5324D3E2A600307DFA /* AppDelegate.m */; };
 		C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */; };
@@ -130,6 +131,8 @@
 		C5748A4724DC4EEC00A842B2 /* BaseVC+FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+FSCustomButton.h"; sourceTree = "<group>"; };
 		C5748A4824DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
 		C5748A4924DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
+		C5748A8124DD13B900A842B2 /* BaseVC+JPImageresizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JPImageresizerView.h"; sourceTree = "<group>"; };
+		C5748A8224DD13B900A842B2 /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
 		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
 		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
 		C5DDFF4F24D3E2A600307DFA /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -488,6 +491,8 @@
 				C5336FF124DABD1D0082847C /* 存在疑问的 */,
 				C5748A4224DC4EEC00A842B2 /* BaseVC.h */,
 				C5748A3C24DC4EEC00A842B2 /* BaseVC.m */,
+				C5748A8124DD13B900A842B2 /* BaseVC+JPImageresizerView.h */,
+				C5748A8224DD13B900A842B2 /* BaseVC+JPImageresizerView.m */,
 				C5748A3F24DC4EEC00A842B2 /* BaseVC+AFNReachability.h */,
 				C5748A3B24DC4EEC00A842B2 /* BaseVC+AFNReachability.m */,
 				C5748A3A24DC4EEB00A842B2 /* BaseVC+AlertController.h */,
@@ -812,6 +817,7 @@
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
 				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
+				C5748A8324DD13B900A842B2 /* BaseVC+JPImageresizerView.m in Sources */,
 				C5DDFFB524D3FA7000307DFA /* UIView+Extras.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,

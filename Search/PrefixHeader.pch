@@ -35,6 +35,7 @@
 #import "BaseVC.h"
 #import "NSString+Extras.h"
 #import "UIControl+XY.h"
+#import "JPImageresizerView-umbrella.h"
 
 #import "ViewController.h"
 #import "SearchVC.h"
