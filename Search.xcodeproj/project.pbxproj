@@ -60,6 +60,7 @@
 		C5DDFFD124D3FE4500307DFA /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFCF24D3FE4500307DFA /* CALayer+FSUI.m */; };
 		C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFD424D4014800307DFA /* UIControl+XY.m */; };
 		C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */ = {isa = PBXBuildFile; fileRef = C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */; };
+		C5E4C07124DFCE4900D4862C /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C07024DFCE4900D4862C /* BaseVC+OpenURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,8 @@
 		C5DDFFD324D4014800307DFA /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C5DDFFD424D4014800307DFA /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题"; sourceTree = "<group>"; };
+		C5E4C06F24DFCE4900D4862C /* BaseVC+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+OpenURL.h"; sourceTree = "<group>"; };
+		C5E4C07024DFCE4900D4862C /* BaseVC+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+OpenURL.m"; sourceTree = "<group>"; };
 		EB5D4118E12BF6B1A61F6CAA /* Pods-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchTests/Pods-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -491,6 +494,8 @@
 				C5336FF124DABD1D0082847C /* 存在疑问的 */,
 				C5748A4224DC4EEC00A842B2 /* BaseVC.h */,
 				C5748A3C24DC4EEC00A842B2 /* BaseVC.m */,
+				C5E4C06F24DFCE4900D4862C /* BaseVC+OpenURL.h */,
+				C5E4C07024DFCE4900D4862C /* BaseVC+OpenURL.m */,
 				C5748A8124DD13B900A842B2 /* BaseVC+JPImageresizerView.h */,
 				C5748A8224DD13B900A842B2 /* BaseVC+JPImageresizerView.m */,
 				C5748A3F24DC4EEC00A842B2 /* BaseVC+AFNReachability.h */,
@@ -846,6 +851,7 @@
 				C5DDFFB124D3FA5E00307DFA /* UIImage+YBGIF.m in Sources */,
 				C5748A4F24DC4EEC00A842B2 /* BaseVC+GifImageView.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
+				C5E4C07124DFCE4900D4862C /* BaseVC+OpenURL.m in Sources */,
 				C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */,
 				C5748A5124DC4EEC00A842B2 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
 				C5DDFFA824D3FA1C00307DFA /* HQTextField.m in Sources */,
