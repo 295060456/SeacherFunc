@@ -9,12 +9,15 @@
 #import "ViewController.h"
 #import "SearchVC.h"
 #import "ViewController+Category.h"
+#import "TestView.h"
 
 @interface ViewController ()
 
 @property(nonatomic,strong)BRDatePickerView *datePickerView;//时间选择器
 @property(nonatomic,strong)BRPickerStyle *customStyle;
 @property(nonatomic,strong)BRAddressPickerView *addressPickerView;//地址选择器
+@property(nonatomic,strong)UIButton *btn;
+@property(nonatomic,strong)TestView *testView;
 
 @end
 
@@ -24,7 +27,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = kRedColor;
     
-    self.tsb.testBlock(1);
+    self.btn.alpha = 1;
+    self.testView.alpha = 1;
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
@@ -39,11 +43,64 @@
     
 //    [self.datePickerView show];
     
+//    self.tsb.testBlock(1);//?
+    
     self.ly_name = @"hello world";
     
     NSLog(@"%@",self.ly_name);
 }
 #pragma mark —— lazyLoad
+-(UIButton *)btn{
+    if (!_btn) {
+        _btn = UIButton.new;
+        _btn.backgroundColor = kBlueColor;
+        [self.view addSubview:_btn];
+        _btn.frame = CGRectMake(100, 100, 100, 100);
+        [_btn addTarget:self
+                 action:@selector(addButtonAnimation:)
+       forControlEvents:UIControlEventTouchUpInside];
+    }return _btn;
+}
+
+-(TestView *)testView{
+    if (!_testView) {
+        _testView = TestView.new;
+        _testView.backgroundColor = KYellowColor;
+        [self.view addSubview:_testView];
+        [_testView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.btn.mas_bottom).offset(10);
+            make.left.equalTo(self.btn);
+            make.size.mas_equalTo(self.btn);
+        }];
+    }
+    return _testView;
+}
+
+- (void)addButtonAnimation:(UIButton *)sender{
+    sender.transform = CGAffineTransformIdentity;
+    [UIView animateKeyframesWithDuration:0.5
+                                   delay:0
+                                 options:0
+                              animations: ^{
+        [UIView addKeyframeWithRelativeStartTime:0
+                                relativeDuration:1 / 3.0
+                                      animations: ^{
+            sender.transform = CGAffineTransformMakeScale(1.5, 1.5);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:1/3.0
+                                relativeDuration:1/3.0
+                                      animations: ^{
+            sender.transform = CGAffineTransformMakeScale(0.8, 0.8);
+        }];
+        [UIView addKeyframeWithRelativeStartTime:2/3.0
+                                relativeDuration:1/3.0
+                                      animations: ^{
+
+            sender.transform = CGAffineTransformMakeScale(1.0, 1.0);
+        }];
+    } completion:nil];
+}
+
 -(BRDatePickerView *)datePickerView{
     if (!_datePickerView) {
         _datePickerView = BRDatePickerView.new;

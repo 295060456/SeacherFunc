@@ -66,6 +66,7 @@
 		C5E4C0EB24DFF23100D4862C /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E424DFF23100D4862C /* BWShareView.m */; };
 		C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */ = {isa = PBXBuildFile; fileRef = C5E4C0E524DFF23100D4862C /* 分享控件的用法 */; };
 		C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */; };
+		C5E7D9A924E1457900A38FAF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E7D9A824E1457900A38FAF /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +210,8 @@
 		C5E4C0E724DFF23100D4862C /* BWItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemModel.h; sourceTree = "<group>"; };
 		C5E4C0E824DFF23100D4862C /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
 		C5E4C0E924DFF23100D4862C /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
+		C5E7D9A724E1457900A38FAF /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		C5E7D9A824E1457900A38FAF /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		EB5D4118E12BF6B1A61F6CAA /* Pods-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchTests/Pods-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -340,6 +343,8 @@
 				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
+				C5E7D9A724E1457900A38FAF /* TestView.h */,
+				C5E7D9A824E1457900A38FAF /* TestView.m */,
 				C5748A1F24DC325300A842B2 /* TestBlock.h */,
 				C5748A2024DC325300A842B2 /* TestBlock.m */,
 				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
@@ -579,13 +584,13 @@
 		C5E4C0E224DFF23100D4862C /* 分享控件 */ = {
 			isa = PBXGroup;
 			children = (
-				C5E4C0E324DFF23100D4862C /* BWItemModel.m */,
-				C5E4C0E424DFF23100D4862C /* BWShareView.m */,
 				C5E4C0E524DFF23100D4862C /* 分享控件的用法 */,
+				C5E4C0E824DFF23100D4862C /* BWItemCollectionViewCell.h */,
 				C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */,
 				C5E4C0E724DFF23100D4862C /* BWItemModel.h */,
-				C5E4C0E824DFF23100D4862C /* BWItemCollectionViewCell.h */,
+				C5E4C0E324DFF23100D4862C /* BWItemModel.m */,
 				C5E4C0E924DFF23100D4862C /* BWShareView.h */,
+				C5E4C0E424DFF23100D4862C /* BWShareView.m */,
 			);
 			path = "分享控件";
 			sourceTree = "<group>";
@@ -865,6 +870,7 @@
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C5E4C0C024DFF10200D4862C /* BaseVC+OpenURL.m in Sources */,
+				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
