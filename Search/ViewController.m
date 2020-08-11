@@ -49,8 +49,9 @@
 //    
 //    NSLog(@"%@",self.ly_name);
     
-    NSNumber *b = [NSNumber numberWithShort:3.0];
-    [TestView print:@"1",
+    NSNumber *b = [NSNumber numberWithShort:4.5];
+    [TestView print:@3,
+     @"1",
      b,
      @[@"1",@"2"],
      nil];

@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestView : UIView
 
-+ (void)print:(id)firstArg, ... NS_REQUIRES_NIL_TERMINATION;
++ (void)print:(id)firstArg, ... NS_REQUIRES_NIL_TERMINATION;//第一个参数写：有多少个实际参数 用NSNumber表示 @1
 
 @end
 
