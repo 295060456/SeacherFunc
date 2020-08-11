@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestView : UIView
 
++ (void)print:(id)firstArg, ... NS_REQUIRES_NIL_TERMINATION;
+
 @end
 
 NS_ASSUME_NONNULL_END

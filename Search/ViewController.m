@@ -45,9 +45,16 @@
     
 //    self.tsb.testBlock(1);//?
     
-    self.ly_name = @"hello world";
+//    self.ly_name = @"hello world";
+//    
+//    NSLog(@"%@",self.ly_name);
     
-    NSLog(@"%@",self.ly_name);
+    NSNumber *b = [NSNumber numberWithShort:3.0];
+    [TestView print:@"1",
+     b,
+     @[@"1",@"2"],
+     nil];
+
 }
 #pragma mark —— lazyLoad
 -(UIButton *)btn{
