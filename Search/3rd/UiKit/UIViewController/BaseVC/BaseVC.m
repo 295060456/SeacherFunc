@@ -8,18 +8,6 @@
 
 #import "BaseVC.h"
 
-#import "BaseVC+TZImagePickerController.h"
-#import "BaseVC+MJRefresh.h"
-#import "BaseVC+AlertController.h"
-#import "BaseVC+AFNReachability.h"
-#import "BaseVC+FSCustomButton.h"
-#import "BaseVC+JXCategoryListContentViewDelegate.h"
-#import "BaseVC+BRPickerView.h"
-#import "BaseVC+GifImageView.h"
-#import "BaseVC+JPImageresizerView.h"
-#import "BaseVC+OpenURL.h"
-#import "BaseVC+BWShareView.h"
-
 @interface BaseVC ()
 
 @property(nonatomic,copy)MKDataBlock willComingBlock;
@@ -201,20 +189,10 @@
                        context:(void *)context {
     if ([object isEqual:self.tableViewHeader] &&
         self.tableViewHeader.state == MJRefreshStatePulling) {
-        [self feedbackGenerator];
+        [NSObject feedbackGenerator];
     }else if ([object isEqual:self.tableViewFooter] &&
              self.tableViewFooter.state == MJRefreshStatePulling) {
-        [self feedbackGenerator];
-    }
-}
-///震动特效反馈
--(void)feedbackGenerator{
-    if (@available(iOS 10.0, *)) {
-        UIImpactFeedbackGenerator *generator = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
-        [generator prepare];
-        [generator impactOccurred];
-    } else {
-        // Fallback on earlier versions
+        [NSObject feedbackGenerator];
     }
 }
 
@@ -328,7 +306,6 @@
                                                                         refreshingAction:@selector(loadMoreRefresh)];
     }return _refreshBackNormalFooter;
 }
-
 
 @end
 

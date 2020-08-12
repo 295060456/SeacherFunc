@@ -7,6 +7,7 @@
 //
 
 #import "BaseVC+OpenURL.h"
+#import <objc/runtime.h>
 
 @implementation BaseVC (OpenURL)
 

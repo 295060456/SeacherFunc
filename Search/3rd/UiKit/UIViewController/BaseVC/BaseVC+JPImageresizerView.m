@@ -7,6 +7,7 @@
 //
 
 #import "BaseVC+JPImageresizerView.h"
+#import <objc/runtime.h>
 
 @implementation BaseVC (JPImageresizerView)
 

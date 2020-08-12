@@ -7,6 +7,7 @@
 //
 
 #import "BaseVC+JXCategoryListContentViewDelegate.h"
+#import <objc/runtime.h>
 
 @implementation BaseVC (JXCategoryListContentViewDelegate)
 

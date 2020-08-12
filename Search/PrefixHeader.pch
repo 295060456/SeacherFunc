@@ -52,6 +52,9 @@
 #import "ViewController.h"
 #import "SearchVC.h"
 
+#import "NSObject+Sound.h"
+#import "NSObject+Extras.h"
+
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf __strong typeof(self) strongSelf = self;
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]

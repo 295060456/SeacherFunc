@@ -7,11 +7,11 @@
 //
 
 #import "BaseVC+BWShareView.h"
+#import <objc/runtime.h>
 
 @implementation BaseVC (BWShareView)
 
 static char *BaseVC_BWShareView_shareView = "BaseVC_BWShareView_shareView";
-static char *BaseVC_BWShareView_shareViewFrame = "BaseVC_BWShareView_shareViewFrame";
 static char *BaseVC_BWShareView_shareViewDataMutArr = "BaseVC_BWShareView_shareViewDataMutArr";
 static char *BaseVC_BWShareView_shareViewDataMutSecArr = "BaseVC_BWShareView_shareViewDataMutSecArr";
 static char *BaseVC_BWShareView_bWShareViewStyle = "BaseVC_BWShareView_bWShareViewStyle";
