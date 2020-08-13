@@ -10,6 +10,8 @@
 #import "SearchVC.h"
 #import "ViewController+Category.h"
 #import "TestView.h"
+#import "UIView+SuspendView.h"
+#import "suspendBtn.h"
 
 @interface ViewController ()
 
@@ -18,6 +20,8 @@
 @property(nonatomic,strong)BRAddressPickerView *addressPickerView;//地址选择器
 @property(nonatomic,strong)UIButton *btn;
 @property(nonatomic,strong)TestView *testView;
+
+@property(nonatomic,strong)suspendBtn *spButton;
 
 @end
 
@@ -29,6 +33,15 @@
     
     self.btn.alpha = 1;
     self.testView.alpha = 1;
+    
+    self.spButton = suspendBtn.new;
+    self.spButton.vc = self;
+    self.spButton.frame = CGRectMake(SCREEN_WIDTH - 71,
+                                     300,
+                                     66,
+                                     66);
+    
+    [self.view addSubview:self.spButton];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
