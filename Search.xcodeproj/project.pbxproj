@@ -38,10 +38,11 @@
 		C59C4A8124E3AAFA002C2104 /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A7224E3AAFA002C2104 /* BaseVC+OpenURL.m */; };
 		C59C4A8B24E3AB90002C2104 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8724E3AB90002C2104 /* NSObject+Sound.m */; };
 		C59C4A8C24E3AB90002C2104 /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8824E3AB90002C2104 /* NSObject+Extras.m */; };
-		C5CF709A24E4FC4D000DB72D /* suspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709924E4FC4D000DB72D /* suspendBtn.m */; };
+		C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709924E4FC4D000DB72D /* SuspendBtn.m */; };
 		C5CF709D24E50326000DB72D /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709C24E50326000DB72D /* UIView+SuspendView.m */; };
 		C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A324E50DB6000DB72D /* SuspendLab.m */; };
 		C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A624E50DCA000DB72D /* SuspendView.m */; };
+		C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */; };
 		C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5324D3E2A600307DFA /* AppDelegate.m */; };
 		C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */; };
 		C5DDFF5A24D3E2A600307DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
@@ -162,14 +163,16 @@
 		C59C4A8724E3AB90002C2104 /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
 		C59C4A8824E3AB90002C2104 /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
 		C59C4A8924E3AB90002C2104 /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
-		C5CF709824E4FC4D000DB72D /* suspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = suspendBtn.h; sourceTree = "<group>"; };
-		C5CF709924E4FC4D000DB72D /* suspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suspendBtn.m; sourceTree = "<group>"; };
+		C5CF709824E4FC4D000DB72D /* SuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
+		C5CF709924E4FC4D000DB72D /* SuspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C5CF709B24E50326000DB72D /* UIView+SuspendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
 		C5CF709C24E50326000DB72D /* UIView+SuspendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuspendView.m"; sourceTree = "<group>"; };
 		C5CF70A224E50DB6000DB72D /* SuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
 		C5CF70A324E50DB6000DB72D /* SuspendLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C5CF70A524E50DCA000DB72D /* SuspendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
 		C5CF70A624E50DCA000DB72D /* SuspendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
+		C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorNetwoking.m; sourceTree = "<group>"; };
+		C5CF70DF24E51CDE000DB72D /* MonitorNetwoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorNetwoking.h; sourceTree = "<group>"; };
 		C5DDFF4F24D3E2A600307DFA /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DDFF5224D3E2A600307DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5DDFF5324D3E2A600307DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -361,8 +364,6 @@
 				C5CF70A124E50D67000DB72D /* SuspendLab */,
 				C5CF70A024E50D60000DB72D /* SuspendView */,
 				C5CF709F24E50D51000DB72D /* SuspendBtn */,
-				C5CF709B24E50326000DB72D /* UIView+SuspendView.h */,
-				C5CF709C24E50326000DB72D /* UIView+SuspendView.m */,
 			);
 			path = Suspend;
 			sourceTree = "<group>";
@@ -370,8 +371,8 @@
 		C5CF709F24E50D51000DB72D /* SuspendBtn */ = {
 			isa = PBXGroup;
 			children = (
-				C5CF709824E4FC4D000DB72D /* suspendBtn.h */,
-				C5CF709924E4FC4D000DB72D /* suspendBtn.m */,
+				C5CF709824E4FC4D000DB72D /* SuspendBtn.h */,
+				C5CF709924E4FC4D000DB72D /* SuspendBtn.m */,
 			);
 			path = SuspendBtn;
 			sourceTree = "<group>";
@@ -392,6 +393,15 @@
 				C5CF70A324E50DB6000DB72D /* SuspendLab.m */,
 			);
 			path = SuspendLab;
+			sourceTree = "<group>";
+		};
+		C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF70DF24E51CDE000DB72D /* MonitorNetwoking.h */,
+				C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */,
+			);
+			path = "网络数据实时监测";
 			sourceTree = "<group>";
 		};
 		C5DDFF4624D3E2A600307DFA = {
@@ -490,6 +500,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
 				C5CF709E24E50CC9000DB72D /* Suspend */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
 				C5DDFFEB24D408D500307DFA /* BRPickerView */,
@@ -559,6 +570,8 @@
 		C5DDFFB224D3FA6A00307DFA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF709B24E50326000DB72D /* UIView+SuspendView.h */,
+				C5CF709C24E50326000DB72D /* UIView+SuspendView.m */,
 				C5DDFFB424D3FA7000307DFA /* UIView+Extras.h */,
 				C5DDFFB324D3FA7000307DFA /* UIView+Extras.m */,
 			);
@@ -961,7 +974,7 @@
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C59C4A7724E3AAFA002C2104 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
-				C5CF709A24E4FC4D000DB72D /* suspendBtn.m in Sources */,
+				C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
 				C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
@@ -988,6 +1001,7 @@
 				C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */,
 				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
 				C5DDFFB124D3FA5E00307DFA /* UIImage+YBGIF.m in Sources */,
+				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
 				C5CF709D24E50326000DB72D /* UIView+SuspendView.m in Sources */,
 				C59C4A7C24E3AAFA002C2104 /* BaseVC+AFNReachability.m in Sources */,

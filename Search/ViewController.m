@@ -11,7 +11,7 @@
 #import "ViewController+Category.h"
 #import "TestView.h"
 #import "UIView+SuspendView.h"
-#import "suspendBtn.h"
+#import "SuspendBtn.h"
 
 @interface ViewController ()
 
@@ -21,7 +21,7 @@
 @property(nonatomic,strong)UIButton *btn;
 @property(nonatomic,strong)TestView *testView;
 
-@property(nonatomic,strong)suspendBtn *spButton;
+@property(nonatomic,strong)SuspendBtn *spButton;
 
 @end
 
@@ -34,7 +34,7 @@
     self.btn.alpha = 1;
     self.testView.alpha = 1;
     
-    self.spButton = suspendBtn.new;
+    self.spButton = SuspendBtn.new;
     self.spButton.vc = self;
     self.spButton.frame = CGRectMake(SCREEN_WIDTH - 71,
                                      300,

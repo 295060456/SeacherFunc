@@ -55,6 +55,8 @@
 #import "NSObject+Sound.h"
 #import "NSObject+Extras.h"
 
+#import "MonitorNetwoking.h"
+
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf __strong typeof(self) strongSelf = self;
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]

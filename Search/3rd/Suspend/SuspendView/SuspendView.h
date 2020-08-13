@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy)MKDataBlock suspendViewBlock;
 
+-(void)actionSuspendViewBlock:(MKDataBlock)suspendLabBlock;
+
 @end
 
 NS_ASSUME_NONNULL_END

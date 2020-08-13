@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface suspendBtn : UIButton
+@interface SuspendBtn : UIButton
 
 
 @end
