@@ -456,7 +456,6 @@
 		C5DDFF8A24D3E2B800307DFA /* 搜索框 */ = {
 			isa = PBXGroup;
 			children = (
-				C5CF709E24E50CC9000DB72D /* Suspend */,
 				C5DDFF8F24D3E2C100307DFA /* SearchBar.h */,
 				C5DDFF8D24D3E2C100307DFA /* SearchBar.m */,
 				C5DDFF9124D3E2C100307DFA /* SearchModel.h */,
@@ -491,6 +490,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF709E24E50CC9000DB72D /* Suspend */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
 				C5DDFFEB24D408D500307DFA /* BRPickerView */,
 				C5DDFFD224D4014100307DFA /* UIControl+XY */,
