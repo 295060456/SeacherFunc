@@ -13,6 +13,8 @@
 #import "UIView+SuspendView.h"
 #import "SuspendBtn.h"
 
+#import "GTProxy.h"
+
 @interface ViewController ()
 
 @property(nonatomic,strong)BRDatePickerView *datePickerView;//时间选择器
@@ -62,13 +64,23 @@
 //    
 //    NSLog(@"%@",self.ly_name);
     
-    NSNumber *b = [NSNumber numberWithShort:4.5];
-    [TestView print:@3,
-     @"1",
-     b,
-     @[@"1",@"2"],
-     nil];
+//    NSNumber *b = [NSNumber numberWithShort:4.5];
+//    [TestView print:@3,
+//     @"1",
+//     b,
+//     @[@"1",@"2"],
+//     nil];
 
+    GTProxy *px = [GTProxy alloc];
+    NSMutableArray *array =  [NSMutableArray array];
+    [px transformToObject:array];
+    [px performSelector:@selector(addObject:) withObject:@"123"];
+    NSLog(@"%@",array);
+    
+    NSMutableString *string = [NSMutableString string];
+    [px transformToObject:string];
+    [px performSelector:@selector(appendString:) withObject:@"jia"];
+    NSLog(@"%@",string);
 }
 #pragma mark —— lazyLoad
 -(UIButton *)btn{

@@ -23,6 +23,7 @@
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
+		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
 		C59C4A7524E3AAFA002C2104 /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A5B24E3AAF8002C2104 /* BaseVC+JPImageresizerView.m */; };
 		C59C4A7624E3AAFA002C2104 /* BaseVC+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A5C24E3AAF8002C2104 /* BaseVC+AlertController.m */; };
 		C59C4A7724E3AAFA002C2104 /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A5D24E3AAF8002C2104 /* BaseVC+JXCategoryListContentViewDelegate.m */; };
@@ -133,6 +134,8 @@
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
 		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
 		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
+		C58F03EB24EAD07100B6D09C /* GTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTProxy.h; sourceTree = "<group>"; };
+		C58F03EC24EAD07100B6D09C /* GTProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTProxy.m; sourceTree = "<group>"; };
 		C59C4A5B24E3AAF8002C2104 /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
 		C59C4A5C24E3AAF8002C2104 /* BaseVC+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AlertController.m"; sourceTree = "<group>"; };
 		C59C4A5D24E3AAF8002C2104 /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
@@ -435,6 +438,8 @@
 				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
+				C58F03EB24EAD07100B6D09C /* GTProxy.h */,
+				C58F03EC24EAD07100B6D09C /* GTProxy.m */,
 				C5E7D9A724E1457900A38FAF /* TestView.h */,
 				C5E7D9A824E1457900A38FAF /* TestView.m */,
 				C5748A1F24DC325300A842B2 /* TestBlock.h */,
@@ -999,6 +1004,7 @@
 				C59C4A7D24E3AAFA002C2104 /* BaseVC+TZImagePickerControllerDelegate.m in Sources */,
 				C59C4A7E24E3AAFA002C2104 /* BaseVC.m in Sources */,
 				C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */,
+				C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */,
 				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
 				C5DDFFB124D3FA5E00307DFA /* UIImage+YBGIF.m in Sources */,
 				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
