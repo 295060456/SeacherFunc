@@ -11,6 +11,8 @@
 		117A85792A9573527F095CDB /* Pods_Search_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */; };
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
+		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
+		C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */; };
 		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
 		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
 		C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E524D6F9BE00EC342E /* BRResultModel.m */; };
@@ -107,6 +109,9 @@
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
 		C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
+		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
+		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小夫，我要进来了.jpg"; sourceTree = "<group>"; };
 		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		C56FE8E124D6F9BE00EC342E /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
 		C56FE8E224D6F9BE00EC342E /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
@@ -294,6 +299,15 @@
 			path = "存在疑问的";
 			sourceTree = "<group>";
 		};
+		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
+			isa = PBXGroup;
+			children = (
+				C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */,
+				C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */,
+			);
+			path = "文件夹操作";
+			sourceTree = "<group>";
+		};
 		C56FE8DF24D6F9BE00EC342E /* AddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +472,7 @@
 				C5748A2024DC325300A842B2 /* TestBlock.m */,
 				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
 				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
+				C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -517,6 +532,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C563AE3D24F27F1000A3B0AC /* 文件夹操作 */,
 				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
 				C5CF709E24E50CC9000DB72D /* Suspend */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
@@ -835,6 +851,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
+				C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
 				C56FE90124D6F9BE00EC342E /* BRPickerView.bundle in Resources */,
@@ -998,6 +1015,7 @@
 				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C59C4A8124E3AAFA002C2104 /* BaseVC+OpenURL.m in Sources */,
 				C59C4A7B24E3AAFA002C2104 /* BaseVC+TZLocationManager.m in Sources */,
+				C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */,
 				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
 				C5E4C0EB24DFF23100D4862C /* BWShareView.m in Sources */,
 				C59C4A7624E3AAFA002C2104 /* BaseVC+AlertController.m in Sources */,

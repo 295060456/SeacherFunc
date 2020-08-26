@@ -16,6 +16,9 @@
 #import "GTProxy.h"
 
 @interface ViewController ()
+{
+    NSString *fileFolderPathStr;
+}
 
 @property(nonatomic,strong)BRDatePickerView *datePickerView;//时间选择器
 @property(nonatomic,strong)BRPickerStyle *customStyle;
@@ -46,37 +49,115 @@
     [self.view addSubview:self.spButton];
 }
 
+//-(void)removeContentsOfDirectory:(NSString *)directory withExtension:(NSString*)extension{
+//    NSFileManager *fileManager = [NSFileManager defaultManager];
+//    NSArray *contents = [fileManager contentsOfDirectoryAtPath:@"/Users/jobs/Library/Developer/CoreSimulator/Devices/FA88BC66-163B-424E-B186-56B3A0EB7EF3/data/Containers/Data/Application/4B3A818C-2BF6-400A-B1D1-D55F1052B711/Library/Caches" error:NULL];
+//    NSEnumerator *e = [contents objectEnumerator];
+//    NSString *filename;
+//    while ((filename = [e nextObject])) {
+//        if (extension != nil) {
+//            if ([[filename pathExtension] hasPrefix:extension]) {
+//                BOOL y = [fileManager removeItemAtPath:[directory stringByAppendingPathComponent:filename] error:NULL];
+//            }
+//        }else{
+//            BOOL y = [fileManager removeItemAtPath:[directory stringByAppendingPathComponent:filename] error:NULL];
+//        }
+//    }
+//}
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
-//    @weakify(self)
-//    [SearchVC ComingFromVC:weak_self
-//               comingStyle:ComingStyle_PUSH
-//         presentationStyle:UIModalPresentationAutomatic
-//             requestParams:nil
-//                   success:^(id data) {}
-//                  animated:YES];
-    
-//    [self.datePickerView show];
-    
-//    self.tsb.testBlock(1);//?
-    
-//    self.ly_name = @"hello world";
-//    
-//    NSLog(@"%@",self.ly_name);
-    
-//    NSNumber *b = [NSNumber numberWithShort:4.5];
-//    [TestView print:@3,
-//     @"1",
-//     b,
-//     @[@"1",@"2"],
-//     nil];
 
+    [self BundleFile:@"小夫，我要进来了"
+    bundleFileSuffix:@"jpg"
+         ToLocalFile:@"kkk"
+     localFileSuffix:@"jpg"];
+
+    [self delFile:@[fileFolderPathStr] fileSuffix:@"jpg"];//删除文件夹📂路径下的文件
+}
+//将bundle里面的文件写进手机本地文件
+-(void)BundleFile:(NSString *)bundleFileName
+ bundleFileSuffix:(NSString *)bundleFileSuffix
+      ToLocalFile:(NSString *)LocalFileName
+  localFileSuffix:(NSString *)LocalFileSuffix{
+    //获取bundle路径
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:bundleFileName ofType:bundleFileSuffix];
+    UIImage *img = [UIImage imageWithContentsOfFile:bundlePath];
+    fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil];
+    
+    /*  fileFolderPathStr: 是个文件夹📂路径
+     *      /Users/jobs/Library/Developer/CoreSimulator/Devices/FA88BC66-163B-424E-B186-56B3A0EB7EF3/data/Containers/Data/Application/683A6E41-8199-4ADF-87B0-F04437FB9831/Library/Caches/2020-08-26 16:05:15 GMT+7
+     *
+     */
+    
+    
+    //写文件之前一定要 有空白文件可写。
+    //文件全名 带后缀
+    NSString *localFileFullNameStr = [NSString stringWithFormat:@"/%@.%@",LocalFileName,LocalFileSuffix];
+    bool b = [FileFolderHandleTool createFileAtPath:[fileFolderPathStr stringByAppendingString:localFileFullNameStr] overwrite:YES error:nil];
+    //写文件
+    NSString *ff = [NSString stringWithFormat:@"%@%@",fileFolderPathStr,localFileFullNameStr];
+    bool d = [FileFolderHandleTool writeFileAtPath:ff content:img error:nil];
+}
+
+//删除指定后缀名的文件
+-(void)delFile:(NSArray *)pathArr
+    fileSuffix:(NSString *)fileSuffix{
+    NSString *extension = fileSuffix;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *paths = pathArr;
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+     
+    NSArray *contents = [fileManager contentsOfDirectoryAtPath:documentsDirectory error:NULL];
+    NSEnumerator*e = [contents objectEnumerator];
+    NSString *filename;
+    while ((filename = [e nextObject])) {
+        if([[filename pathExtension] isEqualToString:extension]) {
+            [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:filename] error:NULL];
+        }
+    }
+}
+
+-(void)search{
+    //    @weakify(self)
+    //    [SearchVC ComingFromVC:weak_self
+    //               comingStyle:ComingStyle_PUSH
+    //         presentationStyle:UIModalPresentationAutomatic
+    //             requestParams:nil
+    //                   success:^(id data) {}
+    //                  animated:YES];
+}
+//datePickerView
+-(void)DatePickerView{
+    //    [self.datePickerView show];
+}
+//可变参数的使用
+-(void)variableParameter{
+    //    NSNumber *b = [NSNumber numberWithShort:4.5];
+    //    [TestView print:@3,
+    //     @"1",
+    //     b,
+    //     @[@"1",@"2"],
+    //     nil];
+}
+//runtime
+-(void)RT{
+    //    self.ly_name = @"hello world";
+    //
+    //    NSLog(@"%@",self.ly_name);
+}
+//block的高级使用
+-(void)block{
+    //    self.tsb.testBlock(1);//?
+}
+//Proxy 的使用
+-(void)Proxy{
     GTProxy *px = [GTProxy alloc];
     NSMutableArray *array =  [NSMutableArray array];
     [px transformToObject:array];
     [px performSelector:@selector(addObject:) withObject:@"123"];
     NSLog(@"%@",array);
-    
+
     NSMutableString *string = [NSMutableString string];
     [px transformToObject:string];
     [px performSelector:@selector(appendString:) withObject:@"jia"];
