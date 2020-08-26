@@ -180,6 +180,28 @@
                                            error:error];
 }
 #pragma mark —— 写入文件内容
+///将bundle里面的文件写进手机本地文件
+-(NSString *)BundleFile:(NSString *)bundleFileName
+       bundleFileSuffix:(NSString *)bundleFileSuffix
+            ToLocalFile:(NSString *)LocalFileName
+        localFileSuffix:(NSString *)LocalFileSuffix{
+    //获取bundle路径
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:bundleFileName ofType:bundleFileSuffix];
+    UIImage *img = [UIImage imageWithContentsOfFile:bundlePath];
+    NSString *fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil];
+    //写文件之前一定要 有空白文件可写。
+    //文件全名 带后缀
+    NSString *localFileFullNameStr = [NSString stringWithFormat:@"/%@.%@",LocalFileName,LocalFileSuffix];
+    bool b = [FileFolderHandleTool createFileAtPath:[fileFolderPathStr stringByAppendingString:localFileFullNameStr] overwrite:YES error:nil];
+    
+    bool d = NO;
+    if (b) {
+        //写文件
+        NSString *ff = [NSString stringWithFormat:@"%@%@",fileFolderPathStr,localFileFullNameStr];
+        d = [FileFolderHandleTool writeFileAtPath:ff content:img error:nil];
+    }
+    return fileFolderPathStr = d? fileFolderPathStr : nil;
+}
 ///写入文件内容：按照文件路径向文件写入内容，内容可为数组、字典、NSData等等
 /*参数1：要写入的文件路径
  *参数2：要写入的文件内容
@@ -231,6 +253,23 @@
     }return YES;
 }
 #pragma mark —— 删除文件（夹）
+//删除指定后缀名的文件
+-(void)delFile:(NSArray *)pathArr
+    fileSuffix:(NSString *)fileSuffix{
+    NSString *extension = fileSuffix;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *paths = pathArr;
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+     
+    NSArray *contents = [fileManager contentsOfDirectoryAtPath:documentsDirectory error:NULL];
+    NSEnumerator*e = [contents objectEnumerator];
+    NSString *filename;
+    while ((filename = [e nextObject])) {
+        if([[filename pathExtension] isEqualToString:extension]) {
+            [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:filename] error:NULL];
+        }
+    }
+}
 ///删除directory（路径）文件夹下的文件。extension是指定文件后缀名文件，传nil是全部删除
 +(void)removeContentsOfDirectory:(NSString *)directory
                    withExtension:(NSString *_Nullable)extension{

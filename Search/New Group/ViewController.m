@@ -12,13 +12,11 @@
 #import "TestView.h"
 #import "UIView+SuspendView.h"
 #import "SuspendBtn.h"
+#import "NSString+Extras.h"
 
 #import "GTProxy.h"
 
 @interface ViewController ()
-{
-    NSString *fileFolderPathStr;
-}
 
 @property(nonatomic,strong)BRDatePickerView *datePickerView;//时间选择器
 @property(nonatomic,strong)BRPickerStyle *customStyle;
@@ -67,39 +65,20 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
+    NSString *fileFolderPathStr = [self BundleFile:@"小夫，我要进来了"
+                                  bundleFileSuffix:@"jpg"
+                                       ToLocalFile:@"kkk"
+                                   localFileSuffix:@"jpg"];
+    [self KKK:fileFolderPathStr];
 
-    [self BundleFile:@"小夫，我要进来了"
-    bundleFileSuffix:@"jpg"
-         ToLocalFile:@"kkk"
-     localFileSuffix:@"jpg"];
-
-    [self delFile:@[fileFolderPathStr] fileSuffix:@"jpg"];//删除文件夹📂路径下的文件
 }
-//将bundle里面的文件写进手机本地文件
--(void)BundleFile:(NSString *)bundleFileName
- bundleFileSuffix:(NSString *)bundleFileSuffix
-      ToLocalFile:(NSString *)LocalFileName
-  localFileSuffix:(NSString *)LocalFileSuffix{
-    //获取bundle路径
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:bundleFileName ofType:bundleFileSuffix];
-    UIImage *img = [UIImage imageWithContentsOfFile:bundlePath];
-    fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil];
-    
-    /*  fileFolderPathStr: 是个文件夹📂路径
-     *      /Users/jobs/Library/Developer/CoreSimulator/Devices/FA88BC66-163B-424E-B186-56B3A0EB7EF3/data/Containers/Data/Application/683A6E41-8199-4ADF-87B0-F04437FB9831/Library/Caches/2020-08-26 16:05:15 GMT+7
-     *
-     */
-    
-    
-    //写文件之前一定要 有空白文件可写。
-    //文件全名 带后缀
-    NSString *localFileFullNameStr = [NSString stringWithFormat:@"/%@.%@",LocalFileName,LocalFileSuffix];
-    bool b = [FileFolderHandleTool createFileAtPath:[fileFolderPathStr stringByAppendingString:localFileFullNameStr] overwrite:YES error:nil];
-    //写文件
-    NSString *ff = [NSString stringWithFormat:@"%@%@",fileFolderPathStr,localFileFullNameStr];
-    bool d = [FileFolderHandleTool writeFileAtPath:ff content:img error:nil];
+///写文件并删除
+-(void)KKK:(NSString *)fileFolderPathStr{
+    BOOL d = [NSString isNullString:fileFolderPathStr];
+    if (!d) {
+        [self delFile:@[fileFolderPathStr] fileSuffix:nil];//删除文件夹📂路径下的文件
+    }
 }
-
 //删除指定后缀名的文件
 -(void)delFile:(NSArray *)pathArr
     fileSuffix:(NSString *)fileSuffix{
@@ -111,11 +90,64 @@
     NSArray *contents = [fileManager contentsOfDirectoryAtPath:documentsDirectory error:NULL];
     NSEnumerator*e = [contents objectEnumerator];
     NSString *filename;
+    
+//    while ((filename = [e nextObject])) {
+//        if([[filename pathExtension] isEqualToString:extension]) {
+//            [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:filename] error:NULL];
+//        }
+//    }
+    
     while ((filename = [e nextObject])) {
-        if([[filename pathExtension] isEqualToString:extension]) {
+        if (extension) {
+            if ([[filename pathExtension] hasPrefix:extension]) {
+                [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:filename] error:NULL];
+            }
+        }else{
             [fileManager removeItemAtPath:[documentsDirectory stringByAppendingPathComponent:filename] error:NULL];
         }
     }
+}
+
+///删除directory（路径）文件夹下的文件。extension是指定文件后缀名文件，传nil是全部删除
++(void)removeContentsOfDirectory:(NSString *)directory
+                   withExtension:(NSString *_Nullable)extension{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *contents = [fileManager contentsOfDirectoryAtPath:directory error:NULL];
+    NSEnumerator *e = [contents objectEnumerator];
+    NSString *filename;
+    while ((filename = [e nextObject])) {
+        if (extension) {
+            if ([[filename pathExtension] hasPrefix:extension]) {
+                [fileManager removeItemAtPath:[directory stringByAppendingPathComponent:filename] error:NULL];
+            }
+        }else{
+            [fileManager removeItemAtPath:[directory stringByAppendingPathComponent:filename] error:NULL];
+        }
+    }
+}
+
+
+///将bundle里面的文件写进手机本地文件
+-(NSString *)BundleFile:(NSString *)bundleFileName
+       bundleFileSuffix:(NSString *)bundleFileSuffix
+            ToLocalFile:(NSString *)LocalFileName
+        localFileSuffix:(NSString *)LocalFileSuffix{
+    //获取bundle路径
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:bundleFileName ofType:bundleFileSuffix];
+    UIImage *img = [UIImage imageWithContentsOfFile:bundlePath];
+    NSString *fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil];
+    //写文件之前一定要 有空白文件可写。
+    //文件全名 带后缀
+    NSString *localFileFullNameStr = [NSString stringWithFormat:@"/%@.%@",LocalFileName,LocalFileSuffix];
+    bool b = [FileFolderHandleTool createFileAtPath:[fileFolderPathStr stringByAppendingString:localFileFullNameStr] overwrite:YES error:nil];
+  
+    bool d = NO;
+    if (b) {
+        //写文件
+        NSString *ff = [NSString stringWithFormat:@"%@%@",fileFolderPathStr,localFileFullNameStr];
+        d = [FileFolderHandleTool writeFileAtPath:ff content:img error:nil];
+    }
+    return fileFolderPathStr = d? fileFolderPathStr : nil;
 }
 
 -(void)search{
