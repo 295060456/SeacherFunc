@@ -79,6 +79,15 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSDate *)modificationDateOfItemAtPath:(NSString *)path
                                   error:(NSError *__autoreleasing *)error;
 #pragma mark —— 写入文件内容
+/// 将bundle里面的文件写进手机本地文件
+/// @param bundleFileName bundle文件名
+/// @param bundleFileSuffix bundle 文件后缀名
+/// @param LocalFileName 被写入的本地文件名 前提要有空白文件，否则写入失败
+/// @param LocalFileSuffix 被写入的本地文件后缀
++(NSString *)BundleFile:(NSString *)bundleFileName
+       bundleFileSuffix:(NSString *)bundleFileSuffix
+            ToLocalFile:(NSString *)LocalFileName
+        localFileSuffix:(NSString *)LocalFileSuffix;
 ///写入文件内容：按照文件路径向文件写入内容，内容可为数组、字典、NSData等等
 /*参数1：要写入的文件路径
  *参数2：要写入的文件内容
@@ -88,9 +97,11 @@ NS_ASSUME_NONNULL_BEGIN
                content:(NSObject *)content
                  error:(NSError *__autoreleasing *)error;
 #pragma mark —— 删除文件（夹）
-///删除directory（路径）文件夹下的文件。extension是指定文件后缀名文件，传nil是全部删除
-+(void)removeContentsOfDirectory:(NSString *)directory
-                   withExtension:(NSString *_Nullable)extension;
+/// 删除指定后缀名的文件
+/// @param pathArr 这个文件夹下面的内容进行删除 非递归删除
+/// @param fileSuffix 传需要删除的文件的后缀名，如果需要全部删除就传nil
++(void)delFile:(NSArray *)pathArr
+    fileSuffix:(NSString *_Nullable)fileSuffix;
 ///删除文件（夹） error 传nil；path传文件夹则删除文件夹下面的所有文件，path传一个具体的文件，则删除标的文件
 +(BOOL)removeItemAtPath:(NSString *)path
                   error:(NSError *__autoreleasing *)error;
