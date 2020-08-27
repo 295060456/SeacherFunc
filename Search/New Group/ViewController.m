@@ -49,10 +49,11 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
-    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:@"小夫，我要进来了"
-                                                  bundleFileSuffix:@"jpg"
+    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:@"qqq"
+                                                  bundleFileSuffix:@"mp4"
                                                        ToLocalFile:@"kkk"
-                                                   localFileSuffix:@"jpg"];
+                                                   localFileSuffix:@"mp4"
+                                                          fileType:VEDIO];
     [self KKK:fileFolderPathStr];
 
 }

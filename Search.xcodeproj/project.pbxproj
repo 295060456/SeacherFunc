@@ -42,6 +42,7 @@
 		C59C4A8124E3AAFA002C2104 /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A7224E3AAFA002C2104 /* BaseVC+OpenURL.m */; };
 		C59C4A8B24E3AB90002C2104 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8724E3AB90002C2104 /* NSObject+Sound.m */; };
 		C59C4A8C24E3AB90002C2104 /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8824E3AB90002C2104 /* NSObject+Extras.m */; };
+		C59D9A9B24F7B60C00A74CE9 /* qqq.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */; };
 		C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709924E4FC4D000DB72D /* SuspendBtn.m */; };
 		C5CF709D24E50326000DB72D /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709C24E50326000DB72D /* UIView+SuspendView.m */; };
 		C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A324E50DB6000DB72D /* SuspendLab.m */; };
@@ -173,6 +174,7 @@
 		C59C4A8724E3AB90002C2104 /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
 		C59C4A8824E3AB90002C2104 /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
 		C59C4A8924E3AB90002C2104 /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
+		C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qqq.mp4; sourceTree = "<group>"; };
 		C5CF709824E4FC4D000DB72D /* SuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
 		C5CF709924E4FC4D000DB72D /* SuspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C5CF709B24E50326000DB72D /* UIView+SuspendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
@@ -464,6 +466,7 @@
 				C58F04B324ED2ED200B6D09C /* New Group */,
 				C58F03EB24EAD07100B6D09C /* GTProxy.h */,
 				C58F03EC24EAD07100B6D09C /* GTProxy.m */,
+				C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
 				C5E7D9A724E1457900A38FAF /* TestView.h */,
@@ -851,6 +854,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
+				C59D9A9B24F7B60C00A74CE9 /* qqq.mp4 in Resources */,
 				C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
