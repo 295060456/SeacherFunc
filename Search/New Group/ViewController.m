@@ -63,7 +63,23 @@
     if (!d) {
         [FileFolderHandleTool delFile:@[fileFolderPathStr]
                            fileSuffix:@"mp4"];//删除文件夹📂路径下的文件
+
+        [self getVedioDuringTimeWithfilePath:[NSString stringWithFormat:@"%@%@",fileFolderPathStr,@"/kkk.mp4"]];
     }
+}
+///获取视频文件的总时长
+-(CGFloat)getVedioDuringTimeWithfilePath:(NSString *)filePathStr{
+    NSURL *sourceMovieURL = [NSURL fileURLWithPath:filePathStr];
+    AVURLAsset *sourceAsset = [AVURLAsset URLAssetWithURL:sourceMovieURL options:nil];
+    CMTime duration = sourceAsset.duration;
+    CGFloat second = (float)duration.value / (float)duration.timescale;
+    return second;
+}
+
+-(CGFloat)getVedioDuringTimeWithUrlAsset:(AVURLAsset *)urlAsset{
+    CMTime duration = urlAsset.duration;
+    CGFloat second = (float)duration.value / (float)duration.timescale;
+    return second;
 }
 
 -(void)search{
