@@ -178,6 +178,7 @@ static inline CGFloat rectOfStatusbar(){
     }else{
         RectOfStatusbar = UIApplication.sharedApplication.statusBarFrame.size.height;
     }return RectOfStatusbar;
+#pragma clang diagnostic pop
 }
 
 /** DEBUG LOG **/
