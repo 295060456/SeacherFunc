@@ -26,6 +26,7 @@
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
+		C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
 		C59C4A7524E3AAFA002C2104 /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A5B24E3AAF8002C2104 /* BaseVC+JPImageresizerView.m */; };
 		C59C4A7624E3AAFA002C2104 /* BaseVC+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A5C24E3AAF8002C2104 /* BaseVC+AlertController.m */; };
@@ -71,8 +72,6 @@
 		C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBC24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m */; };
 		C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBD24D3FD8C00307DFA /* TBVCell_style_01.m */; };
 		C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */; };
-		C5DDFFD024D3FE4500307DFA /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFCE24D3FE4400307DFA /* FSCustomButton.m */; };
-		C5DDFFD124D3FE4500307DFA /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFCF24D3FE4500307DFA /* CALayer+FSUI.m */; };
 		C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFD424D4014800307DFA /* UIControl+XY.m */; };
 		C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */ = {isa = PBXBuildFile; fileRef = C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */; };
 		C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E324DFF23100D4862C /* BWItemModel.m */; };
@@ -140,6 +139,8 @@
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
 		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
 		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
+		C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		C57C22A22502572F00FAAA3F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		C58F03EB24EAD07100B6D09C /* GTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTProxy.h; sourceTree = "<group>"; };
 		C58F03EC24EAD07100B6D09C /* GTProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTProxy.m; sourceTree = "<group>"; };
 		C58F04B424ED2EFE00B6D09C /* 1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = 1ViewController.h; path = ../1ViewController.h; sourceTree = "<group>"; };
@@ -234,11 +235,6 @@
 		C5DDFFC524D3FDF300307DFA /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
 		C5DDFFC824D3FE1500307DFA /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
-		C5DDFFCB24D3FE4400307DFA /* FSCommenDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCommenDefine.h; sourceTree = "<group>"; };
-		C5DDFFCC24D3FE4400307DFA /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
-		C5DDFFCD24D3FE4400307DFA /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
-		C5DDFFCE24D3FE4400307DFA /* FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCustomButton.m; sourceTree = "<group>"; };
-		C5DDFFCF24D3FE4500307DFA /* CALayer+FSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSUI.m"; sourceTree = "<group>"; };
 		C5DDFFD324D4014800307DFA /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C5DDFFD424D4014800307DFA /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题"; sourceTree = "<group>"; };
@@ -687,11 +683,8 @@
 		C5DDFFCA24D3FE3D00307DFA /* 高度自定义的按钮 */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDFFCC24D3FE4400307DFA /* CALayer+FSUI.h */,
-				C5DDFFCF24D3FE4500307DFA /* CALayer+FSUI.m */,
-				C5DDFFCB24D3FE4400307DFA /* FSCommenDefine.h */,
-				C5DDFFCD24D3FE4400307DFA /* FSCustomButton.h */,
-				C5DDFFCE24D3FE4400307DFA /* FSCustomButton.m */,
+				C57C22A22502572F00FAAA3F /* UIButton+ImageTitleSpacing.h */,
+				C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */,
 			);
 			path = "高度自定义的按钮";
 			sourceTree = "<group>";
@@ -991,6 +984,7 @@
 				C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */,
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
+				C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
@@ -1029,8 +1023,6 @@
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
 				C59C4A7524E3AAFA002C2104 /* BaseVC+JPImageresizerView.m in Sources */,
-				C5DDFFD024D3FE4500307DFA /* FSCustomButton.m in Sources */,
-				C5DDFFD124D3FE4500307DFA /* CALayer+FSUI.m in Sources */,
 				C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */,
 				C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */,
 				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
