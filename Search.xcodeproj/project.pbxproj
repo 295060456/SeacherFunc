@@ -521,12 +521,12 @@
 				C5DDFF5024D3E2A600307DFA /* Products */,
 				C5DDFF5224D3E2A600307DFA /* AppDelegate.h */,
 				C5DDFF5324D3E2A600307DFA /* AppDelegate.m */,
+				C5DDFF5524D3E2A600307DFA /* SceneDelegate.h */,
+				C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */,
 				C5DDFF6124D3E2A700307DFA /* Assets.xcassets */,
 				C5DDFF6324D3E2A700307DFA /* LaunchScreen.storyboard */,
 				C5DDFF6724D3E2A700307DFA /* main.m */,
 				C5DDFF5B24D3E2A600307DFA /* Main.storyboard */,
-				C5DDFF5524D3E2A600307DFA /* SceneDelegate.h */,
-				C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */,
 				C5DDFF5E24D3E2A600307DFA /* Search.xcdatamodeld */,
 			);
 			path = Other;
