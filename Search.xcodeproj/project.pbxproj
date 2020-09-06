@@ -39,7 +39,7 @@
 		C59C4A7D24E3AAFA002C2104 /* BaseVC+TZImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A6924E3AAF9002C2104 /* BaseVC+TZImagePickerControllerDelegate.m */; };
 		C59C4A7E24E3AAFA002C2104 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A6B24E3AAF9002C2104 /* BaseVC.m */; };
 		C59C4A7F24E3AAFA002C2104 /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A6F24E3AAF9002C2104 /* BaseVC+GifImageView.m */; };
-		C59C4A8024E3AAFA002C2104 /* BaseVC+FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A7124E3AAFA002C2104 /* BaseVC+FSCustomButton.m */; };
+		C59C4A8024E3AAFA002C2104 /* BaseVC+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A7124E3AAFA002C2104 /* BaseVC+BackBtn.m */; };
 		C59C4A8124E3AAFA002C2104 /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A7224E3AAFA002C2104 /* BaseVC+OpenURL.m */; };
 		C59C4A8B24E3AB90002C2104 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8724E3AB90002C2104 /* NSObject+Sound.m */; };
 		C59C4A8C24E3AB90002C2104 /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C4A8824E3AB90002C2104 /* NSObject+Extras.m */; };
@@ -164,10 +164,10 @@
 		C59C4A6B24E3AAF9002C2104 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
 		C59C4A6C24E3AAF9002C2104 /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
 		C59C4A6D24E3AAF9002C2104 /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
-		C59C4A6E24E3AAF9002C2104 /* BaseVC+FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+FSCustomButton.h"; sourceTree = "<group>"; };
+		C59C4A6E24E3AAF9002C2104 /* BaseVC+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BackBtn.h"; sourceTree = "<group>"; };
 		C59C4A6F24E3AAF9002C2104 /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+GifImageView.m"; sourceTree = "<group>"; };
 		C59C4A7024E3AAF9002C2104 /* BaseVC+BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BWShareView.h"; sourceTree = "<group>"; };
-		C59C4A7124E3AAFA002C2104 /* BaseVC+FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+FSCustomButton.m"; sourceTree = "<group>"; };
+		C59C4A7124E3AAFA002C2104 /* BaseVC+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BackBtn.m"; sourceTree = "<group>"; };
 		C59C4A7224E3AAFA002C2104 /* BaseVC+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+OpenURL.m"; sourceTree = "<group>"; };
 		C59C4A7324E3AAFA002C2104 /* BaseVC+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+OpenURL.h"; sourceTree = "<group>"; };
 		C59C4A7424E3AAFA002C2104 /* BaseVC+TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZLocationManager.h"; sourceTree = "<group>"; };
@@ -657,8 +657,8 @@
 				C59C4A5B24E3AAF8002C2104 /* BaseVC+JPImageresizerView.m */,
 				C59C4A6724E3AAF9002C2104 /* BaseVC+BRPickerView.h */,
 				C59C4A6024E3AAF9002C2104 /* BaseVC+BRPickerView.m */,
-				C59C4A6E24E3AAF9002C2104 /* BaseVC+FSCustomButton.h */,
-				C59C4A7124E3AAFA002C2104 /* BaseVC+FSCustomButton.m */,
+				C59C4A6E24E3AAF9002C2104 /* BaseVC+BackBtn.h */,
+				C59C4A7124E3AAFA002C2104 /* BaseVC+BackBtn.m */,
 				C59C4A6224E3AAF9002C2104 /* BaseVC+AlertController.h */,
 				C59C4A5C24E3AAF8002C2104 /* BaseVC+AlertController.m */,
 				C59C4A6C24E3AAF9002C2104 /* BaseVC+JXCategoryListContentViewDelegate.h */,
@@ -998,7 +998,7 @@
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
 				C59C4A7F24E3AAFA002C2104 /* BaseVC+GifImageView.m in Sources */,
 				C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */,
-				C59C4A8024E3AAFA002C2104 /* BaseVC+FSCustomButton.m in Sources */,
+				C59C4A8024E3AAFA002C2104 /* BaseVC+BackBtn.m in Sources */,
 				C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */,
 				C59C4A7924E3AAFA002C2104 /* BaseVC+BRPickerView.m in Sources */,
 				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
