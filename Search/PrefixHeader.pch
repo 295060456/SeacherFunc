@@ -12,7 +12,7 @@
 #import "AABlock.h"
 #import <Masonry/Masonry.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
-#import <LYEmptyView/LYEmptyViewHeader.h>
+
 #import "AFNetworking.h"
 #import <ReactiveObjC.h>
 #import "TZImagePickerController.h"
@@ -21,26 +21,46 @@
 #import "GKNavigationBar.h"
 #import "JXCategoryView.h"
 #import "ECAuthorizationTools.h"
-#import "YYKit.h"
 #import "SDWebImage-umbrella.h"//不支持图片后处理
-#import "UIView+Extras.h"
-#import "UIImage+YBGIF.h"
+#import "SPAlertController.h"
 #import "SceneDelegate.h"
-//#import "MKCommentModel.h"
-//#import "RBCLikeButton.h"
 #import "MBProgressHUD.h"
 #import "MBProgressHUD+WJExtension.h"
-#import <YXAlertController.h>
 #import "BRPickerView.h"
-#import "NSString+Extras.h"
 #import "UIControl+XY.h"
 #import "JPImageresizerView-umbrella.h"
 #import "FileFolderHandleTool.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import <LYEmptyView/LYEmptyViewHeader.h>
+#import "YYKit.h"
+#import <TXFileOperation.h>
+
+#import "NSObject+Extras.h"
+#import "NSObject+Time.h"
+#import "NSObject+Measure.h"
+#import "NSObject+Sound.h"
+#import "NSObject+Shake.h"
+#import "NSObject+Random.h"
+#import "NSObject+SYSAlertController.h"
+#import "NSObject+SPAlertController.h"
+
+#import "UIView+Extras.h"
+#import "UIView+Chain.h"
+#import "UIView+SuspendView.h"
+#import "UIView+Measure.h"
+#import "UIView+Animation.h"
+#import "UIView+Gradient.h"
+
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
+#import "UIImage+YBGIF.h"
+#import "UIImage+Extras.h"
+#import "UIImage+SYS.h"
+#import "UIImage+Overlay.h"
+#import "UIImage+Tailor.h"
 
 #import "BaseVC.h"
 #import "BaseVC+TZImagePickerController.h"
 #import "BaseVC+MJRefresh.h"
-#import "BaseVC+AlertController.h"
 #import "BaseVC+AFNReachability.h"
 #import "BaseVC+BackBtn.h"
 #import "BaseVC+JXCategoryListContentViewDelegate.h"
@@ -53,12 +73,19 @@
 #import "ViewController.h"
 #import "SearchVC.h"
 
-#import "NSObject+Sound.h"
-#import "NSObject+Extras.h"
-
 #import "MonitorNetwoking.h"
 
-#import <TXFileOperation.h>
+
+
+#pragma mark ======================================== UserDefault ========================================
+#define SetUserDefaultKeyWithValue(key,value) [[NSUserDefaults standardUserDefaults] setValue:value forKey:key]
+#define SetUserDefaultKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setObject:object forKey:key]
+#define SetUserBoolKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setBool:object forKey:key]
+#define GetUserDefaultValueForKey(key) [[NSUserDefaults standardUserDefaults] valueForKey:key]
+#define GetUserDefaultObjForKey(key) [[NSUserDefaults standardUserDefaults] objectForKey:key]
+#define GetUserDefaultBoolForKey(key) [[NSUserDefaults standardUserDefaults] boolForKey:key]
+#define DeleUserDefaultWithKey(key) [[NSUserDefaults standardUserDefaults] removeObjectForKey:key]
+#define UserDefaultSynchronize  [[NSUserDefaults standardUserDefaults] synchronize]
 
 #pragma mark ======================================== Sys.========================================
 #define HDAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]//标识应用程序的发布版本号
