@@ -10,6 +10,7 @@
 		00031B1C851AFE14C92341BB /* Pods_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */; };
 		117A85792A9573527F095CDB /* Pods_Search_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */; };
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
+		C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C52E896C2510B4390070356F /* UITextField+Extend.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
 		C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */; };
@@ -122,6 +123,8 @@
 		5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52E896C2510B4390070356F /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
+		C52E896D2510B4390070356F /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
 		C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
 		C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
@@ -331,6 +334,15 @@
 				BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C52E896B2510B4300070356F /* UITextField+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C52E896D2510B4390070356F /* UITextField+Extend.h */,
+				C52E896C2510B4390070356F /* UITextField+Extend.m */,
+			);
+			path = "UITextField+Extend";
 			sourceTree = "<group>";
 		};
 		C5336FF124DABD1D0082847C /* 存在疑问的 */ = {
@@ -630,6 +642,7 @@
 		C5DDFF9F24D3F9F600307DFA /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
+				C52E896B2510B4300070356F /* UITextField+Extend */,
 				C5DDFFA224D3FA0F00307DFA /* CJTextField */,
 				C5DDFFA124D3FA0800307DFA /* HQTextField */,
 				C5DDFFA024D3FA0000307DFA /* ZYTextField */,
@@ -1075,6 +1088,7 @@
 				C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */,
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
 				C5AA498F250C98DE009F583F /* UIView+Measure.m in Sources */,
+				C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */,
 				C5AA4978250C984E009F583F /* NSObject+Extras.m in Sources */,
 				C5AA499D250C98EF009F583F /* UIImage+Overlay.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
