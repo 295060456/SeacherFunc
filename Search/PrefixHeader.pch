@@ -34,6 +34,7 @@
 #import <LYEmptyView/LYEmptyViewHeader.h>
 #import "YYKit.h"
 #import <TXFileOperation.h>
+#import "TZImagePickerController.h"
 
 #import "NSObject+Extras.h"
 #import "NSObject+Time.h"
