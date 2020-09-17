@@ -13,6 +13,31 @@
 #import <Masonry/Masonry.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
 
+#import "NSObject+Extras.h"
+#import "NSObject+Time.h"
+#import "NSObject+Measure.h"
+#import "NSObject+Sound.h"
+#import "NSObject+Shake.h"
+#import "NSObject+Random.h"
+#import "NSObject+SYSAlertController.h"
+#import "NSObject+SPAlertController.h"
+
+#import "NSString+Extras.h"
+
+#import "UIView+Extras.h"
+#import "UIView+Chain.h"
+#import "UIView+SuspendView.h"
+#import "UIView+Measure.h"
+#import "UIView+Animation.h"
+#import "UIView+Gradient.h"
+
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
+#import "UIImage+YBGIF.h"
+#import "UIImage+Extras.h"
+#import "UIImage+SYS.h"
+#import "UIImage+Overlay.h"
+#import "UIImage+Tailor.h"
+
 #import "AFNetworking.h"
 #import <ReactiveObjC.h>
 #import "TZImagePickerController.h"
@@ -35,29 +60,6 @@
 #import "YYKit.h"
 #import <TXFileOperation.h>
 #import "TZImagePickerController.h"
-
-#import "NSObject+Extras.h"
-#import "NSObject+Time.h"
-#import "NSObject+Measure.h"
-#import "NSObject+Sound.h"
-#import "NSObject+Shake.h"
-#import "NSObject+Random.h"
-#import "NSObject+SYSAlertController.h"
-#import "NSObject+SPAlertController.h"
-
-#import "UIView+Extras.h"
-#import "UIView+Chain.h"
-#import "UIView+SuspendView.h"
-#import "UIView+Measure.h"
-#import "UIView+Animation.h"
-#import "UIView+Gradient.h"
-
-#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
-#import "UIImage+YBGIF.h"
-#import "UIImage+Extras.h"
-#import "UIImage+SYS.h"
-#import "UIImage+Overlay.h"
-#import "UIImage+Tailor.h"
 
 #import "BaseVC.h"
 #import "BaseVC+TZImagePickerController.h"

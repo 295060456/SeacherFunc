@@ -22,20 +22,6 @@
         [self setUpUI];
     }
 }
-//必须在self有具体frame的时候才管用
--(void)setZYTextFieldMasksToBounds:(BOOL)ZYTextFieldMasksToBounds{
-    _ZYTextFieldMasksToBounds = ZYTextFieldMasksToBounds;
-    if (CGRectEqualToRect(self.bounds, CGRectZero)) {
-        NSLog(@"self.frame 为空，绘制失败");
-    }else{
-        if (_ZYTextFieldMasksToBounds) {
-            self.layer.cornerRadius = self.ZYTextFieldCornerRadius;
-            self.layer.borderColor = self.ZYTextFieldBorderColor.CGColor;
-            self.layer.borderWidth = self.ZYTextFieldBorderWidth;
-            self.layer.masksToBounds = ZYTextFieldMasksToBounds;//必须写在最后，否则绘制无效
-        }
-    }
-}
 
 - (void)setUpUI{
     //字体大小
@@ -124,6 +110,20 @@
                               bounds.size.width - self.offset,
                               bounds.size.height);
     return inset;
+}
+//必须在self有具体frame的时候才管用
+-(void)setZYTextFieldMasksToBounds:(BOOL)ZYTextFieldMasksToBounds{
+    _ZYTextFieldMasksToBounds = ZYTextFieldMasksToBounds;
+    if (CGRectEqualToRect(self.bounds, CGRectZero)) {
+        NSLog(@"self.frame 为空，绘制失败");
+    }else{
+        if (_ZYTextFieldMasksToBounds) {
+            self.layer.cornerRadius = self.ZYTextFieldCornerRadius;
+            self.layer.borderColor = self.ZYTextFieldBorderColor.CGColor;
+            self.layer.borderWidth = self.ZYTextFieldBorderWidth;
+            self.layer.masksToBounds = ZYTextFieldMasksToBounds;//必须写在最后，否则绘制无效
+        }
+    }
 }
 #pragma mark —— lazyLoad
 -(UIFont *)ZYtextFont{

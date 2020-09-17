@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SPAlertController.h"
 
 //  pod 'SPAlertController'# https://github.com/SPStore/SPAlertController 深度定制AlertController
 

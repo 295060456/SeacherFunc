@@ -10,6 +10,10 @@
 
 @implementation CJTextField
 
+-(void)setIsShowSecurityMode:(BOOL)isShowSecurityMode{
+    _isShowSecurityMode = isShowSecurityMode;
+    self.secureTextEntry = _isShowSecurityMode;
+}
 ///输入的和某个预设定值不一致的时候，抖动动画
 - (void)isValidate:(NSString *)validate{
     if (![self.text isEqualToString:validate]) {
