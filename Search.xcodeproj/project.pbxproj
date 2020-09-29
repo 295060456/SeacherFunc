@@ -167,6 +167,7 @@
 		C58F03EC24EAD07100B6D09C /* GTProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTProxy.m; sourceTree = "<group>"; };
 		C58F04B424ED2EFE00B6D09C /* 1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = 1ViewController.h; path = ../1ViewController.h; sourceTree = "<group>"; };
 		C58F04B524ED2EFE00B6D09C /* 1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = 1ViewController.m; path = ../1ViewController.m; sourceTree = "<group>"; };
+		C58FDF7925233FE200E020D3 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qqq.mp4; sourceTree = "<group>"; };
 		C5AA4940250C982E009F583F /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+JPImageresizerView.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
 		C5AA4941250C982E009F583F /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+TZImagePickerController.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
@@ -686,6 +687,7 @@
 		C5DDFFAE24D3FA5500307DFA /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				C58FDF7925233FE200E020D3 /* LoadingImage.h */,
 				C5AA4992250C98EF009F583F /* UIImage+Extras.h */,
 				C5AA499B250C98EF009F583F /* UIImage+Extras.m */,
 				C5AA4993250C98EF009F583F /* UIImage+Overlay.h */,
