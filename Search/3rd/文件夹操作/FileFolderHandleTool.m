@@ -185,7 +185,7 @@
 /// @param bundleFileSuffix 中间层路径：
 /// @param fileType  获取的文件类型 因为要以不同的方式解析出数据
 +(id)bundleFile:(NSString *__nullable)bundleFileName
-bundleFileSuffix:(NSString *__nullable)bundleFileSuffix
+bundleFileSuffix:(NSString *__nonnull)bundleFileSuffix
        fileType:(FileType)fileType{
     //获取bundle路径
     NSString *bundlePath = NSBundle.mainBundle.bundlePath;
@@ -235,7 +235,7 @@ bundleFileSuffix:(NSString *__nullable)bundleFileSuffix
 /// @param fileType  获取的文件类型 因为要以不同的方式解析出数据
 +(NSString *)BundleFile:(NSString *__nullable)bundleFileName
             ToLocalFile:(NSString *)LocalFileName
-        localFileSuffix:(NSString *__nullable)LocalFileSuffix
+        localFileSuffix:(NSString *__nonnull)LocalFileSuffix
                fileType:(FileType)fileType{
     //获取bundle路径
     id content = [FileFolderHandleTool bundleFile:bundleFileName

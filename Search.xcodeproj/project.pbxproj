@@ -24,6 +24,7 @@
 		C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */; };
 		C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F524D6F9BE00EC342E /* BRBaseView.m */; };
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
+		C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C573425325248B5000CC6A3A /* QQQ.mp4 */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
 		C57AC0442511DCCD009EE44D /* closeCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57AC0422511DCCD009EE44D /* closeCircle@2x.png */; };
 		C57AC0452511DCCD009EE44D /* closeCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57AC0432511DCCD009EE44D /* closeCircle@3x.png */; };
@@ -152,7 +153,7 @@
 		C56FE8F724D6F9BE00EC342E /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
 		C56FE8F924D6F9BE00EC342E /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
-		C57342432524897F00CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
+		C573425325248B5000CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
 		C5748A1F24DC325300A842B2 /* TestBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
 		C57AC0422511DCCD009EE44D /* closeCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeCircle@2x.png"; sourceTree = "<group>"; };
@@ -552,7 +553,7 @@
 				C5748A2024DC325300A842B2 /* TestBlock.m */,
 				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
 				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
-				C57342432524897F00CC6A3A /* QQQ.mp4 */,
+				C573425325248B5000CC6A3A /* QQQ.mp4 */,
 				C5B7E2DD252478C400BC4E9D /* Others.bundle */,
 			);
 			path = Search;
@@ -953,6 +954,7 @@
 				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
 				C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */,
 				C57AC0442511DCCD009EE44D /* closeCircle@2x.png in Resources */,
+				C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */,
 				C57AC0452511DCCD009EE44D /* closeCircle@3x.png in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,

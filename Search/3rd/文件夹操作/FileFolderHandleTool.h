@@ -93,7 +93,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param bundleFileSuffix 中间层路径：
 /// @param fileType  获取的文件类型 因为要以不同的方式解析出数据
 +(id)bundleFile:(NSString *__nullable)bundleFileName
-bundleFileSuffix:(NSString *__nullable)bundleFileSuffix
+bundleFileSuffix:(NSString *__nonnull)bundleFileSuffix
        fileType:(FileType)fileType;
 /// 将bundle里面的文件写进手机本地文件
 /// @param bundleFileName bundle文件名
@@ -102,7 +102,7 @@ bundleFileSuffix:(NSString *__nullable)bundleFileSuffix
 /// @param fileType  获取的文件类型 因为要以不同的方式解析出数据
 +(NSString *)BundleFile:(NSString *__nullable)bundleFileName
             ToLocalFile:(NSString *)LocalFileName
-        localFileSuffix:(NSString *__nullable)LocalFileSuffix
+        localFileSuffix:(NSString *__nonnull)LocalFileSuffix
                fileType:(FileType)fileType;
 ///写入文件内容：按照文件路径向文件写入内容，内容可为数组、字典、NSData等等
 /*参数1：要写入的文件路径
