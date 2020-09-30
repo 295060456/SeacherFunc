@@ -49,11 +49,16 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
-    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:@"qqq"
-                                                  bundleFileSuffix:@"mp4"
-                                                       ToLocalFile:@"kkk"
-                                                   localFileSuffix:@"mp4"
+//    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:@"Others"
+//                                                       ToLocalFile:@"QQQ"
+//                                                   localFileSuffix:@"/QQQ.mp4"
+//                                                          fileType:VEDIO];
+    
+    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:nil
+                                                       ToLocalFile:@"QQQ"
+                                                   localFileSuffix:@"/QQQ.mp4"
                                                           fileType:VEDIO];
+    
     [self KKK:fileFolderPathStr];
 
 }

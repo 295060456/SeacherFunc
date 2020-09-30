@@ -13,7 +13,6 @@
 		C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C52E896C2510B4390070356F /* UITextField+Extend.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
-		C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */; };
 		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
 		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
 		C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E524D6F9BE00EC342E /* BRResultModel.m */; };
@@ -31,7 +30,6 @@
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
-		C59D9A9B24F7B60C00A74CE9 /* qqq.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */; };
 		C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4969250C984E009F583F /* NSObject+Time.m */; };
 		C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496A250C984E009F583F /* NSObject+Random.m */; };
 		C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496C250C984E009F583F /* NSObject+Shake.m */; };
@@ -66,6 +64,7 @@
 		C5B7E08A2524612200BC4E9D /* BaseVC+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0792524612100BC4E9D /* BaseVC+MJRefresh.m */; };
 		C5B7E08B2524612200BC4E9D /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E07A2524612200BC4E9D /* BaseVC+GifImageView.m */; };
 		C5B7E08C2524612200BC4E9D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E07C2524612200BC4E9D /* BaseVC.m */; };
+		C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5B7E2DD252478C400BC4E9D /* Others.bundle */; };
 		C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709924E4FC4D000DB72D /* SuspendBtn.m */; };
 		C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A324E50DB6000DB72D /* SuspendLab.m */; };
 		C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A624E50DCA000DB72D /* SuspendView.m */; };
@@ -130,7 +129,6 @@
 		C52E896D2510B4390070356F /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
-		C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小夫，我要进来了.jpg"; sourceTree = "<group>"; };
 		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		C56FE8E124D6F9BE00EC342E /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
 		C56FE8E224D6F9BE00EC342E /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
@@ -154,6 +152,7 @@
 		C56FE8F724D6F9BE00EC342E /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
 		C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
 		C56FE8F924D6F9BE00EC342E /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		C57342432524897F00CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
 		C5748A1F24DC325300A842B2 /* TestBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
 		C57AC0422511DCCD009EE44D /* closeCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeCircle@2x.png"; sourceTree = "<group>"; };
@@ -167,7 +166,6 @@
 		C58F04B424ED2EFE00B6D09C /* 1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = 1ViewController.h; path = ../1ViewController.h; sourceTree = "<group>"; };
 		C58F04B524ED2EFE00B6D09C /* 1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = 1ViewController.m; path = ../1ViewController.m; sourceTree = "<group>"; };
 		C58FDF7925233FE200E020D3 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
-		C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qqq.mp4; sourceTree = "<group>"; };
 		C5AA4968250C984E009F583F /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Sound.h"; path = "../../../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/NSObject/NSObject+Sound.h"; sourceTree = "<group>"; };
 		C5AA4969250C984E009F583F /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5AA496A250C984E009F583F /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
@@ -236,6 +234,7 @@
 		C5B7E07B2524612200BC4E9D /* UIViewController+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Shake.h"; sourceTree = "<group>"; };
 		C5B7E07C2524612200BC4E9D /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
 		C5B7E07D2524612200BC4E9D /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
+		C5B7E2DD252478C400BC4E9D /* Others.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Others.bundle; sourceTree = "<group>"; };
 		C5CF709824E4FC4D000DB72D /* SuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
 		C5CF709924E4FC4D000DB72D /* SuspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C5CF70A224E50DB6000DB72D /* SuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
@@ -545,7 +544,6 @@
 				C58F04B324ED2ED200B6D09C /* New Group */,
 				C58F03EB24EAD07100B6D09C /* GTProxy.h */,
 				C58F03EC24EAD07100B6D09C /* GTProxy.m */,
-				C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */,
 				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
 				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
 				C5E7D9A724E1457900A38FAF /* TestView.h */,
@@ -554,7 +552,8 @@
 				C5748A2024DC325300A842B2 /* TestBlock.m */,
 				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
 				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
-				C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */,
+				C57342432524897F00CC6A3A /* QQQ.mp4 */,
+				C5B7E2DD252478C400BC4E9D /* Others.bundle */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -952,9 +951,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
-				C59D9A9B24F7B60C00A74CE9 /* qqq.mp4 in Resources */,
+				C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */,
 				C57AC0442511DCCD009EE44D /* closeCircle@2x.png in Resources */,
-				C566967D24F64EB8006877A5 /* 小夫，我要进来了.jpg in Resources */,
 				C57AC0452511DCCD009EE44D /* closeCircle@3x.png in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
