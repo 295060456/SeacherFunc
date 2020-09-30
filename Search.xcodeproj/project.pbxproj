@@ -32,19 +32,6 @@
 		C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
 		C59D9A9B24F7B60C00A74CE9 /* qqq.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */; };
-		C5AA495A250C982F009F583F /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4940250C982E009F583F /* BaseVC+JPImageresizerView.m */; };
-		C5AA495B250C982F009F583F /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4941250C982E009F583F /* BaseVC+TZImagePickerController.m */; };
-		C5AA495C250C982F009F583F /* BaseVC+BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4942250C982E009F583F /* BaseVC+BWShareView.m */; };
-		C5AA495D250C982F009F583F /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4944250C982E009F583F /* BaseVC+OpenURL.m */; };
-		C5AA495E250C982F009F583F /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4946250C982E009F583F /* BaseVC+JXCategoryListContentViewDelegate.m */; };
-		C5AA495F250C982F009F583F /* BaseVC+TZImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4947250C982E009F583F /* BaseVC+TZImagePickerControllerDelegate.m */; };
-		C5AA4960250C982F009F583F /* BaseVC+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA494D250C982E009F583F /* BaseVC+BackBtn.m */; };
-		C5AA4961250C982F009F583F /* UIViewController+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA494F250C982E009F583F /* UIViewController+Shake.m */; };
-		C5AA4962250C982F009F583F /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4952250C982E009F583F /* BaseVC+AFNReachability.m */; };
-		C5AA4963250C982F009F583F /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4953250C982E009F583F /* BaseVC.m */; };
-		C5AA4964250C982F009F583F /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4957250C982F009F583F /* BaseVC+GifImageView.m */; };
-		C5AA4965250C982F009F583F /* BaseVC+TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4958250C982F009F583F /* BaseVC+TZLocationManager.m */; };
-		C5AA4966250C982F009F583F /* BaseVC+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4959250C982F009F583F /* BaseVC+BRPickerView.m */; };
 		C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4969250C984E009F583F /* NSObject+Time.m */; };
 		C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496A250C984E009F583F /* NSObject+Random.m */; };
 		C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496C250C984E009F583F /* NSObject+Shake.m */; };
@@ -65,6 +52,20 @@
 		C5AA499F250C98EF009F583F /* UIImage+YBGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA499A250C98EF009F583F /* UIImage+YBGIF.m */; };
 		C5AA49A0250C98EF009F583F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA499B250C98EF009F583F /* UIImage+Extras.m */; };
 		C5AA49B3250C995B009F583F /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA49B2250C995B009F583F /* UIImageView+GIF.m */; };
+		C5B7E07E2524612200BC4E9D /* BaseVC+BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0602524612000BC4E9D /* BaseVC+BWShareView.m */; };
+		C5B7E07F2524612200BC4E9D /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0622524612000BC4E9D /* BaseVC+JPImageresizerView.m */; };
+		C5B7E0812524612200BC4E9D /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0652524612000BC4E9D /* BaseVC+OpenURL.m */; };
+		C5B7E0822524612200BC4E9D /* BaseVC+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0692524612100BC4E9D /* BaseVC+BRPickerView.m */; };
+		C5B7E0832524612200BC4E9D /* UIViewController+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E06A2524612100BC4E9D /* UIViewController+Shake.m */; };
+		C5B7E0842524612200BC4E9D /* BaseVC+TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E06B2524612100BC4E9D /* BaseVC+TZLocationManager.m */; };
+		C5B7E0852524612200BC4E9D /* BaseVC+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E06F2524612100BC4E9D /* BaseVC+BackBtn.m */; };
+		C5B7E0862524612200BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0712524612100BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.m */; };
+		C5B7E0872524612200BC4E9D /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0722524612100BC4E9D /* BaseVC+TZImagePickerController.m */; };
+		C5B7E0882524612200BC4E9D /* BaseVC+TZImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0732524612100BC4E9D /* BaseVC+TZImagePickerControllerDelegate.m */; };
+		C5B7E0892524612200BC4E9D /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0782524612100BC4E9D /* BaseVC+AFNReachability.m */; };
+		C5B7E08A2524612200BC4E9D /* BaseVC+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E0792524612100BC4E9D /* BaseVC+MJRefresh.m */; };
+		C5B7E08B2524612200BC4E9D /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E07A2524612200BC4E9D /* BaseVC+GifImageView.m */; };
+		C5B7E08C2524612200BC4E9D /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7E07C2524612200BC4E9D /* BaseVC.m */; };
 		C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF709924E4FC4D000DB72D /* SuspendBtn.m */; };
 		C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A324E50DB6000DB72D /* SuspendLab.m */; };
 		C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70A624E50DCA000DB72D /* SuspendView.m */; };
@@ -127,8 +128,6 @@
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E896C2510B4390070356F /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
 		C52E896D2510B4390070356F /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
-		C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
-		C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C566967C24F64EB8006877A5 /* 小夫，我要进来了.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小夫，我要进来了.jpg"; sourceTree = "<group>"; };
@@ -169,32 +168,6 @@
 		C58F04B524ED2EFE00B6D09C /* 1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = 1ViewController.m; path = ../1ViewController.m; sourceTree = "<group>"; };
 		C58FDF7925233FE200E020D3 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C59D9A9A24F7B60C00A74CE9 /* qqq.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qqq.mp4; sourceTree = "<group>"; };
-		C5AA4940250C982E009F583F /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+JPImageresizerView.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
-		C5AA4941250C982E009F583F /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+TZImagePickerController.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
-		C5AA4942250C982E009F583F /* BaseVC+BWShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+BWShareView.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BWShareView.m"; sourceTree = "<group>"; };
-		C5AA4943250C982E009F583F /* BaseVC+BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+BWShareView.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BWShareView.h"; sourceTree = "<group>"; };
-		C5AA4944250C982E009F583F /* BaseVC+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+OpenURL.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+OpenURL.m"; sourceTree = "<group>"; };
-		C5AA4945250C982E009F583F /* BaseVC+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+OpenURL.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+OpenURL.h"; sourceTree = "<group>"; };
-		C5AA4946250C982E009F583F /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+JXCategoryListContentViewDelegate.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
-		C5AA4947250C982E009F583F /* BaseVC+TZImagePickerControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+TZImagePickerControllerDelegate.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
-		C5AA4948250C982E009F583F /* BaseVC+JPImageresizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+JPImageresizerView.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+JPImageresizerView.h"; sourceTree = "<group>"; };
-		C5AA4949250C982E009F583F /* BaseVC+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+BackBtn.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BackBtn.h"; sourceTree = "<group>"; };
-		C5AA494A250C982E009F583F /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+GifImageView.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+GifImageView.h"; sourceTree = "<group>"; };
-		C5AA494B250C982E009F583F /* BaseVC+TZImagePickerControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+TZImagePickerControllerDelegate.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZImagePickerControllerDelegate.h"; sourceTree = "<group>"; };
-		C5AA494C250C982E009F583F /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseVC.h; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC.h"; sourceTree = "<group>"; };
-		C5AA494D250C982E009F583F /* BaseVC+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+BackBtn.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BackBtn.m"; sourceTree = "<group>"; };
-		C5AA494E250C982E009F583F /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+JXCategoryListContentViewDelegate.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
-		C5AA494F250C982E009F583F /* UIViewController+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Shake.m"; sourceTree = "<group>"; };
-		C5AA4950250C982E009F583F /* BaseVC+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+TZImagePickerController.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZImagePickerController.h"; sourceTree = "<group>"; };
-		C5AA4951250C982E009F583F /* BaseVC+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+BRPickerView.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BRPickerView.h"; sourceTree = "<group>"; };
-		C5AA4952250C982E009F583F /* BaseVC+AFNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+AFNReachability.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+AFNReachability.m"; sourceTree = "<group>"; };
-		C5AA4953250C982E009F583F /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseVC.m; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC.m"; sourceTree = "<group>"; };
-		C5AA4954250C982E009F583F /* UIViewController+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Shake.h"; sourceTree = "<group>"; };
-		C5AA4955250C982F009F583F /* BaseVC+AFNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+AFNReachability.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+AFNReachability.h"; sourceTree = "<group>"; };
-		C5AA4956250C982F009F583F /* BaseVC+TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BaseVC+TZLocationManager.h"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZLocationManager.h"; sourceTree = "<group>"; };
-		C5AA4957250C982F009F583F /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+GifImageView.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+GifImageView.m"; sourceTree = "<group>"; };
-		C5AA4958250C982F009F583F /* BaseVC+TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+TZLocationManager.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+TZLocationManager.m"; sourceTree = "<group>"; };
-		C5AA4959250C982F009F583F /* BaseVC+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+BRPickerView.m"; path = "../../../../../../拍摄功能/Shooting/BaseCustomizeUIKit/UIViewController/BaseVC+BRPickerView.m"; sourceTree = "<group>"; };
 		C5AA4968250C984E009F583F /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Sound.h"; path = "../../../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/NSObject/NSObject+Sound.h"; sourceTree = "<group>"; };
 		C5AA4969250C984E009F583F /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5AA496A250C984E009F583F /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
@@ -235,6 +208,34 @@
 		C5AA499B250C98EF009F583F /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
 		C5AA49B1250C995B009F583F /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		C5AA49B2250C995B009F583F /* UIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIF.m"; sourceTree = "<group>"; };
+		C5B7E0602524612000BC4E9D /* BaseVC+BWShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BWShareView.m"; sourceTree = "<group>"; };
+		C5B7E0612524612000BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
+		C5B7E0622524612000BC4E9D /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
+		C5B7E0632524612000BC4E9D /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
+		C5B7E0652524612000BC4E9D /* BaseVC+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+OpenURL.m"; sourceTree = "<group>"; };
+		C5B7E0662524612100BC4E9D /* BaseVC+AFNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+AFNReachability.h"; sourceTree = "<group>"; };
+		C5B7E0672524612100BC4E9D /* BaseVC+TZImagePickerControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZImagePickerControllerDelegate.h"; sourceTree = "<group>"; };
+		C5B7E0682524612100BC4E9D /* BaseVC+TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZLocationManager.h"; sourceTree = "<group>"; };
+		C5B7E0692524612100BC4E9D /* BaseVC+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BRPickerView.m"; sourceTree = "<group>"; };
+		C5B7E06A2524612100BC4E9D /* UIViewController+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Shake.m"; sourceTree = "<group>"; };
+		C5B7E06B2524612100BC4E9D /* BaseVC+TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZLocationManager.m"; sourceTree = "<group>"; };
+		C5B7E06C2524612100BC4E9D /* BaseVC+BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BackBtn.h"; sourceTree = "<group>"; };
+		C5B7E06D2524612100BC4E9D /* BaseVC+BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BWShareView.h"; sourceTree = "<group>"; };
+		C5B7E06F2524612100BC4E9D /* BaseVC+BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+BackBtn.m"; sourceTree = "<group>"; };
+		C5B7E0702524612100BC4E9D /* BaseVC+JPImageresizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+JPImageresizerView.h"; sourceTree = "<group>"; };
+		C5B7E0712524612100BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
+		C5B7E0722524612100BC4E9D /* BaseVC+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZImagePickerController.m"; sourceTree = "<group>"; };
+		C5B7E0732524612100BC4E9D /* BaseVC+TZImagePickerControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+TZImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
+		C5B7E0742524612100BC4E9D /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		C5B7E0752524612100BC4E9D /* BaseVC+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+OpenURL.h"; sourceTree = "<group>"; };
+		C5B7E0762524612100BC4E9D /* BaseVC+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+BRPickerView.h"; sourceTree = "<group>"; };
+		C5B7E0772524612100BC4E9D /* BaseVC+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+TZImagePickerController.h"; sourceTree = "<group>"; };
+		C5B7E0782524612100BC4E9D /* BaseVC+AFNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+AFNReachability.m"; sourceTree = "<group>"; };
+		C5B7E0792524612100BC4E9D /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
+		C5B7E07A2524612200BC4E9D /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+GifImageView.m"; sourceTree = "<group>"; };
+		C5B7E07B2524612200BC4E9D /* UIViewController+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Shake.h"; sourceTree = "<group>"; };
+		C5B7E07C2524612200BC4E9D /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		C5B7E07D2524612200BC4E9D /* BaseVC+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+GifImageView.h"; sourceTree = "<group>"; };
 		C5CF709824E4FC4D000DB72D /* SuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
 		C5CF709924E4FC4D000DB72D /* SuspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C5CF70A224E50DB6000DB72D /* SuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
@@ -348,15 +349,6 @@
 				C52E896C2510B4390070356F /* UITextField+Extend.m */,
 			);
 			path = "UITextField+Extend";
-			sourceTree = "<group>";
-		};
-		C5336FF124DABD1D0082847C /* 存在疑问的 */ = {
-			isa = PBXGroup;
-			children = (
-				C5336FF224DABD270082847C /* BaseVC+MJRefresh.h */,
-				C5336FF324DABD270082847C /* BaseVC+MJRefresh.m */,
-			);
-			path = "存在疑问的";
 			sourceTree = "<group>";
 		};
 		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
@@ -752,33 +744,34 @@
 		C5DDFFC124D3FDAE00307DFA /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				C5AA494C250C982E009F583F /* BaseVC.h */,
-				C5AA4953250C982E009F583F /* BaseVC.m */,
-				C5AA4955250C982F009F583F /* BaseVC+AFNReachability.h */,
-				C5AA4952250C982E009F583F /* BaseVC+AFNReachability.m */,
-				C5AA4949250C982E009F583F /* BaseVC+BackBtn.h */,
-				C5AA494D250C982E009F583F /* BaseVC+BackBtn.m */,
-				C5AA4951250C982E009F583F /* BaseVC+BRPickerView.h */,
-				C5AA4959250C982F009F583F /* BaseVC+BRPickerView.m */,
-				C5AA4943250C982E009F583F /* BaseVC+BWShareView.h */,
-				C5AA4942250C982E009F583F /* BaseVC+BWShareView.m */,
-				C5AA494A250C982E009F583F /* BaseVC+GifImageView.h */,
-				C5AA4957250C982F009F583F /* BaseVC+GifImageView.m */,
-				C5AA4948250C982E009F583F /* BaseVC+JPImageresizerView.h */,
-				C5AA4940250C982E009F583F /* BaseVC+JPImageresizerView.m */,
-				C5AA494E250C982E009F583F /* BaseVC+JXCategoryListContentViewDelegate.h */,
-				C5AA4946250C982E009F583F /* BaseVC+JXCategoryListContentViewDelegate.m */,
-				C5AA4945250C982E009F583F /* BaseVC+OpenURL.h */,
-				C5AA4944250C982E009F583F /* BaseVC+OpenURL.m */,
-				C5AA4950250C982E009F583F /* BaseVC+TZImagePickerController.h */,
-				C5AA4941250C982E009F583F /* BaseVC+TZImagePickerController.m */,
-				C5AA494B250C982E009F583F /* BaseVC+TZImagePickerControllerDelegate.h */,
-				C5AA4947250C982E009F583F /* BaseVC+TZImagePickerControllerDelegate.m */,
-				C5AA4956250C982F009F583F /* BaseVC+TZLocationManager.h */,
-				C5AA4958250C982F009F583F /* BaseVC+TZLocationManager.m */,
-				C5AA4954250C982E009F583F /* UIViewController+Shake.h */,
-				C5AA494F250C982E009F583F /* UIViewController+Shake.m */,
-				C5336FF124DABD1D0082847C /* 存在疑问的 */,
+				C5B7E0742524612100BC4E9D /* BaseVC.h */,
+				C5B7E07C2524612200BC4E9D /* BaseVC.m */,
+				C5B7E0662524612100BC4E9D /* BaseVC+AFNReachability.h */,
+				C5B7E0782524612100BC4E9D /* BaseVC+AFNReachability.m */,
+				C5B7E06C2524612100BC4E9D /* BaseVC+BackBtn.h */,
+				C5B7E06F2524612100BC4E9D /* BaseVC+BackBtn.m */,
+				C5B7E0762524612100BC4E9D /* BaseVC+BRPickerView.h */,
+				C5B7E0692524612100BC4E9D /* BaseVC+BRPickerView.m */,
+				C5B7E06D2524612100BC4E9D /* BaseVC+BWShareView.h */,
+				C5B7E0602524612000BC4E9D /* BaseVC+BWShareView.m */,
+				C5B7E07D2524612200BC4E9D /* BaseVC+GifImageView.h */,
+				C5B7E07A2524612200BC4E9D /* BaseVC+GifImageView.m */,
+				C5B7E0702524612100BC4E9D /* BaseVC+JPImageresizerView.h */,
+				C5B7E0622524612000BC4E9D /* BaseVC+JPImageresizerView.m */,
+				C5B7E0612524612000BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.h */,
+				C5B7E0712524612100BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.m */,
+				C5B7E0632524612000BC4E9D /* BaseVC+MJRefresh.h */,
+				C5B7E0792524612100BC4E9D /* BaseVC+MJRefresh.m */,
+				C5B7E0752524612100BC4E9D /* BaseVC+OpenURL.h */,
+				C5B7E0652524612000BC4E9D /* BaseVC+OpenURL.m */,
+				C5B7E0772524612100BC4E9D /* BaseVC+TZImagePickerController.h */,
+				C5B7E0722524612100BC4E9D /* BaseVC+TZImagePickerController.m */,
+				C5B7E0672524612100BC4E9D /* BaseVC+TZImagePickerControllerDelegate.h */,
+				C5B7E0732524612100BC4E9D /* BaseVC+TZImagePickerControllerDelegate.m */,
+				C5B7E0682524612100BC4E9D /* BaseVC+TZLocationManager.h */,
+				C5B7E06B2524612100BC4E9D /* BaseVC+TZLocationManager.m */,
+				C5B7E07B2524612200BC4E9D /* UIViewController+Shake.h */,
+				C5B7E06A2524612100BC4E9D /* UIViewController+Shake.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -1097,6 +1090,8 @@
 			files = (
 				C5CF70A424E50DB6000DB72D /* SuspendLab.m in Sources */,
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
+				C5B7E0892524612200BC4E9D /* BaseVC+AFNReachability.m in Sources */,
+				C5B7E0842524612200BC4E9D /* BaseVC+TZLocationManager.m in Sources */,
 				C5AA498F250C98DE009F583F /* UIView+Measure.m in Sources */,
 				C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */,
 				C5AA4978250C984E009F583F /* NSObject+Extras.m in Sources */,
@@ -1107,58 +1102,56 @@
 				C5AA4991250C98DE009F583F /* UIView+Chain.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
+				C5B7E07E2524612200BC4E9D /* BaseVC+BWShareView.m in Sources */,
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
-				C5AA4963250C982F009F583F /* BaseVC.m in Sources */,
 				C5AA497F250C985B009F583F /* NSObject+SYSAlertController.m in Sources */,
-				C5AA4961250C982F009F583F /* UIViewController+Shake.m in Sources */,
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
 				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
-				C5AA4964250C982F009F583F /* BaseVC+GifImageView.m in Sources */,
+				C5B7E07F2524612200BC4E9D /* BaseVC+JPImageresizerView.m in Sources */,
+				C5B7E08C2524612200BC4E9D /* BaseVC.m in Sources */,
 				C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */,
 				C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */,
-				C5AA4960250C982F009F583F /* BaseVC+BackBtn.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
 				C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */,
 				C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */,
 				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
-				C5AA4966250C982F009F583F /* BaseVC+BRPickerView.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C5AA497E250C985B009F583F /* NSObject+SPAlertController.m in Sources */,
+				C5B7E08B2524612200BC4E9D /* BaseVC+GifImageView.m in Sources */,
 				C5AA498E250C98DE009F583F /* UIView+Animation.m in Sources */,
 				C5AA499C250C98EF009F583F /* UIImage+SYS.m in Sources */,
-				C5AA4962250C982F009F583F /* BaseVC+AFNReachability.m in Sources */,
-				C5AA495D250C982F009F583F /* BaseVC+OpenURL.m in Sources */,
-				C5AA495C250C982F009F583F /* BaseVC+BWShareView.m in Sources */,
-				C5AA4965250C982F009F583F /* BaseVC+TZLocationManager.m in Sources */,
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
-				C5AA495E250C982F009F583F /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
 				C5CF709A24E4FC4D000DB72D /* SuspendBtn.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
+				C5B7E0832524612200BC4E9D /* UIViewController+Shake.m in Sources */,
 				C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
+				C5B7E0822524612200BC4E9D /* BaseVC+BRPickerView.m in Sources */,
 				C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */,
 				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C5AA498D250C98DE009F583F /* UIView+SuspendView.m in Sources */,
 				C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */,
-				C5AA495B250C982F009F583F /* BaseVC+TZImagePickerController.m in Sources */,
 				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
 				C5AA4990250C98DE009F583F /* UIView+Gradient.m in Sources */,
 				C5E4C0EB24DFF23100D4862C /* BWShareView.m in Sources */,
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
-				C5AA495A250C982F009F583F /* BaseVC+JPImageresizerView.m in Sources */,
+				C5B7E08A2524612200BC4E9D /* BaseVC+MJRefresh.m in Sources */,
 				C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
+				C5B7E0872524612200BC4E9D /* BaseVC+TZImagePickerController.m in Sources */,
 				C5AA499F250C98EF009F583F /* UIImage+YBGIF.m in Sources */,
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
 				C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */,
 				C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */,
 				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
 				C5AA499E250C98EF009F583F /* UIImage+Tailor.m in Sources */,
-				C5AA495F250C982F009F583F /* BaseVC+TZImagePickerControllerDelegate.m in Sources */,
 				C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */,
+				C5B7E0862524612200BC4E9D /* BaseVC+JXCategoryListContentViewDelegate.m in Sources */,
+				C5B7E0882524612200BC4E9D /* BaseVC+TZImagePickerControllerDelegate.m in Sources */,
+				C5B7E0852524612200BC4E9D /* BaseVC+BackBtn.m in Sources */,
 				C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */,
 				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
 				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
@@ -1166,6 +1159,7 @@
 				C5AA4977250C984E009F583F /* NSObject+Sound.m in Sources */,
 				C561613024EE1F1E001CD851 /* ViewController.m in Sources */,
 				C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */,
+				C5B7E0812524612200BC4E9D /* BaseVC+OpenURL.m in Sources */,
 				C5DDFFA824D3FA1C00307DFA /* HQTextField.m in Sources */,
 				C5AA49B3250C995B009F583F /* UIImageView+GIF.m in Sources */,
 				C5DDFF9424D3E2C100307DFA /* SearchBar.m in Sources */,
