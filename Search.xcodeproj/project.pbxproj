@@ -26,11 +26,11 @@
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
 		C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C573425325248B5000CC6A3A /* QQQ.mp4 */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
-		C57AC0442511DCCD009EE44D /* closeCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57AC0422511DCCD009EE44D /* closeCircle@2x.png */; };
-		C57AC0452511DCCD009EE44D /* closeCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57AC0432511DCCD009EE44D /* closeCircle@3x.png */; };
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
+		C59B9EE12526F3990039B485 /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C59B9EDE2526F3980039B485 /* ZYTextField.bundle */; };
+		C59B9EE22526F3990039B485 /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B9EE02526F3990039B485 /* ZYTextField+HistoryDataList.m */; };
 		C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA4969250C984E009F583F /* NSObject+Time.m */; };
 		C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496A250C984E009F583F /* NSObject+Random.m */; };
 		C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA496C250C984E009F583F /* NSObject+Shake.m */; };
@@ -156,8 +156,6 @@
 		C573425325248B5000CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
 		C5748A1F24DC325300A842B2 /* TestBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
-		C57AC0422511DCCD009EE44D /* closeCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeCircle@2x.png"; sourceTree = "<group>"; };
-		C57AC0432511DCCD009EE44D /* closeCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeCircle@3x.png"; sourceTree = "<group>"; };
 		C57ADF8824D938BC00419DFA /* ViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Category.h"; sourceTree = "<group>"; };
 		C57ADF8924D938BC00419DFA /* ViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Category.m"; sourceTree = "<group>"; };
 		C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
@@ -167,6 +165,9 @@
 		C58F04B424ED2EFE00B6D09C /* 1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = 1ViewController.h; path = ../1ViewController.h; sourceTree = "<group>"; };
 		C58F04B524ED2EFE00B6D09C /* 1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = 1ViewController.m; path = ../1ViewController.m; sourceTree = "<group>"; };
 		C58FDF7925233FE200E020D3 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
+		C59B9EDE2526F3980039B485 /* ZYTextField.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYTextField.bundle; sourceTree = "<group>"; };
+		C59B9EDF2526F3990039B485 /* ZYTextField+HistoryDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYTextField+HistoryDataList.h"; sourceTree = "<group>"; };
+		C59B9EE02526F3990039B485 /* ZYTextField+HistoryDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYTextField+HistoryDataList.m"; sourceTree = "<group>"; };
 		C5AA4968250C984E009F583F /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Sound.h"; path = "../../../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/NSObject/NSObject+Sound.h"; sourceTree = "<group>"; };
 		C5AA4969250C984E009F583F /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5AA496A250C984E009F583F /* NSObject+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Random.m"; sourceTree = "<group>"; };
@@ -650,10 +651,11 @@
 		C5DDFFA024D3FA0000307DFA /* ZYTextField */ = {
 			isa = PBXGroup;
 			children = (
-				C57AC0422511DCCD009EE44D /* closeCircle@2x.png */,
-				C57AC0432511DCCD009EE44D /* closeCircle@3x.png */,
+				C59B9EDE2526F3980039B485 /* ZYTextField.bundle */,
 				C5DDFFA924D3FA2100307DFA /* ZYTextField.h */,
 				C5DDFFAA24D3FA2100307DFA /* ZYTextField.m */,
+				C59B9EDF2526F3990039B485 /* ZYTextField+HistoryDataList.h */,
+				C59B9EE02526F3990039B485 /* ZYTextField+HistoryDataList.m */,
 			);
 			path = ZYTextField;
 			sourceTree = "<group>";
@@ -953,12 +955,11 @@
 			files = (
 				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
 				C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */,
-				C57AC0442511DCCD009EE44D /* closeCircle@2x.png in Resources */,
 				C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */,
-				C57AC0452511DCCD009EE44D /* closeCircle@3x.png in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
 				C56FE90124D6F9BE00EC342E /* BRPickerView.bundle in Resources */,
+				C59B9EE12526F3990039B485 /* ZYTextField.bundle in Resources */,
 				C5DDFF6224D3E2A700307DFA /* Assets.xcassets in Resources */,
 				C5DDFF5D24D3E2A600307DFA /* Main.storyboard in Resources */,
 			);
@@ -1128,6 +1129,7 @@
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
 				C5B7E0832524612200BC4E9D /* UIViewController+Shake.m in Sources */,
 				C5CF70A724E50DCA000DB72D /* SuspendView.m in Sources */,
+				C59B9EE22526F3990039B485 /* ZYTextField+HistoryDataList.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C5B7E0822524612200BC4E9D /* BaseVC+BRPickerView.m in Sources */,
 				C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */,
