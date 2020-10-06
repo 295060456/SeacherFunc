@@ -11,6 +11,8 @@
 		117A85792A9573527F095CDB /* Pods_Search_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C49D013E523DBEA2C69A3F6 /* Pods_Search_SearchUITests.framework */; };
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
 		C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C52E896C2510B4390070356F /* UITextField+Extend.m */; };
+		C546C42A252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */; };
 		C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
@@ -133,6 +135,10 @@
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E896C2510B4390070356F /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
 		C52E896D2510B4390070356F /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
+		C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C546C428252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C546C429252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		C54F85EA252B621400EE3DD0 /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
 		C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
@@ -366,6 +372,17 @@
 				C52E896C2510B4390070356F /* UITextField+Extend.m */,
 			);
 			path = "UITextField+Extend";
+			sourceTree = "<group>";
+		};
+		C546C425252C2447003694FF /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				C546C429252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.h */,
+				C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */,
+				C546C428252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.h */,
+				C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		C54F85E3252B61CE00EE3DD0 /* UITableView 折叠功能 */ = {
@@ -673,6 +690,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C546C425252C2447003694FF /* FDFullscreenPopGesture */,
 				C563AE3D24F27F1000A3B0AC /* 文件夹操作 */,
 				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
 				C5CF709E24E50CC9000DB72D /* Suspend */,
@@ -1185,6 +1203,7 @@
 				C5AA498E250C98DE009F583F /* UIView+Animation.m in Sources */,
 				C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */,
 				C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */,
+				C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5AA499C250C98EF009F583F /* UIImage+SYS.m in Sources */,
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
@@ -1223,6 +1242,7 @@
 				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
 				C5AA4977250C984E009F583F /* NSObject+Sound.m in Sources */,
+				C546C42A252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C561613024EE1F1E001CD851 /* ViewController.m in Sources */,
 				C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */,
 				C5B7E0812524612200BC4E9D /* BaseVC+OpenURL.m in Sources */,
