@@ -122,7 +122,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
                                                  style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.backgroundColor = [UIColor colorWithPatternImage:KBuddleIMG(@"Others", nil, @"桌布.png")];
+        _tableView.backgroundColor = [UIColor colorWithPatternImage:KBuddleIMG(@"Others", nil,nil, @"桌布.png")];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [self.view addSubview:_tableView];
         [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
