@@ -52,8 +52,7 @@
 #import "SDWebImage-umbrella.h"//不支持图片后处理
 #import "SPAlertController.h"
 #import "SceneDelegate.h"
-#import "MBProgressHUD.h"
-#import "MBProgressHUD+WJExtension.h"
+#import "WHToast-umbrella.h"
 #import "BRPickerView.h"
 #import "UIControl+XY.h"
 #import "JPImageresizerView-umbrella.h"
