@@ -178,19 +178,16 @@ alpha:1] \
 #define KGreenColor     [UIColor greenColor]
 #define KMagentaColor   [UIColor magentaColor]
 
-static inline UIWindow *getMainWindow(){
-  UIWindow *window = nil;
-   window = UIApplication.sharedApplication.delegate.window;
-   if (!window) {
-       if (@available(iOS 13.0, *)) {
-           NSSet<UIScene *> *connectedScenes =  UIApplication.sharedApplication.connectedScenes;
-           if (connectedScenes.count > 0 ) {
-               UIWindowScene *scene = (UIWindowScene *)connectedScenes.anyObject;
-                window = scene.windows.firstObject;
-           }
-       }
-   }return window;
+static inline UIWindow * getMainWindow(){
+    UIWindow *window = nil;
+    if (@available(iOS 13.0, *)) {
+        window = [SceneDelegate sharedInstance].window;
+    }else{
+        window = UIApplication.sharedApplication.delegate.window;
+//        [UIApplication sharedApplication].keyWindow
+    }return window;
 }
+
 static inline BOOL isiPhoneX_series() {
     BOOL iPhoneXSeries = NO;
     if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
