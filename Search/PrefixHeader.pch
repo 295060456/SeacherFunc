@@ -31,7 +31,6 @@
 #import "UIView+Measure.h"
 #import "UIView+Animation.h"
 #import "UIView+Gradient.h"
-#import "UIView+Rotate.h"
 
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
