@@ -18,6 +18,9 @@
 		C55B2A66253426DC0038E50C /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A61253426DC0038E50C /* SuspendLab.m */; };
 		C55B2A67253426DC0038E50C /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A63253426DC0038E50C /* SuspendView.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
+		C562D60425400915009DFA21 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C562D60325400915009DFA21 /* CollectionViewCell.m */; };
+		C562D65025400BFA009DFA21 /* WhiteRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */; };
+		C562D65125400BFA009DFA21 /* WhiteRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
 		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
 		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
@@ -149,6 +152,10 @@
 		C55B2A61253426DC0038E50C /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C55B2A63253426DC0038E50C /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C55B2A64253426DC0038E50C /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
+		C562D60225400915009DFA21 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		C562D60325400915009DFA21 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@2x.png"; sourceTree = "<group>"; };
+		C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@3x.png"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
@@ -425,6 +432,15 @@
 				C55B2A64253426DC0038E50C /* SuspendView.h */,
 			);
 			path = SuspendView;
+			sourceTree = "<group>";
+		};
+		C562D60125400915009DFA21 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C562D60225400915009DFA21 /* CollectionViewCell.h */,
+				C562D60325400915009DFA21 /* CollectionViewCell.m */,
+			);
+			path = UICollectionViewCell;
 			sourceTree = "<group>";
 		};
 		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
@@ -838,6 +854,7 @@
 		C5DDFFB624D3FA7600307DFA /* UiKit */ = {
 			isa = PBXGroup;
 			children = (
+				C562D60125400915009DFA21 /* UICollectionViewCell */,
 				C5914B3C25384AEC007777A6 /* UINavigationController */,
 				C59BA4F625273E270039B485 /* UITableView */,
 				C5AA49B0250C9955009F583F /* UIImageView */,
@@ -861,6 +878,8 @@
 				C5DDFFB824D3FD8C00307DFA /* TBVCell_style_02.m */,
 				C5DDFFB924D3FD8C00307DFA /* UITableViewCell+WhiteArrows.h */,
 				C5DDFFBC24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m */,
+				C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */,
+				C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */,
 			);
 			path = UITableViewCell;
 			sourceTree = "<group>";
@@ -1046,10 +1065,12 @@
 				C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
+				C562D65125400BFA009DFA21 /* WhiteRightArrow@3x.png in Resources */,
 				C56FE90124D6F9BE00EC342E /* BRPickerView.bundle in Resources */,
 				C59B9EE12526F3990039B485 /* ZYTextField.bundle in Resources */,
 				C5DDFF6224D3E2A700307DFA /* Assets.xcassets in Resources */,
 				C5DDFF5D24D3E2A600307DFA /* Main.storyboard in Resources */,
+				C562D65025400BFA009DFA21 /* WhiteRightArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,6 +1224,7 @@
 				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
+				C562D60425400915009DFA21 /* CollectionViewCell.m in Sources */,
 				C5AA497E250C985B009F583F /* NSObject+SPAlertController.m in Sources */,
 				C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */,
 				C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */,
