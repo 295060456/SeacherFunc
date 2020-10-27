@@ -35,7 +35,6 @@
 		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
 		C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276B725408C2A002373D7 /* BaseNavigationVC.m */; };
 		C57276BD25408C2A002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276BA25408C2A002373D7 /* NavigationBar.m */; };
-		C57276C625408C97002373D7 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276C425408C97002373D7 /* UIView+Extras.m */; };
 		C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276CE25408CDF002373D7 /* UIViewController+NavigationBar.m */; };
 		C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C573425325248B5000CC6A3A /* QQQ.mp4 */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
@@ -43,6 +42,7 @@
 		C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ADF8924D938BC00419DFA /* ViewController+Category.m */; };
 		C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C22A12502572F00FAAA3F /* UIButton+ImageTitleSpacing.m */; };
 		C57F0D14253336C20080EEF0 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F0D13253336C20080EEF0 /* NSObject+OpenURL.m */; };
+		C585140025484C5E001E6676 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C58513FF25484C5E001E6676 /* UIView+Extras.m */; };
 		C58C62022532FDC70092BF89 /* UIView+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58C62002532FDC70092BF89 /* UIView+Rotate.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
 		C5914B1925384ADB007777A6 /* UIViewController+BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914AFF25384AD8007777A6 /* UIViewController+BWShareView.m */; };
@@ -188,8 +188,6 @@
 		C57276B825408C2A002373D7 /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
 		C57276BA25408C2A002373D7 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
 		C57276BB25408C2A002373D7 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
-		C57276C425408C97002373D7 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extras.m"; path = "../../../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/UIView/UIView+Extras.m"; sourceTree = "<group>"; };
-		C57276C525408C97002373D7 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extras.h"; path = "../../../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/UIView/UIView+Extras.h"; sourceTree = "<group>"; };
 		C57276CD25408CDF002373D7 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
 		C57276CE25408CDF002373D7 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
 		C573425325248B5000CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
@@ -203,6 +201,8 @@
 		C57C22A22502572F00FAAA3F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		C57F0D12253336C20080EEF0 /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
 		C57F0D13253336C20080EEF0 /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
+		C58513FE25484C5E001E6676 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		C58513FF25484C5E001E6676 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C58C62002532FDC70092BF89 /* UIView+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rotate.m"; sourceTree = "<group>"; };
 		C58C62012532FDC70092BF89 /* UIView+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rotate.h"; sourceTree = "<group>"; };
 		C58F03EB24EAD07100B6D09C /* GTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTProxy.h; sourceTree = "<group>"; };
@@ -868,8 +868,8 @@
 		C5DDFFB224D3FA6A00307DFA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C57276C525408C97002373D7 /* UIView+Extras.h */,
-				C57276C425408C97002373D7 /* UIView+Extras.m */,
+				C58513FE25484C5E001E6676 /* UIView+Extras.h */,
+				C58513FF25484C5E001E6676 /* UIView+Extras.m */,
 				C5AEEAD12538417A000E1C5F /* UIView+Animation.h */,
 				C5AEEAD32538417A000E1C5F /* UIView+Animation.m */,
 				C5AA4986250C98DE009F583F /* UIView+Chain.h */,
@@ -1245,6 +1245,7 @@
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C562D60425400915009DFA21 /* CollectionViewCell.m in Sources */,
 				C5AA497E250C985B009F583F /* NSObject+SPAlertController.m in Sources */,
+				C585140025484C5E001E6676 /* UIView+Extras.m in Sources */,
 				C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */,
 				C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */,
 				C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
@@ -1252,7 +1253,6 @@
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
 				C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */,
-				C57276C625408C97002373D7 /* UIView+Extras.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
 				C55B2A65253426DC0038E50C /* SuspendBtn.m in Sources */,
 				C59B9EE22526F3990039B485 /* ZYTextField+HistoryDataList.m in Sources */,
