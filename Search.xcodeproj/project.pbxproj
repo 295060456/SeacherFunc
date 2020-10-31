@@ -11,6 +11,13 @@
 		37073E6D25CB6042F976DA0B /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AE34E96AB43FF677EFCE94 /* Pods_Search.framework */; };
 		889AEE2267C3B15A9CAA7E11 /* Pods_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBE991B789CC7043D4A700 /* Pods_SearchUITests.framework */; };
 		C52E896E2510B4390070356F /* UITextField+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C52E896C2510B4390070356F /* UITextField+Extend.m */; };
+		C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF58254D9A3C00EDEDC8 /* CollectionView.m */; };
+		C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */; };
+		C530AF6D254D9A3C00EDEDC8 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF5C254D9A3C00EDEDC8 /* CollectionViewCell.m */; };
+		C530AF6E254D9A3C00EDEDC8 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */; };
+		C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */; };
+		C530AF70254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */; };
+		C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */; };
 		C546C42A252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */; };
 		C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */; };
@@ -18,7 +25,6 @@
 		C55B2A66253426DC0038E50C /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A61253426DC0038E50C /* SuspendLab.m */; };
 		C55B2A67253426DC0038E50C /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A63253426DC0038E50C /* SuspendView.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
-		C562D60425400915009DFA21 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C562D60325400915009DFA21 /* CollectionViewCell.m */; };
 		C562D65025400BFA009DFA21 /* WhiteRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */; };
 		C562D65125400BFA009DFA21 /* WhiteRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
@@ -143,6 +149,21 @@
 		BB60BE124477C9539E707A1E /* Pods_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E896C2510B4390070356F /* UITextField+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extend.m"; sourceTree = "<group>"; };
 		C52E896D2510B4390070356F /* UITextField+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extend.h"; sourceTree = "<group>"; };
+		C530AF55254D9A3C00EDEDC8 /* 我为什么要这么做 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我为什么要这么做"; sourceTree = "<group>"; };
+		C530AF56254D9A3C00EDEDC8 /* CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
+		C530AF57254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterClass.h"; sourceTree = "<group>"; };
+		C530AF58254D9A3C00EDEDC8 /* CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterClass.m"; sourceTree = "<group>"; };
+		C530AF5B254D9A3C00EDEDC8 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		C530AF5C254D9A3C00EDEDC8 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		C530AF5E254D9A3C00EDEDC8 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		C530AF62254D9A3C00EDEDC8 /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHWaterFallLayout.h; sourceTree = "<group>"; };
+		C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHWaterFallLayout.m; sourceTree = "<group>"; };
+		C530AF65254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFZShopCatoryFlowLayput.h; sourceTree = "<group>"; };
+		C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFZShopCatoryFlowLayput.m; sourceTree = "<group>"; };
+		C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		C530AF69254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		C546C428252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
@@ -155,8 +176,6 @@
 		C55B2A61253426DC0038E50C /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C55B2A63253426DC0038E50C /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C55B2A64253426DC0038E50C /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
-		C562D60225400915009DFA21 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		C562D60325400915009DFA21 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@2x.png"; sourceTree = "<group>"; };
 		C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@3x.png"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
@@ -395,6 +414,73 @@
 			path = "UITextField+Extend";
 			sourceTree = "<group>";
 		};
+		C530AF54254D9A3C00EDEDC8 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF55254D9A3C00EDEDC8 /* 我为什么要这么做 */,
+				C530AF56254D9A3C00EDEDC8 /* CollectionView.h */,
+				C530AF58254D9A3C00EDEDC8 /* CollectionView.m */,
+				C530AF57254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.h */,
+				C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		C530AF5A254D9A3C00EDEDC8 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF5B254D9A3C00EDEDC8 /* CollectionViewCell.h */,
+				C530AF5C254D9A3C00EDEDC8 /* CollectionViewCell.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C530AF5D254D9A3C00EDEDC8 /* UICollectionReusableView 用作基类 */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF5E254D9A3C00EDEDC8 /* CollectionReusableView.h */,
+				C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */,
+			);
+			path = "UICollectionReusableView 用作基类";
+			sourceTree = "<group>";
+		};
+		C530AF60254D9A3C00EDEDC8 /* UICollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF61254D9A3C00EDEDC8 /* LMHWaterFallLayout */,
+				C530AF64254D9A3C00EDEDC8 /* 给UICollectionView每个section加背景 */,
+				C530AF67254D9A3C00EDEDC8 /* UICollectionView 实现类似于UITableView的悬停效果 */,
+			);
+			path = UICollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		C530AF61254D9A3C00EDEDC8 /* LMHWaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF62254D9A3C00EDEDC8 /* LMHWaterFallLayout.h */,
+				C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */,
+			);
+			path = LMHWaterFallLayout;
+			sourceTree = "<group>";
+		};
+		C530AF64254D9A3C00EDEDC8 /* 给UICollectionView每个section加背景 */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF65254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.h */,
+				C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */,
+			);
+			path = "给UICollectionView每个section加背景";
+			sourceTree = "<group>";
+		};
+		C530AF67254D9A3C00EDEDC8 /* UICollectionView 实现类似于UITableView的悬停效果 */ = {
+			isa = PBXGroup;
+			children = (
+				C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */,
+				C530AF69254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.h */,
+			);
+			path = "UICollectionView 实现类似于UITableView的悬停效果";
+			sourceTree = "<group>";
+		};
 		C546C425252C2447003694FF /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,15 +526,6 @@
 				C55B2A64253426DC0038E50C /* SuspendView.h */,
 			);
 			path = SuspendView;
-			sourceTree = "<group>";
-		};
-		C562D60125400915009DFA21 /* UICollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				C562D60225400915009DFA21 /* CollectionViewCell.h */,
-				C562D60325400915009DFA21 /* CollectionViewCell.m */,
-			);
-			path = UICollectionViewCell;
 			sourceTree = "<group>";
 		};
 		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
@@ -889,9 +966,12 @@
 		C5DDFFB624D3FA7600307DFA /* UiKit */ = {
 			isa = PBXGroup;
 			children = (
+				C530AF5D254D9A3C00EDEDC8 /* UICollectionReusableView 用作基类 */,
+				C530AF54254D9A3C00EDEDC8 /* UICollectionView */,
+				C530AF5A254D9A3C00EDEDC8 /* UICollectionViewCell */,
+				C530AF60254D9A3C00EDEDC8 /* UICollectionViewFlowLayout */,
 				C57276B925408C2A002373D7 /* UINavigationBar */,
 				C57276B625408C2A002373D7 /* UINavigationController */,
-				C562D60125400915009DFA21 /* UICollectionViewCell */,
 				C59BA4F625273E270039B485 /* UITableView */,
 				C5AA49B0250C9955009F583F /* UIImageView */,
 				C59C4A8324E3AB78002C2104 /* UIViewController */,
@@ -1227,13 +1307,16 @@
 				C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C5AA4991250C98DE009F583F /* UIView+Chain.m in Sources */,
 				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
+				C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */,
 				C59BA50725273E490039B485 /* TableViewAnimationKit.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
 				C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */,
 				C5AA497F250C985B009F583F /* NSObject+SYSAlertController.m in Sources */,
+				C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */,
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
 				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
 				C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */,
+				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
 				C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
@@ -1243,17 +1326,18 @@
 				C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
-				C562D60425400915009DFA21 /* CollectionViewCell.m in Sources */,
 				C5AA497E250C985B009F583F /* NSObject+SPAlertController.m in Sources */,
 				C585140025484C5E001E6676 /* UIView+Extras.m in Sources */,
 				C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */,
 				C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */,
 				C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
+				C530AF6E254D9A3C00EDEDC8 /* CollectionReusableView.m in Sources */,
 				C5AA499C250C98EF009F583F /* UIImage+SYS.m in Sources */,
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
 				C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
+				C530AF70254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m in Sources */,
 				C55B2A65253426DC0038E50C /* SuspendBtn.m in Sources */,
 				C59B9EE22526F3990039B485 /* ZYTextField+HistoryDataList.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
@@ -1274,6 +1358,7 @@
 				C5914B2425384ADB007777A6 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */,
 				C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */,
+				C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
 				C5AEEAD52538417A000E1C5F /* UIView+Animation.m in Sources */,
 				C5AA499F250C98EF009F583F /* UIImage+YBGIF.m in Sources */,
@@ -1281,6 +1366,7 @@
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
 				C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */,
 				C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */,
+				C530AF6D254D9A3C00EDEDC8 /* CollectionViewCell.m in Sources */,
 				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
 				C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */,
 				C5AA499E250C98EF009F583F /* UIImage+Tailor.m in Sources */,
