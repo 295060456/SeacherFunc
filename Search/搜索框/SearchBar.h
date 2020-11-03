@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *placeholderStr;
 @property(nonatomic,strong)NSMutableArray *dataMutArr;
 
--(void)actionBlock:(FourDataBlock)block;//在外部启动数据源 textField,self
--(void)clickBlock:(MKDataBlock)block;
+-(void)actionBlock:(FourDataBlock _Nullable)block;//在外部启动数据源 textField,self
+-(void)clickBlock:(MKDataBlock _Nullable)block;
 
 
 @end

@@ -33,11 +33,11 @@ CJTextFieldDeleteDelegate
     self.textField.alpha = 1;
 }
 
--(void)actionBlock:(FourDataBlock)block{
+-(void)actionBlock:(FourDataBlock _Nullable)block{
     _block = block;
 }
 
--(void)clickBlock:(MKDataBlock)block{
+-(void)clickBlock:(MKDataBlock _Nullable)block{
     _block2 = block;
 }
 #pragma mark —— 点击事件
