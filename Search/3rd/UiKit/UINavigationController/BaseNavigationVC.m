@@ -55,6 +55,17 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    self.navigationBar.hidden = YES;// [self setNavigationBarHidden:YES animated:YES]; 这么写不行
+}
+//在指定的单独的控制器里面更改状态栏的颜色（不是全局统一样式的批量改）
+/** 同时在指定的控制器里面实现此方法
+ *  资料来源：https://www.jianshu.com/p/25e9c1a864be
+ *  - (UIStatusBarStyle)preferredStatusBarStyle {
+        return UIStatusBarStyleLightContent;
+    }
+ */
+- (UIViewController *)childViewControllerForStatusBarStyle {
+    return self.topViewController;
 }
 
 - (void)setViewControllers:(NSArray<__kindof UIViewController *> *)viewControllers{
@@ -76,8 +87,16 @@
 }
 #pragma mark —— UINavigationControllerDelegate
 - (void)navigationController:(UINavigationController *)navigationController
+      willShowViewController:(UIViewController *)viewController
+                    animated:(BOOL)animated{
+    NSLog(@"1");
+    self.navigationBar.hidden = YES;//全局隐藏系统的导航栏，这一句是手势返回的时候，再次隐藏
+}
+
+- (void)navigationController:(UINavigationController *)navigationController
        didShowViewController:(UIViewController *)viewController
                     animated:(BOOL)animated{
+    NSLog(@"2");
     self.interactivePopGestureRecognizer.delegate = (id)viewController;
 }
 
