@@ -116,6 +116,7 @@
 #pragma mark ======================================== 默认值 ========================================
 #define defaultValue 0
 #define defaultObj Nil
+#define defaultSize CGSizeZero
 #pragma mark ======================================== Sys.========================================
 #define HDAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]//标识应用程序的发布版本号
 #define HDAppBuildVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]//APP BUILD 版本号
