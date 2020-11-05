@@ -501,10 +501,10 @@
 		C54B3BF425525FBA003BE195 /* UIFont */ = {
 			isa = PBXGroup;
 			children = (
-				C54B3EDF25529782003BE195 /* UILabel+RichText.h */,
-				C54B3EE025529782003BE195 /* UILabel+RichText.m */,
 				C54B3BF825525FC4003BE195 /* UIFont+Extras.h */,
 				C54B3BF925525FC4003BE195 /* UIFont+Extras.m */,
+				C54B3EDF25529782003BE195 /* UILabel+RichText.h */,
+				C54B3EE025529782003BE195 /* UILabel+RichText.m */,
 			);
 			path = UIFont;
 			sourceTree = "<group>";
