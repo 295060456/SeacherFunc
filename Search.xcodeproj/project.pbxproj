@@ -1153,6 +1153,7 @@
 		C5DDFF4724D3E2A600307DFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Search;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = Jobs;
 				TargetAttributes = {
