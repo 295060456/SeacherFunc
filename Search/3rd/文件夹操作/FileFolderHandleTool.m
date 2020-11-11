@@ -7,7 +7,6 @@
 //
 
 #import "FileFolderHandleTool.h"
-#import <TXFileOperation.h>
 
 @implementation FileFolderHandleTool
 
@@ -72,14 +71,25 @@
     return NSTemporaryDirectory();
 }
 #pragma mark - 创建Library/Caches下的文件夹📂路径 还未真正创建
-//以当前时间戳生成缓存路径 Library/Caches：存放缓存文件，iTunes不会备份此目录，此目录下文件不会在应用退出删除。一般存放体积比较大，不是特别重要的资源。
-+(NSString *)createCacheFolderPath:(NSString * __nullable)folderNameEx{
-    NSString *folderName = [NSString getTimeString:[NSString getSysTimeStamp]];
+/// 以当前时间戳生成缓存路径 Library/Caches：存放缓存文件，iTunes不会备份此目录，此目录下文件不会在应用退出删除。一般存放体积比较大，不是特别重要的资源。
+/// @param folderNameEx 中间层自定义的文件夹
+/// @param fileNameEx 文件后缀名
++(NSString *)createCacheFolderPath:(NSString * __nullable)folderNameEx
+                            fileEx:(NSString * __nullable)fileNameEx{
+    NSString *folderName = TimeModel.new.currentTimestampStr;
     NSString *cachePath;
     if ([NSString isNullString:folderNameEx]) {
+        // Library/Caches/时间戳
         cachePath = [[FileFolderHandleTool cachesDir] stringByAppendingPathComponent:folderName];
     }else{
-        cachePath = [[FileFolderHandleTool cachesDir] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@/%@",folderName,folderNameEx]];
+        if ([NSString isNullString:fileNameEx]) {
+            // Library/Caches/folderNameEx/时间戳
+            cachePath = [[FileFolderHandleTool cachesDir] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@/%@",folderNameEx,folderName]];
+        }else{
+            // Library/Caches/folderNameEx/时间戳.fileNameEx
+            NSString *FolderName = [folderName stringByAppendingString:fileNameEx];
+            cachePath = [[FileFolderHandleTool cachesDir] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@/%@",folderNameEx,FolderName]];
+        }
     }return cachePath;
 }
 #pragma mark —— 创建文件（夹）
@@ -243,7 +253,8 @@ bundleFileSuffix:(NSString *__nonnull)bundleFileSuffix
                                          fileType:fileType];
     
     //图片、文本、plist（字典）、视频、声音
-    NSString *fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil];
+    NSString *fileFolderPathStr = [FileFolderHandleTool createCacheFolderPath:nil
+                                                                       fileEx:nil];
     //写文件之前一定要 有空白文件可写。
     //文件全名 带后缀
     NSString *localFileFullNameStr = [NSString stringWithFormat:@"/%@.%@",LocalFileName,LocalFileSuffix];

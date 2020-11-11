@@ -23,6 +23,9 @@
 		C54B3BFA25525FC4003BE195 /* UIFont+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B3BF925525FC4003BE195 /* UIFont+Extras.m */; };
 		C54B3EE125529782003BE195 /* UILabel+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B3EE025529782003BE195 /* UILabel+RichText.m */; };
 		C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */; };
+		C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C55695FF255BFC7E005C1361 /* NSString+Extras.m */; };
+		C5569606255BFC7E005C1361 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569601255BFC7E005C1361 /* TimeModel.m */; };
+		C5569607255BFC7E005C1361 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569604255BFC7E005C1361 /* NSString+Time.m */; };
 		C55B2A65253426DC0038E50C /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A5D253426DC0038E50C /* SuspendBtn.m */; };
 		C55B2A66253426DC0038E50C /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A61253426DC0038E50C /* SuspendLab.m */; };
 		C55B2A67253426DC0038E50C /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55B2A63253426DC0038E50C /* SuspendView.m */; };
@@ -105,7 +108,6 @@
 		C5DDFF9424D3E2C100307DFA /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF8D24D3E2C100307DFA /* SearchBar.m */; };
 		C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF8E24D3E2C100307DFA /* SearchVC+VM.m */; };
 		C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF9024D3E2C100307DFA /* SearchVC.m */; };
-		C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF9D24D3F9F100307DFA /* NSString+Extras.m */; };
 		C5DDFFA524D3FA1400307DFA /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFA424D3FA1400307DFA /* CJTextField.m */; };
 		C5DDFFA824D3FA1C00307DFA /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFA724D3FA1C00307DFA /* HQTextField.m */; };
 		C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFAA24D3FA2100307DFA /* ZYTextField.m */; };
@@ -176,6 +178,12 @@
 		C54B3EE025529782003BE195 /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
 		C54F85EA252B621400EE3DD0 /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
 		C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
+		C55695FF255BFC7E005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		C5569600255BFC7E005C1361 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
+		C5569601255BFC7E005C1361 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		C5569602255BFC7E005C1361 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		C5569603255BFC7E005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C5569604255BFC7E005C1361 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
 		C55B2A5D253426DC0038E50C /* SuspendBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C55B2A5E253426DC0038E50C /* SuspendBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
 		C55B2A60253426DC0038E50C /* SuspendLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
@@ -340,8 +348,6 @@
 		C5DDFF9124D3E2C100307DFA /* SearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModel.h; sourceTree = "<group>"; };
 		C5DDFF9224D3E2C100307DFA /* SearchVC+VM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchVC+VM.h"; sourceTree = "<group>"; };
 		C5DDFF9824D3E33500307DFA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C5DDFF9C24D3F9F100307DFA /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
-		C5DDFF9D24D3F9F100307DFA /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C5DDFFA324D3FA1400307DFA /* CJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTextField.h; sourceTree = "<group>"; };
 		C5DDFFA424D3FA1400307DFA /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
 		C5DDFFA624D3FA1C00307DFA /* HQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
@@ -894,8 +900,12 @@
 		C5DDFF9B24D3F9EA00307DFA /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDFF9C24D3F9F100307DFA /* NSString+Extras.h */,
-				C5DDFF9D24D3F9F100307DFA /* NSString+Extras.m */,
+				C5569603255BFC7E005C1361 /* NSString+Extras.h */,
+				C55695FF255BFC7E005C1361 /* NSString+Extras.m */,
+				C5569600255BFC7E005C1361 /* NSString+Time.h */,
+				C5569604255BFC7E005C1361 /* NSString+Time.m */,
+				C5569602255BFC7E005C1361 /* TimeModel.h */,
+				C5569601255BFC7E005C1361 /* TimeModel.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -1323,6 +1333,7 @@
 				C5AA499D250C98EF009F583F /* UIImage+Overlay.m in Sources */,
 				C5DDFFAB24D3FA2100307DFA /* ZYTextField.m in Sources */,
 				C54B3BFA25525FC4003BE195 /* UIFont+Extras.m in Sources */,
+				C5569607255BFC7E005C1361 /* NSString+Time.m in Sources */,
 				C5766D882546B7B500C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C5AA4991250C98DE009F583F /* UIView+Chain.m in Sources */,
@@ -1336,6 +1347,7 @@
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
 				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
 				C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */,
+				C5569606255BFC7E005C1361 /* TimeModel.m in Sources */,
 				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
 				C5AA4974250C984E009F583F /* NSObject+Time.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
@@ -1353,6 +1365,7 @@
 				C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C530AF6E254D9A3C00EDEDC8 /* CollectionReusableView.m in Sources */,
 				C5AA499C250C98EF009F583F /* UIImage+SYS.m in Sources */,
+				C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */,
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
 				C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */,
@@ -1377,7 +1390,6 @@
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
 				C5914B2425384ADB007777A6 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */,
-				C5DDFF9E24D3F9F100307DFA /* NSString+Extras.m in Sources */,
 				C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
 				C54B3EE125529782003BE195 /* UILabel+RichText.m in Sources */,
