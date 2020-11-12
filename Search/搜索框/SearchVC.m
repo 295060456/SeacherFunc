@@ -99,7 +99,7 @@ UITableViewDelegate
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    SearchTBVCell *cell = [SearchTBVCell cellWith:tableView];
+    SearchTBVCell *cell = [SearchTBVCell cellWithTableView:tableView];
     if (self.dataMutArr.count) {
         [cell richElementsInCellWithModel:self.dataMutArr[indexPath.row]];
     }return cell;
@@ -191,7 +191,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
 @implementation SearchTBVCell
 
-+(instancetype)cellWith:(UITableView *)tableView{
++(instancetype)cellWithTableView:(UITableView *)tableView{
     SearchTBVCell *cell = (SearchTBVCell *)[tableView dequeueReusableCellWithIdentifier:ReuseIdentifier];
     if (!cell) {
         cell = [[SearchTBVCell alloc] initWithStyle:UITableViewCellStyleDefault
