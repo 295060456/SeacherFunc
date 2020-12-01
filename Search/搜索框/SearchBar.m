@@ -10,8 +10,7 @@
 
 @interface SearchBar ()
 <
-UITextFieldDelegate,
-CJTextFieldDeleteDelegate
+UITextFieldDelegate
 >
 
 @property(nonatomic,strong)UIButton *cancelBtn;
@@ -46,15 +45,6 @@ CJTextFieldDeleteDelegate
         self.block2(sender);
     }
 }
-#pragma mark —— CJTextFieldDeleteDelegate
-- (void)cjTextFieldDeleteBackward:(CJTextField *)textField{
-    if (self.block) {
-        self.block(textField,
-                   self,
-                   @"",
-                   NSStringFromSelector(_cmd));
-    }
-}
 #pragma mark —— UITextFieldDelegate
 //询问委托人是否应该在指定的文本字段中开始编辑
 //- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField;
@@ -79,10 +69,37 @@ CJTextFieldDeleteDelegate
 - (BOOL)textField:(UITextField *)textField
 shouldChangeCharactersInRange:(NSRange)range
 replacementString:(NSString *)string{//实现逐词搜索
+    
+    NSLog(@"textField.text = %@",textField.text);
+    NSLog(@"string = %@",string);
+    
+#warning 过滤删除最科学的做法
+    
+    NSString *resString = nil;
+    //textField.text 有值 && string无值 ————> 删除操作
+    if (![NSString isNullString:textField.text] && [NSString isNullString:string]) {
+        
+        if (textField.text.length == 1) {
+            resString = @"";
+        }else{
+            resString = [textField.text substringToIndex:(textField.text.length - 1)];//去掉最后一个
+        }
+    }
+    //textField.text 无值 && string有值 ————> 首字符输入
+    if ([NSString isNullString:textField.text] && ![NSString isNullString:string]) {
+        resString = string;
+    }
+    //textField.text 有值 && string有值 ————> 非首字符输入
+    if (![NSString isNullString:textField.text] && ![NSString isNullString:string]) {
+        resString = [textField.text stringByAppendingString:string];
+    }
+
+    NSLog(@"resString = %@",resString);
+    
     if (self.block) {
         self.block(textField,
                    self,
-                   string,
+                   resString,
                    NSStringFromSelector(_cmd));
     }return YES;
 }
@@ -123,7 +140,6 @@ replacementString:(NSString *)string{//实现逐词搜索
     if (!_textField) {
         _textField = ZYTextField.new;
         _textField.delegate = self;
-        _textField.cj_delegate = self;
         _textField.placeholder = self.placeholderStr;
         [UIView colourToLayerOfView:_textField
                          WithColour:KLightGrayColor

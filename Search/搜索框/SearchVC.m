@@ -153,7 +153,8 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
                 [self dismissViewControllerAnimated:YES completion:nil];
             }
         }];
-        [_searchBar actionBlock:^(CJTextField *data,//textField 他的text是最终结果 ?
+
+        [_searchBar actionBlock:^(ZYTextField *data,//textField 他的text是最终结果 ?
                                   SearchBar *data2,//searchBar
                                   NSString *data3,//即将输入的字符
                                   NSString *data4) {//调的方法

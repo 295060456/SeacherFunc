@@ -20,7 +20,6 @@
 		C546C42A252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C426252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C546C42B252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C546C427252C244F003694FF /* UIScrollView+FDFullscreenPopGesture.m */; };
 		C54B3BFA25525FC4003BE195 /* UIFont+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B3BF925525FC4003BE195 /* UIFont+Extras.m */; };
-		C54B3EE125529782003BE195 /* UILabel+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B3EE025529782003BE195 /* UILabel+RichText.m */; };
 		C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */; };
 		C55167A22575205300FF5217 /* CJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C55167942575205300FF5217 /* CJTextField.m */; };
 		C55167A32575205300FF5217 /* ZYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C55167972575205300FF5217 /* ZYTextField.m */; };
@@ -122,6 +121,7 @@
 		C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */ = {isa = PBXBuildFile; fileRef = C5E4C0E524DFF23100D4862C /* 分享控件的用法 */; };
 		C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */; };
 		C5E7D9A924E1457900A38FAF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E7D9A824E1457900A38FAF /* TestView.m */; };
+		C5FF95952575F30900E38D8D /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF95942575F30900E38D8D /* NSObject+RichText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,8 +172,6 @@
 		C546C429252C244F003694FF /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		C54B3BF825525FC4003BE195 /* UIFont+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extras.h"; sourceTree = "<group>"; };
 		C54B3BF925525FC4003BE195 /* UIFont+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extras.m"; sourceTree = "<group>"; };
-		C54B3EDF25529782003BE195 /* UILabel+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RichText.h"; sourceTree = "<group>"; };
-		C54B3EE025529782003BE195 /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
 		C54F85EA252B621400EE3DD0 /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
 		C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
 		C55167942575205300FF5217 /* CJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTextField.m; sourceTree = "<group>"; };
@@ -375,6 +373,8 @@
 		C5E4C0E924DFF23100D4862C /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
 		C5E7D9A724E1457900A38FAF /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C5E7D9A824E1457900A38FAF /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		C5FF95932575F30900E38D8D /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
+		C5FF95942575F30900E38D8D /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		EB5D4118E12BF6B1A61F6CAA /* Pods-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchTests/Pods-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9386D9988E22CF2B1C7CD12 /* Pods-SearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchUITests.release.xcconfig"; path = "Target Support Files/Pods-SearchUITests/Pods-SearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -500,8 +500,6 @@
 			children = (
 				C54B3BF825525FC4003BE195 /* UIFont+Extras.h */,
 				C54B3BF925525FC4003BE195 /* UIFont+Extras.m */,
-				C54B3EDF25529782003BE195 /* UILabel+RichText.h */,
-				C54B3EE025529782003BE195 /* UILabel+RichText.m */,
 			);
 			path = UIFont;
 			sourceTree = "<group>";
@@ -727,6 +725,8 @@
 			isa = PBXGroup;
 			children = (
 				C5AA4967250C9843009F583F /* NSObject+Alert */,
+				C5FF95932575F30900E38D8D /* NSObject+RichText.h */,
+				C5FF95942575F30900E38D8D /* NSObject+RichText.m */,
 				C57F0D12253336C20080EEF0 /* NSObject+OpenURL.h */,
 				C57F0D13253336C20080EEF0 /* NSObject+OpenURL.m */,
 				C5AA496F250C984E009F583F /* NSObject+Extras.h */,
@@ -1329,6 +1329,7 @@
 				C5AA498F250C98DE009F583F /* UIView+Measure.m in Sources */,
 				C5AA4978250C984E009F583F /* NSObject+Extras.m in Sources */,
 				C5914B1925384ADB007777A6 /* UIViewController+BWShareView.m in Sources */,
+				C5FF95952575F30900E38D8D /* NSObject+RichText.m in Sources */,
 				C5AA499D250C98EF009F583F /* UIImage+Overlay.m in Sources */,
 				C54B3BFA25525FC4003BE195 /* UIFont+Extras.m in Sources */,
 				C5569607255BFC7E005C1361 /* NSString+Time.m in Sources */,
@@ -1393,7 +1394,6 @@
 				C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */,
 				C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */,
 				C5DDFF9524D3E2C100307DFA /* SearchVC+VM.m in Sources */,
-				C54B3EE125529782003BE195 /* UILabel+RichText.m in Sources */,
 				C5AEEAD52538417A000E1C5F /* UIView+Animation.m in Sources */,
 				C5AA499F250C98EF009F583F /* UIImage+YBGIF.m in Sources */,
 				C5914B2125384ADB007777A6 /* UIViewController+MJRefresh.m in Sources */,
