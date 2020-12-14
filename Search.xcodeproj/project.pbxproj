@@ -20,7 +20,6 @@
 		C534CD86258759DD001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD7F258759DC001369FD /* BWShareView.m */; };
 		C534CD87258759DD001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD80258759DC001369FD /* BWItemCollectionViewCell.m */; };
 		C534CD89258759DD001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD85258759DD001369FD /* BWItemModel.m */; };
-		C534E6B3257F901F00DBC3CE /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C534E6B1257F901E00DBC3CE /* NSObject+Sound.m */; };
 		C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C534E6B2257F901F00DBC3CE /* NSObject+Extras.m */; };
 		C544C108258375A000C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C1012583759F00C6CF2A /* LOTAnimationMJRefreshHeader.m */; };
 		C544C109258375A000C6CF2A /* JsonRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C544C1032583759F00C6CF2A /* JsonRes.bundle */; };
@@ -34,17 +33,8 @@
 		C562D65025400BFA009DFA21 /* WhiteRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64E25400BFA009DFA21 /* WhiteRightArrow@2x.png */; };
 		C562D65125400BFA009DFA21 /* WhiteRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
-		C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */; };
-		C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */; };
-		C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E524D6F9BE00EC342E /* BRResultModel.m */; };
-		C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8E824D6F9BE00EC342E /* BRStringPickerView.m */; };
-		C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8EA24D6F9BE00EC342E /* BRDatePickerView+BR.m */; };
-		C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8EC24D6F9BE00EC342E /* NSDate+BRPickerView.m */; };
-		C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8ED24D6F9BE00EC342E /* BRDatePickerView.m */; };
-		C56FE90124D6F9BE00EC342E /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C56FE8F324D6F9BE00EC342E /* BRPickerView.bundle */; };
-		C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */; };
-		C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F524D6F9BE00EC342E /* BRBaseView.m */; };
-		C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */; };
+		C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBAC258799F30043C977 /* UIControl+XY.m */; };
+		C56BC00A25879B980043C977 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BC00925879B970043C977 /* NSObject+Sound.m */; };
 		C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276B725408C2A002373D7 /* BaseNavigationVC.m */; };
 		C57276BD25408C2A002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276BA25408C2A002373D7 /* NavigationBar.m */; };
 		C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276CE25408CDF002373D7 /* UIViewController+NavigationBar.m */; };
@@ -119,8 +109,6 @@
 		C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBC24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m */; };
 		C5DDFFC024D3FD8C00307DFA /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFBD24D3FD8C00307DFA /* TBVCell_style_01.m */; };
 		C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */; };
-		C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFD424D4014800307DFA /* UIControl+XY.m */; };
-		C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */ = {isa = PBXBuildFile; fileRef = C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */; };
 		C5E7D9A924E1457900A38FAF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E7D9A824E1457900A38FAF /* TestView.m */; };
 		C5FF95952575F30900E38D8D /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF95942575F30900E38D8D /* NSObject+RichText.m */; };
 /* End PBXBuildFile section */
@@ -174,9 +162,7 @@
 		C534CD83258759DD001369FD /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
 		C534CD84258759DD001369FD /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
 		C534CD85258759DD001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
-		C534E6AF257F901E00DBC3CE /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
 		C534E6B0257F901E00DBC3CE /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
-		C534E6B1257F901E00DBC3CE /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
 		C534E6B2257F901F00DBC3CE /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
 		C544C0FF2583759F00C6CF2A /* UIViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJRefresh.h"; sourceTree = "<group>"; };
 		C544C1012583759F00C6CF2A /* LOTAnimationMJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationMJRefreshHeader.m; sourceTree = "<group>"; };
@@ -197,29 +183,11 @@
 		C562D64F25400BFA009DFA21 /* WhiteRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@3x.png"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
-		C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
-		C56FE8E124D6F9BE00EC342E /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
-		C56FE8E224D6F9BE00EC342E /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
-		C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressPickerView.m; sourceTree = "<group>"; };
-		C56FE8E524D6F9BE00EC342E /* BRResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRResultModel.m; sourceTree = "<group>"; };
-		C56FE8E624D6F9BE00EC342E /* BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStringPickerView.h; sourceTree = "<group>"; };
-		C56FE8E724D6F9BE00EC342E /* BRResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRResultModel.h; sourceTree = "<group>"; };
-		C56FE8E824D6F9BE00EC342E /* BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStringPickerView.m; sourceTree = "<group>"; };
-		C56FE8EA24D6F9BE00EC342E /* BRDatePickerView+BR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BRDatePickerView+BR.m"; sourceTree = "<group>"; };
-		C56FE8EB24D6F9BE00EC342E /* BRDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDatePickerView.h; sourceTree = "<group>"; };
-		C56FE8EC24D6F9BE00EC342E /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRPickerView.m"; sourceTree = "<group>"; };
-		C56FE8ED24D6F9BE00EC342E /* BRDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDatePickerView.m; sourceTree = "<group>"; };
-		C56FE8EE24D6F9BE00EC342E /* BRDatePickerView+BR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BRDatePickerView+BR.h"; sourceTree = "<group>"; };
-		C56FE8EF24D6F9BE00EC342E /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRPickerView.h"; sourceTree = "<group>"; };
-		C56FE8F124D6F9BE00EC342E /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
-		C56FE8F224D6F9BE00EC342E /* BRPickerViewMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerViewMacro.h; sourceTree = "<group>"; };
-		C56FE8F324D6F9BE00EC342E /* BRPickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BRPickerView.bundle; sourceTree = "<group>"; };
-		C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPickerStyle.m; sourceTree = "<group>"; };
-		C56FE8F524D6F9BE00EC342E /* BRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBaseView.m; sourceTree = "<group>"; };
-		C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
-		C56FE8F724D6F9BE00EC342E /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
-		C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
-		C56FE8F924D6F9BE00EC342E /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		C56BBBAB258799F30043C977 /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
+		C56BBBAC258799F30043C977 /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
+		C56BBBAD258799F30043C977 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题.md"; sourceTree = "<group>"; };
+		C56BC00825879B970043C977 /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
+		C56BC00925879B970043C977 /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
 		C57276B725408C2A002373D7 /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
 		C57276B825408C2A002373D7 /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
 		C57276BA25408C2A002373D7 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
@@ -372,9 +340,6 @@
 		C5DDFFC524D3FDF300307DFA /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
 		C5DDFFC824D3FE1500307DFA /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
-		C5DDFFD324D4014800307DFA /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
-		C5DDFFD424D4014800307DFA /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
-		C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题"; sourceTree = "<group>"; };
 		C5E7D9A724E1457900A38FAF /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C5E7D9A824E1457900A38FAF /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		C5FF95932575F30900E38D8D /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
@@ -650,54 +615,12 @@
 			path = "文件夹操作";
 			sourceTree = "<group>";
 		};
-		C56FE8DF24D6F9BE00EC342E /* AddressPickerView */ = {
+		C56BBBB625879A040043C977 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				C56FE8E224D6F9BE00EC342E /* BRAddressModel.h */,
-				C56FE8E024D6F9BE00EC342E /* BRAddressModel.m */,
-				C56FE8E124D6F9BE00EC342E /* BRAddressPickerView.h */,
-				C56FE8E324D6F9BE00EC342E /* BRAddressPickerView.m */,
+				C5DDFFCA24D3FE3D00307DFA /* 高度自定义的按钮 */,
 			);
-			path = AddressPickerView;
-			sourceTree = "<group>";
-		};
-		C56FE8E424D6F9BE00EC342E /* StringPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				C56FE8E724D6F9BE00EC342E /* BRResultModel.h */,
-				C56FE8E524D6F9BE00EC342E /* BRResultModel.m */,
-				C56FE8E624D6F9BE00EC342E /* BRStringPickerView.h */,
-				C56FE8E824D6F9BE00EC342E /* BRStringPickerView.m */,
-			);
-			path = StringPickerView;
-			sourceTree = "<group>";
-		};
-		C56FE8E924D6F9BE00EC342E /* DatePickerView */ = {
-			isa = PBXGroup;
-			children = (
-				C56FE8EB24D6F9BE00EC342E /* BRDatePickerView.h */,
-				C56FE8ED24D6F9BE00EC342E /* BRDatePickerView.m */,
-				C56FE8EE24D6F9BE00EC342E /* BRDatePickerView+BR.h */,
-				C56FE8EA24D6F9BE00EC342E /* BRDatePickerView+BR.m */,
-				C56FE8EF24D6F9BE00EC342E /* NSDate+BRPickerView.h */,
-				C56FE8EC24D6F9BE00EC342E /* NSDate+BRPickerView.m */,
-			);
-			path = DatePickerView;
-			sourceTree = "<group>";
-		};
-		C56FE8F024D6F9BE00EC342E /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				C56FE8F724D6F9BE00EC342E /* BRBaseView.h */,
-				C56FE8F524D6F9BE00EC342E /* BRBaseView.m */,
-				C56FE8F824D6F9BE00EC342E /* BRPickerStyle.h */,
-				C56FE8F424D6F9BE00EC342E /* BRPickerStyle.m */,
-				C56FE8F324D6F9BE00EC342E /* BRPickerView.bundle */,
-				C56FE8F224D6F9BE00EC342E /* BRPickerViewMacro.h */,
-				C56FE8F124D6F9BE00EC342E /* NSBundle+BRPickerView.h */,
-				C56FE8F624D6F9BE00EC342E /* NSBundle+BRPickerView.m */,
-			);
-			path = Base;
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		C57276B625408C2A002373D7 /* UINavigationController */ = {
@@ -981,8 +904,8 @@
 		C5D6C8FB2585F31200029AFF /* NSObject+Sound */ = {
 			isa = PBXGroup;
 			children = (
-				C534E6AF257F901E00DBC3CE /* NSObject+Sound.h */,
-				C534E6B1257F901E00DBC3CE /* NSObject+Sound.m */,
+				C56BC00825879B970043C977 /* NSObject+Sound.h */,
+				C56BC00925879B970043C977 /* NSObject+Sound.m */,
 			);
 			path = "NSObject+Sound";
 			sourceTree = "<group>";
@@ -1216,9 +1139,6 @@
 				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
 				C5CF709E24E50CC9000DB72D /* Suspend */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
-				C5DDFFEB24D408D500307DFA /* BRPickerView */,
-				C5DDFFD224D4014100307DFA /* UIControl+XY */,
-				C5DDFFCA24D3FE3D00307DFA /* 高度自定义的按钮 */,
 				C5DDFFC624D3FE0D00307DFA /* ECAuthorizationTools */,
 				C5DDFFB624D3FA7600307DFA /* UiKit */,
 			);
@@ -1280,6 +1200,8 @@
 		C5DDFFB624D3FA7600307DFA /* UiKit */ = {
 			isa = PBXGroup;
 			children = (
+				C56BBBB625879A040043C977 /* UIButton */,
+				C5DDFFD224D4014100307DFA /* UIControl */,
 				C59C4A8224E3AB73002C2104 /* NSObject */,
 				C5DDFF9B24D3F9EA00307DFA /* NSString */,
 				C530AF5D254D9A3C00EDEDC8 /* UICollectionReusableView 用作基类 */,
@@ -1333,26 +1255,14 @@
 			path = "高度自定义的按钮";
 			sourceTree = "<group>";
 		};
-		C5DDFFD224D4014100307DFA /* UIControl+XY */ = {
+		C5DDFFD224D4014100307DFA /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */,
-				C5DDFFD324D4014800307DFA /* UIControl+XY.h */,
-				C5DDFFD424D4014800307DFA /* UIControl+XY.m */,
+				C56BBBAD258799F30043C977 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */,
+				C56BBBAB258799F30043C977 /* UIControl+XY.h */,
+				C56BBBAC258799F30043C977 /* UIControl+XY.m */,
 			);
-			path = "UIControl+XY";
-			sourceTree = "<group>";
-		};
-		C5DDFFEB24D408D500307DFA /* BRPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				C56FE8F924D6F9BE00EC342E /* BRPickerView.h */,
-				C56FE8DF24D6F9BE00EC342E /* AddressPickerView */,
-				C56FE8F024D6F9BE00EC342E /* Base */,
-				C56FE8E924D6F9BE00EC342E /* DatePickerView */,
-				C56FE8E424D6F9BE00EC342E /* StringPickerView */,
-			);
-			path = BRPickerView;
+			path = UIControl;
 			sourceTree = "<group>";
 		};
 		C5E4C0E224DFF23100D4862C /* 分享控件 */ = {
@@ -1496,11 +1406,9 @@
 				C59BA4FD25273E400039B485 /* 专治UITableView相应链断裂 in Resources */,
 				C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */,
 				C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */,
-				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
 				C5DDFF6524D3E2A700307DFA /* LaunchScreen.storyboard in Resources */,
 				C5D77728257F5A220087FC92 /* ZYTextField.bundle in Resources */,
 				C562D65125400BFA009DFA21 /* WhiteRightArrow@3x.png in Resources */,
-				C56FE90124D6F9BE00EC342E /* BRPickerView.bundle in Resources */,
 				C5DDFF6224D3E2A700307DFA /* Assets.xcassets in Resources */,
 				C5DDFF5D24D3E2A600307DFA /* Main.storyboard in Resources */,
 				C562D65025400BFA009DFA21 /* WhiteRightArrow@2x.png in Resources */,
@@ -1626,7 +1534,6 @@
 				C5D77724257F5A220087FC92 /* HQTextField.m in Sources */,
 				C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C5AA4991250C98DE009F583F /* UIView+Chain.m in Sources */,
-				C56FE90224D6F9BE00EC342E /* BRPickerStyle.m in Sources */,
 				C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */,
 				C59BA50725273E490039B485 /* TableViewAnimationKit.m in Sources */,
 				C5DDFF6824D3E2A700307DFA /* main.m in Sources */,
@@ -1634,21 +1541,17 @@
 				C5AA497F250C985B009F583F /* NSObject+SYSAlertController.m in Sources */,
 				C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */,
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
-				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
 				C534CD87258759DD001369FD /* BWItemCollectionViewCell.m in Sources */,
 				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
 				C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */,
-				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
 				C5D77FB4257F5FB90087FC92 /* ZYTextField+HistoryDataList.m in Sources */,
 				C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */,
 				C595D47025871493002A4531 /* SuspendLab.m in Sources */,
-				C56FE8FE24D6F9BE00EC342E /* BRDatePickerView+BR.m in Sources */,
 				C544C10B258375A000C6CF2A /* UIViewController+MJRefresh.m in Sources */,
-				C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */,
-				C56FE90024D6F9BE00EC342E /* BRDatePickerView.m in Sources */,
 				C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
+				C56BC00A25879B980043C977 /* NSObject+Sound.m in Sources */,
 				C5AA497E250C985B009F583F /* NSObject+SPAlertController.m in Sources */,
 				C585140025484C5E001E6676 /* UIView+Extras.m in Sources */,
 				C54F85EC252B621400EE3DD0 /* UITableView+WWFoldableTableView.m in Sources */,
@@ -1658,6 +1561,7 @@
 				C5AA499C250C98EF009F583F /* UIImage+SYS.m in Sources */,
 				C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */,
 				C5D77727257F5A220087FC92 /* UITextField+Extend.m in Sources */,
+				C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */,
 				C5AA4975250C984E009F583F /* NSObject+Random.m in Sources */,
 				C5AA4979250C984E009F583F /* NSObject+Measure.m in Sources */,
 				C595D47125871493002A4531 /* SuspendView.m in Sources */,
@@ -1670,15 +1574,12 @@
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */,
 				C5914B2525384ADB007777A6 /* UIViewController+TZLocationManager.m in Sources */,
-				C56FE90424D6F9BE00EC342E /* NSBundle+BRPickerView.m in Sources */,
 				C5914B1F25384ADB007777A6 /* UIViewController+TZImagePickerControllerDelegate.m in Sources */,
 				C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */,
 				C5914B2325384ADB007777A6 /* UIViewController+GifImageView.m in Sources */,
 				C5914B1B25384ADB007777A6 /* UIViewController+JPImageresizerView.m in Sources */,
-				C56FE90324D6F9BE00EC342E /* BRBaseView.m in Sources */,
 				C544C108258375A000C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */,
 				C5AA4990250C98DE009F583F /* UIView+Gradient.m in Sources */,
-				C534E6B3257F901F00DBC3CE /* NSObject+Sound.m in Sources */,
 				C5D77725257F5A220087FC92 /* ZYTextField.m in Sources */,
 				C5914B2225384ADB007777A6 /* UIViewController+Shake.m in Sources */,
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
@@ -1689,10 +1590,7 @@
 				C5AEEAD52538417A000E1C5F /* UIView+Animation.m in Sources */,
 				C5AA499F250C98EF009F583F /* UIImage+YBGIF.m in Sources */,
 				C5DDFFBE24D3FD8C00307DFA /* TBVCell_style_02.m in Sources */,
-				C56FE8FF24D6F9BE00EC342E /* NSDate+BRPickerView.m in Sources */,
-				C56FE8FC24D6F9BE00EC342E /* BRResultModel.m in Sources */,
 				C530AF6D254D9A3C00EDEDC8 /* CollectionViewCell.m in Sources */,
-				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
 				C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */,
 				C5AA499E250C98EF009F583F /* UIImage+Tailor.m in Sources */,
 				C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */,
