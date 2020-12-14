@@ -17,6 +17,9 @@
 		C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */; };
 		C530AF70254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */; };
 		C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */; };
+		C534CD86258759DD001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD7F258759DC001369FD /* BWShareView.m */; };
+		C534CD87258759DD001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD80258759DC001369FD /* BWItemCollectionViewCell.m */; };
+		C534CD89258759DD001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD85258759DD001369FD /* BWItemModel.m */; };
 		C534E6B3257F901F00DBC3CE /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C534E6B1257F901E00DBC3CE /* NSObject+Sound.m */; };
 		C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C534E6B2257F901F00DBC3CE /* NSObject+Extras.m */; };
 		C544C108258375A000C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C1012583759F00C6CF2A /* LOTAnimationMJRefreshHeader.m */; };
@@ -118,10 +121,6 @@
 		C5DDFFC924D3FE1500307DFA /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFC724D3FE1500307DFA /* ECAuthorizationTools.m */; };
 		C5DDFFD624D4014800307DFA /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFFD424D4014800307DFA /* UIControl+XY.m */; };
 		C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */ = {isa = PBXBuildFile; fileRef = C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */; };
-		C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E324DFF23100D4862C /* BWItemModel.m */; };
-		C5E4C0EB24DFF23100D4862C /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E424DFF23100D4862C /* BWShareView.m */; };
-		C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */ = {isa = PBXBuildFile; fileRef = C5E4C0E524DFF23100D4862C /* 分享控件的用法 */; };
-		C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */; };
 		C5E7D9A924E1457900A38FAF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E7D9A824E1457900A38FAF /* TestView.m */; };
 		C5FF95952575F30900E38D8D /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF95942575F30900E38D8D /* NSObject+RichText.m */; };
 /* End PBXBuildFile section */
@@ -168,6 +167,13 @@
 		C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFZShopCatoryFlowLayput.m; sourceTree = "<group>"; };
 		C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		C530AF69254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		C534CD7F258759DC001369FD /* BWShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWShareView.m; sourceTree = "<group>"; };
+		C534CD80258759DC001369FD /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
+		C534CD81258759DC001369FD /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
+		C534CD82258759DD001369FD /* BWItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemModel.h; sourceTree = "<group>"; };
+		C534CD83258759DD001369FD /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
+		C534CD84258759DD001369FD /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
+		C534CD85258759DD001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C534E6AF257F901E00DBC3CE /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
 		C534E6B0257F901E00DBC3CE /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
 		C534E6B1257F901E00DBC3CE /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
@@ -369,13 +375,6 @@
 		C5DDFFD324D4014800307DFA /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C5DDFFD424D4014800307DFA /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C5DDFFD524D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题"; sourceTree = "<group>"; };
-		C5E4C0E324DFF23100D4862C /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
-		C5E4C0E424DFF23100D4862C /* BWShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWShareView.m; sourceTree = "<group>"; };
-		C5E4C0E524DFF23100D4862C /* 分享控件的用法 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "分享控件的用法"; sourceTree = "<group>"; };
-		C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
-		C5E4C0E724DFF23100D4862C /* BWItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemModel.h; sourceTree = "<group>"; };
-		C5E4C0E824DFF23100D4862C /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
-		C5E4C0E924DFF23100D4862C /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
 		C5E7D9A724E1457900A38FAF /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C5E7D9A824E1457900A38FAF /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		C5FF95932575F30900E38D8D /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
@@ -1359,13 +1358,13 @@
 		C5E4C0E224DFF23100D4862C /* 分享控件 */ = {
 			isa = PBXGroup;
 			children = (
-				C5E4C0E524DFF23100D4862C /* 分享控件的用法 */,
-				C5E4C0E824DFF23100D4862C /* BWItemCollectionViewCell.h */,
-				C5E4C0E624DFF23100D4862C /* BWItemCollectionViewCell.m */,
-				C5E4C0E724DFF23100D4862C /* BWItemModel.h */,
-				C5E4C0E324DFF23100D4862C /* BWItemModel.m */,
-				C5E4C0E924DFF23100D4862C /* BWShareView.h */,
-				C5E4C0E424DFF23100D4862C /* BWShareView.m */,
+				C534CD84258759DD001369FD /* 分享控件的用法.md */,
+				C534CD83258759DD001369FD /* BWItemCollectionViewCell.h */,
+				C534CD80258759DC001369FD /* BWItemCollectionViewCell.m */,
+				C534CD82258759DD001369FD /* BWItemModel.h */,
+				C534CD85258759DD001369FD /* BWItemModel.m */,
+				C534CD81258759DC001369FD /* BWShareView.h */,
+				C534CD7F258759DC001369FD /* BWShareView.m */,
 			);
 			path = "分享控件";
 			sourceTree = "<group>";
@@ -1495,7 +1494,6 @@
 			files = (
 				C544C109258375A000C6CF2A /* JsonRes.bundle in Resources */,
 				C59BA4FD25273E400039B485 /* 专治UITableView相应链断裂 in Resources */,
-				C5E4C0EC24DFF23100D4862C /* 分享控件的用法 in Resources */,
 				C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */,
 				C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */,
 				C5DDFFD724D4014800307DFA /* iOS小技巧：用runtime 解决UIButton 重复点击问题 in Resources */,
@@ -1621,6 +1619,7 @@
 				C5AA498F250C98DE009F583F /* UIView+Measure.m in Sources */,
 				C5914B1925384ADB007777A6 /* UIViewController+BWShareView.m in Sources */,
 				C5FF95952575F30900E38D8D /* NSObject+RichText.m in Sources */,
+				C534CD89258759DD001369FD /* BWItemModel.m in Sources */,
 				C5AA499D250C98EF009F583F /* UIImage+Overlay.m in Sources */,
 				C54B3BFA25525FC4003BE195 /* UIFont+Extras.m in Sources */,
 				C5766D882546B7B500C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
@@ -1636,7 +1635,7 @@
 				C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */,
 				C5DDFF6024D3E2A600307DFA /* Search.xcdatamodeld in Sources */,
 				C56FE8FA24D6F9BE00EC342E /* BRAddressModel.m in Sources */,
-				C5E4C0EA24DFF23100D4862C /* BWItemModel.m in Sources */,
+				C534CD87258759DD001369FD /* BWItemCollectionViewCell.m in Sources */,
 				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
 				C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */,
 				C56FE8FB24D6F9BE00EC342E /* BRAddressPickerView.m in Sources */,
@@ -1682,7 +1681,6 @@
 				C534E6B3257F901F00DBC3CE /* NSObject+Sound.m in Sources */,
 				C5D77725257F5A220087FC92 /* ZYTextField.m in Sources */,
 				C5914B2225384ADB007777A6 /* UIViewController+Shake.m in Sources */,
-				C5E4C0EB24DFF23100D4862C /* BWShareView.m in Sources */,
 				C5DDFFBF24D3FD8C00307DFA /* UITableViewCell+WhiteArrows.m in Sources */,
 				C5914B2425384ADB007777A6 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */,
@@ -1697,10 +1695,10 @@
 				C56FE8FD24D6F9BE00EC342E /* BRStringPickerView.m in Sources */,
 				C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */,
 				C5AA499E250C98EF009F583F /* UIImage+Tailor.m in Sources */,
-				C5E4C0ED24DFF23100D4862C /* BWItemCollectionViewCell.m in Sources */,
 				C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */,
 				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
 				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
+				C534CD86258759DD001369FD /* BWShareView.m in Sources */,
 				C58C62022532FDC70092BF89 /* UIView+Rotate.m in Sources */,
 				C5DDFF9324D3E2C100307DFA /* SearchModel.m in Sources */,
 				C5914B1E25384ADB007777A6 /* UIViewController+BaseVC.m in Sources */,
