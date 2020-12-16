@@ -198,6 +198,11 @@
 		C552AECC2589DE8200A89501 /* UIImage+Tailor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tailor.h"; sourceTree = "<group>"; };
 		C55695FF255BFC7E005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C5569603255BFC7E005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C5580582258A461E0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
+		C558ED83258A26F00078DB8F /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
+		C558ED84258A27130078DB8F /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
+		C558ED85258A275D0078DB8F /* MacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef.h; sourceTree = "<group>"; };
+		C558ED87258A280C0078DB8F /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C56BBBAB258799F30043C977 /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
@@ -313,8 +318,8 @@
 		C5DDFF5324D3E2A600307DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C5DDFF5524D3E2A600307DFA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C5DDFF5624D3E2A600307DFA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C5DDFF5824D3E2A600307DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "New Group/ViewController.h"; sourceTree = "<group>"; };
-		C5DDFF5924D3E2A600307DFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "New Group/ViewController.m"; sourceTree = "<group>"; };
+		C5DDFF5824D3E2A600307DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5DDFF5924D3E2A600307DFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5DDFF5C24D3E2A600307DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5DDFF5F24D3E2A600307DFA /* Search.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Search.xcdatamodel; sourceTree = "<group>"; };
 		C5DDFF6124D3E2A700307DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -679,6 +684,86 @@
 			path = "UIImage+Tailor";
 			sourceTree = "<group>";
 		};
+		C5580581258A46120078DB8F /* PodsManual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PodsManual;
+			sourceTree = "<group>";
+		};
+		C558ED7C258A26990078DB8F /* 🌹Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDFF9824D3E33500307DFA /* PrefixHeader.pch */,
+				C558ED7F258A26B00078DB8F /* 第三方头文件管理 */,
+				C558ED7E258A26AA0078DB8F /* 其他杂项 */,
+				C558ED7D258A26A30078DB8F /* 各项全局定义 */,
+			);
+			path = "🌹Macro";
+			sourceTree = "<group>";
+		};
+		C558ED7D258A26A30078DB8F /* 各项全局定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDFFC524D3FDF300307DFA /* AABlock.h */,
+				C558ED85258A275D0078DB8F /* MacroDef.h */,
+			);
+			path = "各项全局定义";
+			sourceTree = "<group>";
+		};
+		C558ED7E258A26AA0078DB8F /* 其他杂项 */ = {
+			isa = PBXGroup;
+			children = (
+				C558ED87258A280C0078DB8F /* Other.h */,
+			);
+			path = "其他杂项";
+			sourceTree = "<group>";
+		};
+		C558ED7F258A26B00078DB8F /* 第三方头文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				C558ED81258A26C00078DB8F /* 手动导入的第三方 */,
+				C558ED80258A26B80078DB8F /* Pods */,
+			);
+			path = "第三方头文件管理";
+			sourceTree = "<group>";
+		};
+		C558ED80258A26B80078DB8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C558ED83258A26F00078DB8F /* Pods.h */,
+				C5580582258A461E0078DB8F /* PodsManual.h */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C558ED81258A26C00078DB8F /* 手动导入的第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				C558ED84258A27130078DB8F /* Manual_Add_ThirdParty.h */,
+			);
+			path = "手动导入的第三方";
+			sourceTree = "<group>";
+		};
+		C558ED86258A27B00078DB8F /* 业务 */ = {
+			isa = PBXGroup;
+			children = (
+				C58F03EB24EAD07100B6D09C /* GTProxy.h */,
+				C58F03EC24EAD07100B6D09C /* GTProxy.m */,
+				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
+				C58F04B424ED2EFE00B6D09C /* 1ViewController.h */,
+				C58F04B524ED2EFE00B6D09C /* 1ViewController.m */,
+				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
+				C5E7D9A724E1457900A38FAF /* TestView.h */,
+				C5E7D9A824E1457900A38FAF /* TestView.m */,
+				C5748A1F24DC325300A842B2 /* TestBlock.h */,
+				C5748A2024DC325300A842B2 /* TestBlock.m */,
+				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
+				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
+			);
+			path = "业务";
+			sourceTree = "<group>";
+		};
 		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1013,6 +1098,7 @@
 		C5D6DB8325860ED800029AFF /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				C5DDFF6124D3E2A700307DFA /* Assets.xcassets */,
 				C573425325248B5000CC6A3A /* QQQ.mp4 */,
 				C5B7E2DD252478C400BC4E9D /* Others.bundle */,
 			);
@@ -1116,8 +1202,9 @@
 				C5DDFF5124D3E2A600307DFA /* Search */,
 				C5DDFF7024D3E2A700307DFA /* SearchTests */,
 				C5DDFF7B24D3E2A700307DFA /* SearchUITests */,
-				D19FAF3A9975D083D9406F5C /* Pods */,
 				253ED25A9666F2590651B425 /* Frameworks */,
+				D19FAF3A9975D083D9406F5C /* Pods */,
+				C5580581258A46120078DB8F /* PodsManual */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1135,26 +1222,12 @@
 		C5DDFF5124D3E2A600307DFA /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				C5D6FD3B2586278B00029AFF /* AppDelegate & SceneDelegate */,
-				C5D6DB8325860ED800029AFF /* 资源 */,
-				C5DDFFC524D3FDF300307DFA /* AABlock.h */,
-				C5DDFF9824D3E33500307DFA /* PrefixHeader.pch */,
 				C5DDFF6624D3E2A700307DFA /* Info.plist */,
+				C5D6FD3B2586278B00029AFF /* AppDelegate & SceneDelegate */,
+				C558ED7C258A26990078DB8F /* 🌹Macro */,
 				C5DDFF9A24D3F9E200307DFA /* 3rd */,
 				C5DDFF9924D3E35700307DFA /* Other */,
-				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
-				C58F03EB24EAD07100B6D09C /* GTProxy.h */,
-				C58F03EC24EAD07100B6D09C /* GTProxy.m */,
-				C5DDFF5824D3E2A600307DFA /* ViewController.h */,
-				C58F04B424ED2EFE00B6D09C /* 1ViewController.h */,
-				C58F04B524ED2EFE00B6D09C /* 1ViewController.m */,
-				C5DDFF5924D3E2A600307DFA /* ViewController.m */,
-				C5E7D9A724E1457900A38FAF /* TestView.h */,
-				C5E7D9A824E1457900A38FAF /* TestView.m */,
-				C5748A1F24DC325300A842B2 /* TestBlock.h */,
-				C5748A2024DC325300A842B2 /* TestBlock.m */,
-				C57ADF8824D938BC00419DFA /* ViewController+Category.h */,
-				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
+				C558ED86258A27B00078DB8F /* 业务 */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -1195,7 +1268,7 @@
 		C5DDFF9924D3E35700307DFA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				C5DDFF6124D3E2A700307DFA /* Assets.xcassets */,
+				C5D6DB8325860ED800029AFF /* 资源 */,
 				C5DDFF6324D3E2A700307DFA /* LaunchScreen.storyboard */,
 				C5DDFF6724D3E2A700307DFA /* main.m */,
 				C5DDFF5B24D3E2A600307DFA /* Main.storyboard */,
@@ -1208,6 +1281,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
 				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
 				C563AE3D24F27F1000A3B0AC /* 文件夹操作 */,
@@ -1842,7 +1916,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Search/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Search/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1862,7 +1936,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Search/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Search/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

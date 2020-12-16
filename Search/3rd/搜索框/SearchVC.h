@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TBVCell_style_01.h"
+#import "UITableViewCell+Margin.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SearchTBVCell : TBVCell_style_01
+@interface SearchTBVCell : UITableViewCell
 
 +(instancetype)cellWithTableView:(UITableView *)tableView;
 +(CGFloat)cellHeightWithModel:(id _Nullable)model;

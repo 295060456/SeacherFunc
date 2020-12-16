@@ -35,45 +35,6 @@ UITableViewDelegate
     NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
 }
 
-+ (instancetype)ComingFromVC:(UIViewController *)rootVC
-                 comingStyle:(ComingStyle)comingStyle
-           presentationStyle:(UIModalPresentationStyle)presentationStyle
-               requestParams:(nullable id)requestParams
-                     success:(MKDataBlock)block
-                    animated:(BOOL)animated{
-    SearchVC *vc = SearchVC.new;
-    vc.successBlock = block;
-    vc.requestParams = requestParams;
-    switch (comingStyle) {
-        case ComingStyle_PUSH:{
-            if (rootVC.navigationController) {
-                vc.isPush = YES;
-                vc.isPresent = NO;
-                [rootVC.navigationController pushViewController:vc
-                                                       animated:animated];
-            }else{
-                vc.isPush = NO;
-                vc.isPresent = YES;
-                [rootVC presentViewController:vc
-                                     animated:animated
-                                   completion:^{}];
-            }
-        }break;
-        case ComingStyle_PRESENT:{
-            vc.isPush = NO;
-            vc.isPresent = YES;
-            //iOS_13中modalPresentationStyle的默认改为UIModalPresentationAutomatic,而在之前默认是UIModalPresentationFullScreen
-            vc.modalPresentationStyle = presentationStyle;
-            [rootVC presentViewController:vc
-                                 animated:animated
-                               completion:^{}];
-        }break;
-        default:
-            NSLog(@"错误的推进方式");
-            break;
-    }return vc;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = kWhiteColor;
@@ -196,8 +157,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     SearchTBVCell *cell = (SearchTBVCell *)[tableView dequeueReusableCellWithIdentifier:ReuseIdentifier];
     if (!cell) {
         cell = [[SearchTBVCell alloc] initWithStyle:UITableViewCellStyleDefault
-                                    reuseIdentifier:ReuseIdentifier
-                                             margin:SCALING_RATIO(0)];
+                                    reuseIdentifier:ReuseIdentifier];
         [UIView cornerCutToCircleWithView:cell.contentView
                           AndCornerRadius:5.f];
         [UIView colourToLayerOfView:cell.contentView

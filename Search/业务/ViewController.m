@@ -88,13 +88,16 @@
 }
 
 -(void)search{
-    //    @weakify(self)
-    //    [SearchVC ComingFromVC:weak_self
-    //               comingStyle:ComingStyle_PUSH
-    //         presentationStyle:UIModalPresentationAutomatic
-    //             requestParams:nil
-    //                   success:^(id data) {}
-    //                  animated:YES];
+    [UIViewController comingFromVC:self
+                              toVC:SearchVC.new
+                       comingStyle:ComingStyle_PUSH
+                 presentationStyle:[UIDevice currentDevice].systemVersion.doubleValue >= 13.0 ? UIModalPresentationAutomatic : UIModalPresentationFullScreen
+                     requestParams:nil
+          hidesBottomBarWhenPushed:YES
+                          animated:YES
+                           success:^(id data) {
+        
+    }];
 }
 //datePickerView
 -(void)DatePickerView{
