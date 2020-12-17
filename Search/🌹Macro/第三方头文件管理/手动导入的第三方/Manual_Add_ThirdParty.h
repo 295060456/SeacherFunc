@@ -29,6 +29,7 @@
 #import "UIView+Measure.h"
 #import "UIView+Animation.h"
 #import "UIView+Gradient.h"
+#import "UIView+EmptyData.h"
 /// UIImageView
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
@@ -52,6 +53,7 @@
 #import "UIViewController+TZImagePickerControllerDelegate.h"
 #import "UIViewController+TZLocationManager.h"
 #import "UIViewController+NavigationBar.h"
+#import "UIViewController+EmptyData.h"
 /// UINavigationController
 #import "BaseNavigationVC.h"
 /// UINavigationBar

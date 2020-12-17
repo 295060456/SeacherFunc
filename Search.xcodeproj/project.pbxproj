@@ -85,6 +85,8 @@
 		C5AEEAD52538417A000E1C5F /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEAD32538417A000E1C5F /* UIView+Animation.m */; };
 		C5B7E2DE252478C400BC4E9D /* Others.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5B7E2DD252478C400BC4E9D /* Others.bundle */; };
 		C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */; };
+		C5D1C054258B203600784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C052258B203600784D2F /* UIView+EmptyData.m */; };
+		C5D1C05D258B204900784D2F /* UIViewController+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C05C258B204900784D2F /* UIViewController+EmptyData.m */; };
 		C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DB7A25860EC700029AFF /* NSObject+Time.m */; };
 		C5D6DB7F25860EC700029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DB7C25860EC700029AFF /* TimeModel.m */; };
 		C5D77723257F5A220087FC92 /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D7770E257F5A210087FC92 /* JobsMagicTextField.m */; };
@@ -296,6 +298,10 @@
 		C5B7E2DD252478C400BC4E9D /* Others.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Others.bundle; sourceTree = "<group>"; };
 		C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorNetwoking.m; sourceTree = "<group>"; };
 		C5CF70DF24E51CDE000DB72D /* MonitorNetwoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorNetwoking.h; sourceTree = "<group>"; };
+		C5D1C052258B203600784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
+		C5D1C053258B203600784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
+		C5D1C05B258B204900784D2F /* UIViewController+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EmptyData.h"; sourceTree = "<group>"; };
+		C5D1C05C258B204900784D2F /* UIViewController+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EmptyData.m"; sourceTree = "<group>"; };
 		C5D6DB7925860EC700029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C5D6DB7A25860EC700029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5D6DB7C25860EC700029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
@@ -1005,6 +1011,24 @@
 			path = "网络数据实时监测";
 			sourceTree = "<group>";
 		};
+		C5D1BB6D258B0CB000784D2F /* UIViewController+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1C05B258B204900784D2F /* UIViewController+EmptyData.h */,
+				C5D1C05C258B204900784D2F /* UIViewController+EmptyData.m */,
+			);
+			path = "UIViewController+EmptyData";
+			sourceTree = "<group>";
+		};
+		C5D1C051258B203600784D2F /* UIView+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1C052258B203600784D2F /* UIView+EmptyData.m */,
+				C5D1C053258B203600784D2F /* UIView+EmptyData.h */,
+			);
+			path = "UIView+EmptyData";
+			sourceTree = "<group>";
+		};
 		C5D6C8F22585F2E400029AFF /* NSObject+Extras */ = {
 			isa = PBXGroup;
 			children = (
@@ -1183,15 +1207,16 @@
 		C5D78A3B257F7A310087FC92 /* UIViewController+Others */ = {
 			isa = PBXGroup;
 			children = (
-				C544BD3D2583732600C6CF2A /* UIViewController+Shake */,
-				C544BD3C2583731D00C6CF2A /* UIViewController+MJRefresh */,
-				C544BD3B2583731300C6CF2A /* UIViewController+JPImageresizerView */,
-				C544BD3A2583730A00C6CF2A /* UIViewController+GifImageView */,
-				C544BD392583730000C6CF2A /* UIViewController+BWShareView */,
-				C544BD38258372F700C6CF2A /* UIViewController+BRPickerView */,
-				C544BD37258372EF00C6CF2A /* UIViewController+BaseVC */,
 				C544BD36258372E900C6CF2A /* UIViewController+BackBtn */,
+				C544BD37258372EF00C6CF2A /* UIViewController+BaseVC */,
+				C544BD38258372F700C6CF2A /* UIViewController+BRPickerView */,
+				C544BD392583730000C6CF2A /* UIViewController+BWShareView */,
+				C5D1BB6D258B0CB000784D2F /* UIViewController+EmptyData */,
+				C544BD3A2583730A00C6CF2A /* UIViewController+GifImageView */,
+				C544BD3B2583731300C6CF2A /* UIViewController+JPImageresizerView */,
+				C544BD3C2583731D00C6CF2A /* UIViewController+MJRefresh */,
 				C544BD35258372E000C6CF2A /* UIViewController+NavigationBar */,
+				C544BD3D2583732600C6CF2A /* UIViewController+Shake */,
 			);
 			path = "UIViewController+Others";
 			sourceTree = "<group>";
@@ -1331,6 +1356,7 @@
 			children = (
 				C595BDD7258641C8002A4531 /* UIView+Animation */,
 				C595BDD9258641E3002A4531 /* UIView+Chain */,
+				C5D1C051258B203600784D2F /* UIView+EmptyData */,
 				C595BDD8258641CC002A4531 /* UIView+Extras */,
 				C595BDDA258641E9002A4531 /* UIView+Gradient */,
 				C595BDDB258641F0002A4531 /* UIView+Measure */,
@@ -1670,6 +1696,7 @@
 				C5766D882546B7B500C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C5D77724257F5A220087FC92 /* HQTextField.m in Sources */,
 				C57C22A32502572F00FAAA3F /* UIButton+ImageTitleSpacing.m in Sources */,
+				C5D1C054258B203600784D2F /* UIView+EmptyData.m in Sources */,
 				C5AA4991250C98DE009F583F /* UIView+Chain.m in Sources */,
 				C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */,
 				C59BA50725273E490039B485 /* TableViewAnimationKit.m in Sources */,
@@ -1719,6 +1746,7 @@
 				C5AA4990250C98DE009F583F /* UIView+Gradient.m in Sources */,
 				C5D77725257F5A220087FC92 /* ZYTextField.m in Sources */,
 				C5914B2225384ADB007777A6 /* UIViewController+Shake.m in Sources */,
+				C5D1C05D258B204900784D2F /* UIViewController+EmptyData.m in Sources */,
 				C552AECD2589DE8200A89501 /* UIImage+ScreenShot.m in Sources */,
 				C5914B2425384ADB007777A6 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */,
