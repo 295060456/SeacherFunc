@@ -122,10 +122,10 @@ replacementString:(NSString *)string{//实现逐词搜索
         _cancelBtn.backgroundColor = kWhiteColor;
         _cancelBtn.uxy_acceptEventInterval = 1;
         [UIView cornerCutToCircleWithView:_cancelBtn
-                          AndCornerRadius:3.f];
+                          andCornerRadius:3.f];
         [UIView colourToLayerOfView:_cancelBtn
-                         WithColour:KLightGrayColor
-                     AndBorderWidth:0.5f];
+                         withColour:KLightGrayColor
+                     andBorderWidth:0.5f];
         [self addSubview:_cancelBtn];
         [_cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(self).offset(SCALING_RATIO(-20));
@@ -142,10 +142,10 @@ replacementString:(NSString *)string{//实现逐词搜索
         _textField.delegate = self;
         _textField.placeholder = self.placeholderStr;
         [UIView colourToLayerOfView:_textField
-                         WithColour:KLightGrayColor
-                     AndBorderWidth:0.5f];
+                         withColour:KLightGrayColor
+                     andBorderWidth:0.5f];
         [UIView cornerCutToCircleWithView:_textField
-                          AndCornerRadius:3.f];
+                          andCornerRadius:3.f];
         [self addSubview:_textField];
         [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self).offset(SCALING_RATIO(20));

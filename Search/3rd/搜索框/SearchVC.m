@@ -159,10 +159,10 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
         cell = [[SearchTBVCell alloc] initWithStyle:UITableViewCellStyleDefault
                                     reuseIdentifier:ReuseIdentifier];
         [UIView cornerCutToCircleWithView:cell.contentView
-                          AndCornerRadius:5.f];
+                          andCornerRadius:5.f];
         [UIView colourToLayerOfView:cell.contentView
-                         WithColour:KGreenColor
-                     AndBorderWidth:.1f];
+                         withColour:KGreenColor
+                     andBorderWidth:.1f];
         cell.backgroundColor = KLightGrayColor;;
     }return cell;
 }
