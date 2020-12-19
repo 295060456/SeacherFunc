@@ -72,6 +72,8 @@
 		C595D46F25871493002A4531 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C595D46725871493002A4531 /* SuspendBtn.m */; };
 		C595D47025871493002A4531 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C595D46B25871493002A4531 /* SuspendLab.m */; };
 		C595D47125871493002A4531 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595D46D25871493002A4531 /* SuspendView.m */; };
+		C59A3DD8258DD200005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3DD6258DD200005F6260 /* UserDefaultModel.m */; };
+		C59A3DD9258DD200005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3DD7258DD200005F6260 /* UserDefaultManager.m */; };
 		C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BA4F925273E400039B485 /* BaseTableViewer.m */; };
 		C59BA50725273E490039B485 /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BA50125273E480039B485 /* TableViewAnimationKit.m */; };
 		C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BA50325273E480039B485 /* UITableView+XSAnimationKit.m */; };
@@ -272,6 +274,10 @@
 		C595D46B25871493002A4531 /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C595D46D25871493002A4531 /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C595D46E25871493002A4531 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
+		C59A3DD4258DD200005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
+		C59A3DD5258DD200005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
+		C59A3DD6258DD200005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
+		C59A3DD7258DD200005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
 		C59BA4F925273E400039B485 /* BaseTableViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewer.m; sourceTree = "<group>"; };
 		C59BA4FA25273E400039B485 /* BaseTableViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewer.h; sourceTree = "<group>"; };
 		C59BA50125273E480039B485 /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
@@ -931,6 +937,17 @@
 			path = SuspendView;
 			sourceTree = "<group>";
 		};
+		C59A3DD3258DD200005F6260 /* UserDefaultManager */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3DD4258DD200005F6260 /* UserDefaultManager.h */,
+				C59A3DD5258DD200005F6260 /* UserDefaultModel.h */,
+				C59A3DD6258DD200005F6260 /* UserDefaultModel.m */,
+				C59A3DD7258DD200005F6260 /* UserDefaultManager.m */,
+			);
+			path = UserDefaultManager;
+			sourceTree = "<group>";
+		};
 		C59BA4F625273E270039B485 /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1318,6 +1335,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C59A3DD3258DD200005F6260 /* UserDefaultManager */,
 				C5DDFF8A24D3E2B800307DFA /* 搜索框 */,
 				C5E4C0E224DFF23100D4862C /* 分享控件 */,
 				C5CF70DD24E51CD7000DB72D /* 网络数据实时监测 */,
@@ -1700,6 +1718,7 @@
 				C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */,
 				C552AECF2589DE8200A89501 /* UIImage+SYS.m in Sources */,
 				C544C10A258375A000C6CF2A /* MJRefreshConfigModel.m in Sources */,
+				C59A3DD8258DD200005F6260 /* UserDefaultModel.m in Sources */,
 				C5AA498F250C98DE009F583F /* UIView+Measure.m in Sources */,
 				C552AED22589DE8200A89501 /* UIImage+Tailor.m in Sources */,
 				C5914B1925384ADB007777A6 /* UIViewController+BWShareView.m in Sources */,
@@ -1726,6 +1745,7 @@
 				C595D47025871493002A4531 /* SuspendLab.m in Sources */,
 				C544C10B258375A000C6CF2A /* UIViewController+MJRefresh.m in Sources */,
 				C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */,
+				C59A3DD9258DD200005F6260 /* UserDefaultManager.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
 				C56BC00A25879B980043C977 /* NSObject+Sound.m in Sources */,
