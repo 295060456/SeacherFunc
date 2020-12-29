@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability-new"
+
 @interface AppDelegate ()
 
 @end
@@ -19,11 +22,7 @@
     // Override point for customization after application launch.
     return YES;
 }
-
-
 #pragma mark - UISceneSession lifecycle
-
-
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
@@ -91,3 +90,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop
