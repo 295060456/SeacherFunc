@@ -129,9 +129,6 @@
 		C5C65258259DF8D600FD2F99 /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C65223259DF8D600FD2F99 /* 文件和文件夹@3x.png */; };
 		C5C65259259DF8D600FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C65224259DF8D600FD2F99 /* 定位服务@3x.png */; };
 		C5C6525A259DF8D600FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C65227259DF8D600FD2F99 /* ECPrivacyCheckGatherTool.m */; };
-		C5C65273259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C6526E259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.m */; };
-		C5C65274259DF8EE00FD2F99 /* UIViewController+TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C65271259DF8EE00FD2F99 /* UIViewController+TZLocationManager.m */; };
-		C5C65275259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C65272259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.m */; };
 		C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */; };
 		C5D1C054258B203600784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C052258B203600784D2F /* UIView+EmptyData.m */; };
 		C5D1C05D258B204900784D2F /* UIViewController+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C05C258B204900784D2F /* UIViewController+EmptyData.m */; };
@@ -410,12 +407,6 @@
 		C5C6522A259DF8D600FD2F99 /* ECPrivacyCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckTools.h; sourceTree = "<group>"; };
 		C5C6522C259DF8D600FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
 		C5C6522D259DF8D600FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
-		C5C6526D259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZImagePickerControllerDelegate.h"; sourceTree = "<group>"; };
-		C5C6526E259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
-		C5C6526F259DF8EE00FD2F99 /* UIViewController+TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZLocationManager.h"; sourceTree = "<group>"; };
-		C5C65270259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZImagePickerController.h"; sourceTree = "<group>"; };
-		C5C65271259DF8EE00FD2F99 /* UIViewController+TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZLocationManager.m"; sourceTree = "<group>"; };
-		C5C65272259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZImagePickerController.m"; sourceTree = "<group>"; };
 		C5CF70DE24E51CDD000DB72D /* MonitorNetwoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorNetwoking.m; sourceTree = "<group>"; };
 		C5CF70DF24E51CDE000DB72D /* MonitorNetwoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorNetwoking.h; sourceTree = "<group>"; };
 		C5D1C052258B203600784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
@@ -736,7 +727,6 @@
 			children = (
 				C5766D382546B77E00C382C8 /* UIViewController+JXCategory */,
 				C5D78A3B257F7A310087FC92 /* UIViewController+Others */,
-				C5766D852546B79900C382C8 /* UIViewController+TZImagePickerController */,
 			);
 			path = "UIViewController+Category";
 			sourceTree = "<group>";
@@ -940,19 +930,6 @@
 				C5914B0925384AD9007777A6 /* UIViewController+JXCategoryListContentViewDelegate.m */,
 			);
 			path = "UIViewController+JXCategory";
-			sourceTree = "<group>";
-		};
-		C5766D852546B79900C382C8 /* UIViewController+TZImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				C5C65270259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.h */,
-				C5C65272259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.m */,
-				C5C6526D259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.h */,
-				C5C6526E259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.m */,
-				C5C6526F259DF8EE00FD2F99 /* UIViewController+TZLocationManager.h */,
-				C5C65271259DF8EE00FD2F99 /* UIViewController+TZLocationManager.m */,
-			);
-			path = "UIViewController+TZImagePickerController";
 			sourceTree = "<group>";
 		};
 		C595BDD0258641C4002A4531 /* UIView+SuspendView */ = {
@@ -1974,8 +1951,6 @@
 				C5C65236259DF8D600FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C552ADCC2589DD8100A89501 /* UITableViewCell+Margin.m in Sources */,
 				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
-				C5C65273259DF8EE00FD2F99 /* UIViewController+TZImagePickerControllerDelegate.m in Sources */,
-				C5C65275259DF8EE00FD2F99 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */,
 				C5D77FB4257F5FB90087FC92 /* ZYTextField+HistoryDataList.m in Sources */,
 				C5C65238259DF8D600FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
@@ -2046,7 +2021,6 @@
 				C552AED02589DE8200A89501 /* UIImage+Overlay.m in Sources */,
 				C561613024EE1F1E001CD851 /* ViewController.m in Sources */,
 				C5C65237259DF8D600FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
-				C5C65274259DF8EE00FD2F99 /* UIViewController+TZLocationManager.m in Sources */,
 				C5AA49B3250C995B009F583F /* UIImageView+GIF.m in Sources */,
 				C5C6523A259DF8D600FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 				C57F0D14253336C20080EEF0 /* NSObject+OpenURL.m in Sources */,
