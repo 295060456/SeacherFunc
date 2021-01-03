@@ -54,10 +54,11 @@
 //                                                   localFileSuffix:@"/QQQ.mp4"
 //                                                          fileType:VEDIO];
     
-    NSString *fileFolderPathStr = [FileFolderHandleTool BundleFile:nil
-                                                       ToLocalFile:@"QQQ"
+    NSString *fileFolderPathStr = [FileFolderHandleTool bundleFile:nil
+                                                       toLocalFile:@"QQQ"
                                                    localFileSuffix:@"/QQQ.mp4"
-                                                          fileType:VEDIO];
+                                                          fileType:VEDIO
+                                                             error:nil];
     
     [self KKK:fileFolderPathStr];
 
@@ -67,7 +68,8 @@
     BOOL d = [NSString isNullString:fileFolderPathStr];
     if (!d) {
         [FileFolderHandleTool delFile:@[fileFolderPathStr]
-                           fileSuffix:@"mp4"];//删除文件夹📂路径下的文件
+                           fileSuffix:@"mp4"
+                                error:nil];//删除文件夹📂路径下的文件
 
         [self getVedioDuringTimeWithfilePath:[NSString stringWithFormat:@"%@%@",fileFolderPathStr,@"/kkk.mp4"]];
     }

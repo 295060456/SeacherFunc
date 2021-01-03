@@ -19,6 +19,7 @@
 		C534CD87258759DD001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD80258759DC001369FD /* BWItemCollectionViewCell.m */; };
 		C534CD89258759DD001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CD85258759DD001369FD /* BWItemModel.m */; };
 		C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C534E6B2257F901F00DBC3CE /* NSObject+Extras.m */; };
+		C53C9E8425A1D0250007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9E8225A1D0250007F58F /* NSObject+DataSave.m */; };
 		C544C108258375A000C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C1012583759F00C6CF2A /* LOTAnimationMJRefreshHeader.m */; };
 		C544C109258375A000C6CF2A /* JsonRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C544C1032583759F00C6CF2A /* JsonRes.bundle */; };
 		C544C10A258375A000C6CF2A /* MJRefreshConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C1062583759F00C6CF2A /* MJRefreshConfigModel.m */; };
@@ -207,6 +208,8 @@
 		C534CD85258759DD001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C534E6B0257F901E00DBC3CE /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
 		C534E6B2257F901F00DBC3CE /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
+		C53C9E8225A1D0250007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
+		C53C9E8325A1D0250007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
 		C544C0FF2583759F00C6CF2A /* UIViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJRefresh.h"; sourceTree = "<group>"; };
 		C544C1012583759F00C6CF2A /* LOTAnimationMJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationMJRefreshHeader.m; sourceTree = "<group>"; };
 		C544C1022583759F00C6CF2A /* LOTAnimationMJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationMJRefreshHeader.h; sourceTree = "<group>"; };
@@ -587,6 +590,15 @@
 				C5D6C8F22585F2E400029AFF /* NSObject+Extras */,
 			);
 			path = "NSObject+Others";
+			sourceTree = "<group>";
+		};
+		C53C9E8125A1D0250007F58F /* NSObject+DataSave */ = {
+			isa = PBXGroup;
+			children = (
+				C53C9E8325A1D0250007F58F /* NSObject+DataSave.h */,
+				C53C9E8225A1D0250007F58F /* NSObject+DataSave.m */,
+			);
+			path = "NSObject+DataSave";
 			sourceTree = "<group>";
 		};
 		C544BD35258372E000C6CF2A /* UIViewController+NavigationBar */ = {
@@ -1076,6 +1088,7 @@
 			children = (
 				C5D6DB7B25860EC700029AFF /* NSObject (Time) */,
 				C5AA4967250C9843009F583F /* NSObject+Alert */,
+				C53C9E8125A1D0250007F58F /* NSObject+DataSave */,
 				C534E6B8257F902200DBC3CE /* NSObject+Others */,
 				C5D6DB7825860EC700029AFF /* NSObject+Time */,
 			);
@@ -1988,6 +2001,7 @@
 				C54FE26D257671E600937C11 /* BaseViewController.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
 				C530AF70254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m in Sources */,
+				C53C9E8425A1D0250007F58F /* NSObject+DataSave.m in Sources */,
 				C5DDFF5724D3E2A600307DFA /* SceneDelegate.m in Sources */,
 				C5AA4976250C984E009F583F /* NSObject+Shake.m in Sources */,
 				C552ADCB2589DD8100A89501 /* UITableViewCell+WhiteArrows.m in Sources */,
