@@ -24,9 +24,10 @@ def func
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'GKNavigationBar'
+  pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器 
   pod 'JXCategoryView'
   pod 'JXPagingView/Pager' # https://github.com/pujiaxin33/JXPagingView NO_SMP
-  pod 'YYKit'
+  pod 'YYImage'
   pod 'IQKeyboardManager'
   pod 'LYEmptyView'
   pod 'SDWebImage'
