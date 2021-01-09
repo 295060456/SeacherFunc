@@ -1341,14 +1341,14 @@
 			path = "NSObject (Time)";
 			sourceTree = "<group>";
 		};
-		C5D6DB8325860ED800029AFF /* 资源 */ = {
+		C5D6DB8325860ED800029AFF /* 资源文件 */ = {
 			isa = PBXGroup;
 			children = (
 				C5DDFF6124D3E2A700307DFA /* Assets.xcassets */,
 				C573425325248B5000CC6A3A /* QQQ.mp4 */,
 				C5B7E2DD252478C400BC4E9D /* Others.bundle */,
 			);
-			path = "资源";
+			path = "资源文件";
 			sourceTree = "<group>";
 		};
 		C5D6FD3B2586278B00029AFF /* AppDelegate & SceneDelegate */ = {
@@ -1515,7 +1515,7 @@
 		C5DDFF9924D3E35700307DFA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				C5D6DB8325860ED800029AFF /* 资源 */,
+				C5D6DB8325860ED800029AFF /* 资源文件 */,
 				C5DDFF6324D3E2A700307DFA /* LaunchScreen.storyboard */,
 				C5DDFF6724D3E2A700307DFA /* main.m */,
 				C5DDFF5B24D3E2A600307DFA /* Main.storyboard */,
