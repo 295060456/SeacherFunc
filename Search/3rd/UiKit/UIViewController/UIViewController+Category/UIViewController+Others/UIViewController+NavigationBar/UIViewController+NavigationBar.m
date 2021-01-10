@@ -93,11 +93,12 @@ static char *UIViewController_NavigationBar_shadowCor = "UIViewController_Naviga
     UIBarButtonItem *LeftBarButtonItem_back = objc_getAssociatedObject(self, UIViewController_NavigationBar_leftBarButtonItem_back);
     if (!LeftBarButtonItem_back) {
         if(self.navigationController.viewControllers.count > 1){
-            UIImage *image = KBuddleIMG(@"⚽️PicResource",
-                                        @"Others",
-                                        nil,
-                                        @"back_white");
-            LeftBarButtonItem_back = [[UIBarButtonItem alloc]initWithImage:[image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+            NSString *imageName = self.gk_backStyle == GKNavigationBarBackStyleBlack ? @"btn_back_black" : @"btn_back_white";
+            UIImage *backImage = KBuddleIMG(nil,
+                                            @"Frameworks/GKNavigationBar.framework/GKNavigationBar",
+                                            nil,
+                                            imageName);
+            LeftBarButtonItem_back = [[UIBarButtonItem alloc]initWithImage:[backImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                                      style:UIBarButtonItemStyleDone
                                                                     target:self
                                                                     action:@selector(gotoback)];
@@ -176,8 +177,7 @@ static char *UIViewController_NavigationBar_shadowCor = "UIViewController_Naviga
 }
 
 -(void)setIsHiddenNavigationBar:(BOOL)isHiddenNavigationBar{
-    self.navigationBar.hidden = isHiddenNavigationBar;
-    self.navigationController.navigationBar.hidden = isHiddenNavigationBar;
+    [self.navigationController setNavigationBarHidden:isHiddenNavigationBar animated:true];
     objc_setAssociatedObject(self,
                              UIViewController_NavigationBar_isHiddenNavigationBar,
                              [NSNumber numberWithBool:isHiddenNavigationBar],
@@ -239,7 +239,7 @@ static char *UIViewController_NavigationBar_shadowCor = "UIViewController_Naviga
 -(UIColor *)foregroundColorAttributeNameCor{
     UIColor *ForegroundColorAttributeNameCor = objc_getAssociatedObject(self, UIViewController_NavigationBar_foregroundColorAttributeNameCor);
     if (!ForegroundColorAttributeNameCor) {
-        ForegroundColorAttributeNameCor = kBlackColor;
+        ForegroundColorAttributeNameCor = KGreenColor;//kBlackColor;
         objc_setAssociatedObject(self,
                                  UIViewController_NavigationBar_foregroundColorAttributeNameCor,
                                  ForegroundColorAttributeNameCor,
@@ -268,7 +268,7 @@ static char *UIViewController_NavigationBar_shadowCor = "UIViewController_Naviga
 -(UIColor *)tintColor{
     UIColor *TintColor = objc_getAssociatedObject(self, UIViewController_NavigationBar_tintColor);
     if (!TintColor) {
-        TintColor = kBlackColor;
+        TintColor = KGreenColor;//kBlackColor;
         objc_setAssociatedObject(self,
                                  UIViewController_NavigationBar_tintColor,
                                  TintColor,
@@ -286,7 +286,7 @@ static char *UIViewController_NavigationBar_shadowCor = "UIViewController_Naviga
 -(UIColor *)barTintColor{
     UIColor *BarTintColor = objc_getAssociatedObject(self, UIViewController_NavigationBar_barTintColor);
     if (!BarTintColor) {
-        BarTintColor = kBlackColor;
+        BarTintColor = KGreenColor;//kBlackColor;
         objc_setAssociatedObject(self,
                                  UIViewController_NavigationBar_barTintColor,
                                  BarTintColor,
