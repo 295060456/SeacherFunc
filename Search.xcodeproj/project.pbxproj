@@ -38,6 +38,7 @@
 		C552AED12589DE8200A89501 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C552AEC82589DE8200A89501 /* UIImage+Extras.m */; };
 		C552AED22589DE8200A89501 /* UIImage+Tailor.m in Sources */ = {isa = PBXBuildFile; fileRef = C552AECB2589DE8200A89501 /* UIImage+Tailor.m */; };
 		C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C55695FF255BFC7E005C1361 /* NSString+Extras.m */; };
+		C55FEB8225B426FB00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FEB8025B426FB00D8C30D /* UIView+MJRefresh.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
 		C5676488259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */; };
@@ -264,6 +265,8 @@
 		C558ED84258A27130078DB8F /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
 		C558ED85258A275D0078DB8F /* MacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef.h; sourceTree = "<group>"; };
 		C558ED87258A280C0078DB8F /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		C55FEB8025B426FB00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
+		C55FEB8125B426FB00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C5676484259F1300006905A9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
@@ -925,6 +928,15 @@
 				C57ADF8924D938BC00419DFA /* ViewController+Category.m */,
 			);
 			path = "业务";
+			sourceTree = "<group>";
+		};
+		C55FEB7F25B426FB00D8C30D /* UIView+MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C55FEB8125B426FB00D8C30D /* UIView+MJRefresh.h */,
+				C55FEB8025B426FB00D8C30D /* UIView+MJRefresh.m */,
+			);
+			path = "UIView+MJRefresh";
 			sourceTree = "<group>";
 		};
 		C563AE3D24F27F1000A3B0AC /* 文件夹操作 */ = {
@@ -1698,6 +1710,7 @@
 				C595BDD8258641CC002A4531 /* UIView+Extras */,
 				C595BDDA258641E9002A4531 /* UIView+Gradient */,
 				C595BDDB258641F0002A4531 /* UIView+Measure */,
+				C55FEB7F25B426FB00D8C30D /* UIView+MJRefresh */,
 				C595BDDC258641F7002A4531 /* UIView+Rotate */,
 				C595BDD0258641C4002A4531 /* UIView+SuspendView */,
 			);
@@ -2187,6 +2200,7 @@
 				C5C65239259DF8D600FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5DF445E25A899C100E91985 /* UIViewController+MJRefresh.m in Sources */,
 				C5914B1D25384ADB007777A6 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
+				C55FEB8225B426FB00D8C30D /* UIView+MJRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,7 @@
 #import "UIView+Animation.h"
 #import "UIView+Gradient.h"
 #import "UIView+EmptyData.h"
+#import "UIView+MJRefresh.h"
 /// UIImageView
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
