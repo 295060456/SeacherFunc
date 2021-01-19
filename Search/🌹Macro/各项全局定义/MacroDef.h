@@ -94,9 +94,9 @@
 } while (0)
 
 #pragma mark ======================================== 默认值 ========================================
-#define defaultValue 0
-#define defaultObj Nil
-#define defaultSize CGSizeZero
+#define DefaultValue 0
+#define DefaultObj Nil
+#define DefaultSize CGSizeZero
 
 #pragma mark ======================================== Sys.========================================
 #define HDAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]//标识应用程序的发布版本号
@@ -152,8 +152,8 @@ alpha:1] \
 #define COLOR_RGB(r,g,b,a)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
 #define HEXCOLOR(hexValue)  [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:1]
 #define COLOR_HEX(hexValue, al)  [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0 green:((float)((hexValue & 0xFF00) >> 8))/255.0 blue:((float)(hexValue & 0xFF))/255.0 alpha:al]
-#define MianScreen          UIScreen.mainScreen.bounds.size
-#define Device_Width        MianScreen.width//获取屏幕宽高
+#define MainScreen          UIScreen.mainScreen.bounds.size
+#define Device_Width        MainScreen.width//获取屏幕宽高
 #define SCALING_RATIO(UISize) (UISize) * Device_Width / 375.0f//全局比例尺
 ///常见颜色
 #define kClearColor     [UIColor clearColor]
