@@ -42,7 +42,7 @@
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
 		C5676488259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */; };
-		C5676489259F1301006905A9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676487259F1301006905A9 /* CollectionViewCell.m */; };
+		C5676489259F1301006905A9 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676487259F1301006905A9 /* BaseCollectionViewCell.m */; };
 		C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBAC258799F30043C977 /* UIControl+XY.m */; };
 		C56BC00A25879B980043C977 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BC00925879B970043C977 /* NSObject+Sound.m */; };
 		C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276B725408C2A002373D7 /* BaseNavigationVC.m */; };
@@ -56,6 +56,7 @@
 		C57F0D14253336C20080EEF0 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F0D13253336C20080EEF0 /* NSObject+OpenURL.m */; };
 		C585140025484C5E001E6676 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C58513FF25484C5E001E6676 /* UIView+Extras.m */; };
 		C58C62022532FDC70092BF89 /* UIView+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58C62002532FDC70092BF89 /* UIView+Rotate.m */; };
+		C58D94AD25B80CF900414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D94AB25B80CF900414ACB /* BaseTableViewCell.m */; };
 		C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03EC24EAD07100B6D09C /* GTProxy.m */; };
 		C5914B1925384ADB007777A6 /* UIViewController+BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914AFF25384AD8007777A6 /* UIViewController+BWShareView.m */; };
 		C5914B1B25384ADB007777A6 /* UIViewController+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914B0725384AD9007777A6 /* UIViewController+JPImageresizerView.m */; };
@@ -269,10 +270,10 @@
 		C55FEB8125B426FB00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
-		C5676484259F1300006905A9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		C5676484259F1300006905A9 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		C5676485259F1300006905A9 /* UICollectionViewCell+ShakeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ShakeAnimation.h"; sourceTree = "<group>"; };
 		C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+ShakeAnimation.m"; sourceTree = "<group>"; };
-		C5676487259F1301006905A9 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		C5676487259F1301006905A9 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 		C56BBBAB258799F30043C977 /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C56BBBAC258799F30043C977 /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C56BBBAD258799F30043C977 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题.md"; sourceTree = "<group>"; };
@@ -299,6 +300,8 @@
 		C58513FF25484C5E001E6676 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C58C62002532FDC70092BF89 /* UIView+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rotate.m"; sourceTree = "<group>"; };
 		C58C62012532FDC70092BF89 /* UIView+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rotate.h"; sourceTree = "<group>"; };
+		C58D94AB25B80CF900414ACB /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		C58D94AC25B80CF900414ACB /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		C58F03EB24EAD07100B6D09C /* GTProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTProxy.h; sourceTree = "<group>"; };
 		C58F03EC24EAD07100B6D09C /* GTProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTProxy.m; sourceTree = "<group>"; };
 		C58F04B424ED2EFE00B6D09C /* 1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1ViewController.h; sourceTree = "<group>"; };
@@ -565,8 +568,8 @@
 		C530AF5A254D9A3C00EDEDC8 /* UICollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				C5676484259F1300006905A9 /* CollectionViewCell.h */,
-				C5676487259F1301006905A9 /* CollectionViewCell.m */,
+				C5676484259F1300006905A9 /* BaseCollectionViewCell.h */,
+				C5676487259F1301006905A9 /* BaseCollectionViewCell.m */,
 				C5676485259F1300006905A9 /* UICollectionViewCell+ShakeAnimation.h */,
 				C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */,
 			);
@@ -983,6 +986,15 @@
 				C5914B0925384AD9007777A6 /* UIViewController+JXCategoryListContentViewDelegate.m */,
 			);
 			path = "UIViewController+JXCategory";
+			sourceTree = "<group>";
+		};
+		C58D94AA25B80CF900414ACB /* BaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C58D94AB25B80CF900414ACB /* BaseTableViewCell.m */,
+				C58D94AC25B80CF900414ACB /* BaseTableViewCell.h */,
+			);
+			path = BaseTableViewCell;
 			sourceTree = "<group>";
 		};
 		C595BDD0258641C4002A4531 /* UIView+SuspendView */ = {
@@ -1745,6 +1757,7 @@
 		C5DDFFB724D3FD8400307DFA /* UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				C58D94AA25B80CF900414ACB /* BaseTableViewCell */,
 				C552ADC62589DD8100A89501 /* 重设边距 */,
 				C552ADC12589DD8100A89501 /* 自定义右侧小箭头图标 */,
 			);
@@ -2084,6 +2097,7 @@
 				C57ADF8A24D938BC00419DFA /* ViewController+Category.m in Sources */,
 				C5D77723257F5A220087FC92 /* JobsMagicTextField.m in Sources */,
 				C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */,
+				C58D94AD25B80CF900414ACB /* BaseTableViewCell.m in Sources */,
 				C5A4398C25AAF7F1000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C552AECF2589DE8200A89501 /* UIImage+SYS.m in Sources */,
 				C59A3DD8258DD200005F6260 /* UserDefaultModel.m in Sources */,
@@ -2175,7 +2189,7 @@
 				C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */,
 				C58F03ED24EAD07100B6D09C /* GTProxy.m in Sources */,
 				C552AECE2589DE8200A89501 /* UIImage+YBGIF.m in Sources */,
-				C5676489259F1301006905A9 /* CollectionViewCell.m in Sources */,
+				C5676489259F1301006905A9 /* BaseCollectionViewCell.m in Sources */,
 				C5748A2124DC325300A842B2 /* TestBlock.m in Sources */,
 				C5CF70E024E51CDE000DB72D /* MonitorNetwoking.m in Sources */,
 				C5A4441325ABFBFD000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
