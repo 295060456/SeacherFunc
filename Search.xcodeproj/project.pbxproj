@@ -13,7 +13,7 @@
 		C52F9A9F25A6D9D900924990 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9A9C25A6D9D900924990 /* NSObject+SYSAlertController.m */; };
 		C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF58254D9A3C00EDEDC8 /* CollectionView.m */; };
 		C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */; };
-		C530AF6E254D9A3C00EDEDC8 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */; };
+		C530AF6E254D9A3C00EDEDC8 /* BaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF5F254D9A3C00EDEDC8 /* BaseCollectionReusableView.m */; };
 		C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */; };
 		C530AF70254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF66254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.m */; };
 		C530AF71254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF68254D9A3C00EDEDC8 /* HQCollectionViewFlowLayout.m */; };
@@ -209,8 +209,8 @@
 		C530AF57254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterClass.h"; sourceTree = "<group>"; };
 		C530AF58254D9A3C00EDEDC8 /* CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
 		C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterClass.m"; sourceTree = "<group>"; };
-		C530AF5E254D9A3C00EDEDC8 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
-		C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		C530AF5E254D9A3C00EDEDC8 /* BaseCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionReusableView.h; sourceTree = "<group>"; };
+		C530AF5F254D9A3C00EDEDC8 /* BaseCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionReusableView.m; sourceTree = "<group>"; };
 		C530AF62254D9A3C00EDEDC8 /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHWaterFallLayout.h; sourceTree = "<group>"; };
 		C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHWaterFallLayout.m; sourceTree = "<group>"; };
 		C530AF65254D9A3C00EDEDC8 /* KFZShopCatoryFlowLayput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFZShopCatoryFlowLayput.h; sourceTree = "<group>"; };
@@ -579,8 +579,8 @@
 		C530AF5D254D9A3C00EDEDC8 /* UICollectionReusableView 用作基类 */ = {
 			isa = PBXGroup;
 			children = (
-				C530AF5E254D9A3C00EDEDC8 /* CollectionReusableView.h */,
-				C530AF5F254D9A3C00EDEDC8 /* CollectionReusableView.m */,
+				C530AF5E254D9A3C00EDEDC8 /* BaseCollectionReusableView.h */,
+				C530AF5F254D9A3C00EDEDC8 /* BaseCollectionReusableView.m */,
 			);
 			path = "UICollectionReusableView 用作基类";
 			sourceTree = "<group>";
@@ -2146,7 +2146,7 @@
 				C52F9A9E25A6D9D900924990 /* NSObject+SPAlertController.m in Sources */,
 				C59BA4FC25273E400039B485 /* BaseTableViewer.m in Sources */,
 				C595BDD3258641C4002A4531 /* UIView+SuspendView.m in Sources */,
-				C530AF6E254D9A3C00EDEDC8 /* CollectionReusableView.m in Sources */,
+				C530AF6E254D9A3C00EDEDC8 /* BaseCollectionReusableView.m in Sources */,
 				C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */,
 				C5D77727257F5A220087FC92 /* UITextField+Extend.m in Sources */,
 				C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */,
