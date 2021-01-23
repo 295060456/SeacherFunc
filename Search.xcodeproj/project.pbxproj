@@ -48,6 +48,7 @@
 		C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276B725408C2A002373D7 /* BaseNavigationVC.m */; };
 		C57276BD25408C2A002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276BA25408C2A002373D7 /* NavigationBar.m */; };
 		C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276CE25408CDF002373D7 /* UIViewController+NavigationBar.m */; };
+		C57296DE25BB0A6300726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C57296DC25BB0A6300726419 /* UIView+BackgroundImage.m */; };
 		C573425425248B5000CC6A3A /* QQQ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C573425325248B5000CC6A3A /* QQQ.mp4 */; };
 		C5748A2124DC325300A842B2 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C5748A2024DC325300A842B2 /* TestBlock.m */; };
 		C5766D882546B7B500C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5766D872546B7B500C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */; };
@@ -285,6 +286,8 @@
 		C57276BB25408C2A002373D7 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
 		C57276CD25408CDF002373D7 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
 		C57276CE25408CDF002373D7 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		C57296DC25BB0A6300726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
+		C57296DD25BB0A6300726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C573425325248B5000CC6A3A /* QQQ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = QQQ.mp4; sourceTree = "<group>"; };
 		C5748A1F24DC325300A842B2 /* TestBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		C5748A2024DC325300A842B2 /* TestBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
@@ -975,6 +978,15 @@
 				C57276BA25408C2A002373D7 /* NavigationBar.m */,
 			);
 			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		C57296DB25BB0A6300726419 /* UIView+BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				C57296DC25BB0A6300726419 /* UIView+BackgroundImage.m */,
+				C57296DD25BB0A6300726419 /* UIView+BackgroundImage.h */,
+			);
+			path = "UIView+BackgroundImage";
 			sourceTree = "<group>";
 		};
 		C5766D382546B77E00C382C8 /* UIViewController+JXCategory */ = {
@@ -1715,6 +1727,7 @@
 		C5DDFFB224D3FA6A00307DFA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C57296DB25BB0A6300726419 /* UIView+BackgroundImage */,
 				C595BDD7258641C8002A4531 /* UIView+Animation */,
 				C5460F87258C8F340008928C /* UIView+AOP */,
 				C595BDD9258641E3002A4531 /* UIView+Chain */,
@@ -2160,6 +2173,7 @@
 				C52F9A9F25A6D9D900924990 /* NSObject+SYSAlertController.m in Sources */,
 				C5D77726257F5A220087FC92 /* CJTextField.m in Sources */,
 				C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */,
+				C57296DE25BB0A6300726419 /* UIView+BackgroundImage.m in Sources */,
 				C54FE26D257671E600937C11 /* BaseViewController.m in Sources */,
 				C5A4441525ABFBFD000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C5E7D9A924E1457900A38FAF /* TestView.m in Sources */,
