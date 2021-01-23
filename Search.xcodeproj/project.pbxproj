@@ -11,7 +11,7 @@
 		76DB0092A92CB4C644D631DA /* Pods_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F123B83C91A07C3A57E101 /* Pods_SearchTests.framework */; };
 		C52F9A9E25A6D9D900924990 /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9A9A25A6D9D900924990 /* NSObject+SPAlertController.m */; };
 		C52F9A9F25A6D9D900924990 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9A9C25A6D9D900924990 /* NSObject+SYSAlertController.m */; };
-		C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF58254D9A3C00EDEDC8 /* CollectionView.m */; };
+		C530AF6B254D9A3C00EDEDC8 /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF58254D9A3C00EDEDC8 /* BaseCollectionView.m */; };
 		C530AF6C254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */; };
 		C530AF6E254D9A3C00EDEDC8 /* BaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF5F254D9A3C00EDEDC8 /* BaseCollectionReusableView.m */; };
 		C530AF6F254D9A3C00EDEDC8 /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C530AF63254D9A3C00EDEDC8 /* LMHWaterFallLayout.m */; };
@@ -206,9 +206,9 @@
 		C52F9A9B25A6D9D900924990 /* NSObject+SYSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYSAlertController.h"; sourceTree = "<group>"; };
 		C52F9A9C25A6D9D900924990 /* NSObject+SYSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYSAlertController.m"; sourceTree = "<group>"; };
 		C52F9A9D25A6D9D900924990 /* NSObject+SPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPAlertController.h"; sourceTree = "<group>"; };
-		C530AF56254D9A3C00EDEDC8 /* CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
+		C530AF56254D9A3C00EDEDC8 /* BaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
 		C530AF57254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterClass.h"; sourceTree = "<group>"; };
-		C530AF58254D9A3C00EDEDC8 /* CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		C530AF58254D9A3C00EDEDC8 /* BaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
 		C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterClass.m"; sourceTree = "<group>"; };
 		C530AF5E254D9A3C00EDEDC8 /* BaseCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionReusableView.h; sourceTree = "<group>"; };
 		C530AF5F254D9A3C00EDEDC8 /* BaseCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionReusableView.m; sourceTree = "<group>"; };
@@ -560,8 +560,8 @@
 			isa = PBXGroup;
 			children = (
 				C552AEB62589DE4500A89501 /* 我为什么要这么做.md */,
-				C530AF56254D9A3C00EDEDC8 /* CollectionView.h */,
-				C530AF58254D9A3C00EDEDC8 /* CollectionView.m */,
+				C530AF56254D9A3C00EDEDC8 /* BaseCollectionView.h */,
+				C530AF58254D9A3C00EDEDC8 /* BaseCollectionView.m */,
 				C530AF57254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.h */,
 				C530AF59254D9A3C00EDEDC8 /* UICollectionView+RegisterClass.m */,
 			);
@@ -2139,7 +2139,7 @@
 				C5A4441625ABFBFD000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5C65236259DF8D600FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C552ADCC2589DD8100A89501 /* UITableViewCell+Margin.m in Sources */,
-				C530AF6B254D9A3C00EDEDC8 /* CollectionView.m in Sources */,
+				C530AF6B254D9A3C00EDEDC8 /* BaseCollectionView.m in Sources */,
 				C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */,
 				C5D77FB4257F5FB90087FC92 /* ZYTextField+HistoryDataList.m in Sources */,
 				C5C65238259DF8D600FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
