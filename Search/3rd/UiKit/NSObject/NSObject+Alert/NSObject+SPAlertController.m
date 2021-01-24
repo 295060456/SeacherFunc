@@ -23,7 +23,7 @@
 /// @param alertActionStyleArr 按钮Style
 /// @param alertBtnActionArr 按钮触发方法
 /// @param targetVC  作用域,alertBtnActionArr在targetVC的m文件去找对应的方法，没有则向外抛出崩溃
-/// @param funcVC  对应方法的VC。一般情况下targetVC ==  funcVC，所以可以不用填写，但是某些特殊情况targetVC 不等于 funcVC，就要单独提出来做
+/// @param funcInWhere   执行方法的位置，它可以是VC、view、也可以是任意NSObject子类。当不传值的时候 funcInWhere == targetVC
 /// @param animated 是否动效present
 /// @param alertVCBlock alertVCBlock
 /// @param completionBlock completionBlock
@@ -39,10 +39,10 @@
                             alertActionStyleArr:(NSArray <NSNumber *>*)alertActionStyleArr//SPAlertActionStyle
                                  alertBtnAction:(NSArray <NSString *>*)alertBtnActionArr
                                        targetVC:(UIViewController *)targetVC
-                                         funcVC:(nullable UIViewController *)funcVC
+                                    funcInWhere:(nullable id)funcInWhere
                                        animated:(BOOL)animated
-                                   alertVCBlock:(TwoDataBlock)alertVCBlock
-                                completionBlock:(NoResultBlock)completionBlock{
+                                   alertVCBlock:(nullable TwoDataBlock)alertVCBlock
+                                completionBlock:(nullable NoResultBlock)completionBlock{
     SPAlertController *vc = nil;
     switch (SPAlertControllerInitType) {
         case NSObject_SPAlertControllerInitType_1:{
@@ -120,15 +120,15 @@
     NSMutableArray <SPAlertAction *>*mutArr = NSMutableArray.array;
     
     @weakify(targetVC)
-    @weakify(funcVC)
+    @weakify(funcInWhere)
     for (int i = 0; i < alertBtnActionArr.count; i++) {
         SPAlertAction *action = [SPAlertAction actionWithTitle:alertActionTitleArr[i]
                                                          style:alertActionStyleArr[i].integerValue
                                                        handler:^(SPAlertAction * _Nonnull action) {
             @strongify(targetVC)
-            @strongify(funcVC)
-            if (!funcVC) {
-                funcVC = targetVC;
+            @strongify(funcInWhere)
+            if (!funcInWhere) {
+                funcInWhere = targetVC;
             }
             SuppressWarcPerformSelectorLeaksWarning([targetVC performSelector:NSSelectorFromString((NSString *)alertBtnActionArr[i])
                                                                    withObject:Nil]);
