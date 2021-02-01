@@ -32,6 +32,7 @@
 #import "UIView+Gradient.h"
 #import "UIView+EmptyData.h"
 #import "UIView+MJRefresh.h"
+#import "UIView+ViewController.h"
 /// UIImageView
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
@@ -67,5 +68,9 @@
 #import "MonitorNetwoking.h"
 #import "FileFolderHandleTool.h"
 #import "SearchVC.h"
+
+#import "SuspendBtn.h"
+#import "SuspendLab.h"
+#import "SuspendView.h"
 
 #endif /* Manual_Add_ThirdParty_h */
