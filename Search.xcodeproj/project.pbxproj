@@ -40,6 +40,7 @@
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
 		C562DD8525C7C458004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DD8325C7C458004D1AEA /* UIView+ViewController.m */; };
 		C563AE4024F27F1800A3B0AC /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */; };
+		C567341425D77A7D008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C567341325D77A7D008ABAF9 /* BaseView.m */; };
 		C5676488259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */; };
 		C5676489259F1301006905A9 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676487259F1301006905A9 /* BaseCollectionViewCell.m */; };
 		C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBAC258799F30043C977 /* UIControl+XY.m */; };
@@ -270,6 +271,8 @@
 		C562DD8425C7C458004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C563AE3E24F27F1800A3B0AC /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C567341225D77A7D008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C567341325D77A7D008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C5676484259F1300006905A9 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		C5676485259F1300006905A9 /* UICollectionViewCell+ShakeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ShakeAnimation.h"; sourceTree = "<group>"; };
 		C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+ShakeAnimation.m"; sourceTree = "<group>"; };
@@ -897,8 +900,8 @@
 		C558ED7F258A26B00078DB8F /* 第三方头文件管理 */ = {
 			isa = PBXGroup;
 			children = (
-				C558ED81258A26C00078DB8F /* 手动导入的第三方 */,
 				C558ED80258A26B80078DB8F /* Pods */,
+				C558ED81258A26C00078DB8F /* 手动导入的第三方 */,
 			);
 			path = "第三方头文件管理";
 			sourceTree = "<group>";
@@ -964,6 +967,34 @@
 				C563AE3F24F27F1800A3B0AC /* FileFolderHandleTool.m */,
 			);
 			path = "文件夹操作";
+			sourceTree = "<group>";
+		};
+		C567341025D77A6D008ABAF9 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C562DD7F25C7C452004D1AEA /* UIView+ViewController */,
+				C57296DB25BB0A6300726419 /* UIView+BackgroundImage */,
+				C595BDD7258641C8002A4531 /* UIView+Animation */,
+				C5460F87258C8F340008928C /* UIView+AOP */,
+				C595BDD9258641E3002A4531 /* UIView+Chain */,
+				C5D1C051258B203600784D2F /* UIView+EmptyData */,
+				C595BDD8258641CC002A4531 /* UIView+Extras */,
+				C595BDDA258641E9002A4531 /* UIView+Gradient */,
+				C595BDDB258641F0002A4531 /* UIView+Measure */,
+				C55FEB7F25B426FB00D8C30D /* UIView+MJRefresh */,
+				C595BDDC258641F7002A4531 /* UIView+Rotate */,
+				C595BDD0258641C4002A4531 /* UIView+SuspendView */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		C567341125D77A77008ABAF9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				C567341225D77A7D008ABAF9 /* BaseView.h */,
+				C567341325D77A7D008ABAF9 /* BaseView.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		C56BBBB625879A040043C977 /* UIButton */ = {
@@ -1739,18 +1770,8 @@
 		C5DDFFB224D3FA6A00307DFA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C562DD7F25C7C452004D1AEA /* UIView+ViewController */,
-				C57296DB25BB0A6300726419 /* UIView+BackgroundImage */,
-				C595BDD7258641C8002A4531 /* UIView+Animation */,
-				C5460F87258C8F340008928C /* UIView+AOP */,
-				C595BDD9258641E3002A4531 /* UIView+Chain */,
-				C5D1C051258B203600784D2F /* UIView+EmptyData */,
-				C595BDD8258641CC002A4531 /* UIView+Extras */,
-				C595BDDA258641E9002A4531 /* UIView+Gradient */,
-				C595BDDB258641F0002A4531 /* UIView+Measure */,
-				C55FEB7F25B426FB00D8C30D /* UIView+MJRefresh */,
-				C595BDDC258641F7002A4531 /* UIView+Rotate */,
-				C595BDD0258641C4002A4531 /* UIView+SuspendView */,
+				C567341125D77A77008ABAF9 /* BaseView */,
+				C567341025D77A6D008ABAF9 /* UIView+Category */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -2155,6 +2176,7 @@
 				C530AF6B254D9A3C00EDEDC8 /* BaseCollectionView.m in Sources */,
 				C5D6DB7E25860EC700029AFF /* NSObject+Time.m in Sources */,
 				C5D77FB4257F5FB90087FC92 /* ZYTextField+HistoryDataList.m in Sources */,
+				C567341425D77A7D008ABAF9 /* BaseView.m in Sources */,
 				C5C65238259DF8D600FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C595D47025871493002A4531 /* SuspendLab.m in Sources */,
 				C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */,

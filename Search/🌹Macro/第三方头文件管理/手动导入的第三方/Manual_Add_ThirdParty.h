@@ -24,6 +24,9 @@
 /// NSString
 #import "NSString+Extras.h"
 /// UIView
+// BaseView
+#import "BaseView.h"
+// UIView+Category
 #import "UIView+Extras.h"
 #import "UIView+Chain.h"
 #import "UIView+SuspendView.h"
