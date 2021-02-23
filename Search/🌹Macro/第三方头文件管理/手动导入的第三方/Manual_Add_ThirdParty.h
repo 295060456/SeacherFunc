@@ -9,8 +9,8 @@
 #ifndef Manual_Add_ThirdParty_h
 #define Manual_Add_ThirdParty_h
 
-#pragma mark —— BaseCustomizeUIKit
-/// NSObject
+/// BaseCustomizeUIKit
+#pragma mark —— NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Time.h"
 #import "NSObject+Measure.h"
@@ -21,12 +21,12 @@
 #import "NSObject+SPAlertController.h"
 #import "NSObject+OpenURL.h"
 #import "NSObject+DataSave.h"
-/// NSString
+#pragma mark —— NSString
 #import "NSString+Extras.h"
-/// UIView
-// BaseView
+#pragma mark —— UIView
+/// BaseView
 #import "BaseView.h"
-// UIView+Category
+/// UIView+Category
 #import "UIView+Extras.h"
 #import "UIView+Chain.h"
 #import "UIView+SuspendView.h"
@@ -36,7 +36,7 @@
 #import "UIView+EmptyData.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+ViewController.h"
-/// UIImageView
+#pragma mark ——  UIImageView
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
 #import "UIImage+Extras.h"
@@ -44,7 +44,7 @@
 #import "UIImage+Overlay.h"
 #import "UIImage+Tailor.h"
 #import "LoadingImage.h"
-/// UIViewController
+#pragma mark ——  UIViewController
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
 #import "UIViewController+BRPickerView.h"
@@ -57,14 +57,19 @@
 #import "UIViewController+Shake.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+EmptyData.h"
-/// UINavigationController
+#pragma mark —— UINavigationController
 #import "BaseNavigationVC.h"
-/// UINavigationBar
+#pragma mark —— UINavigationBar
 #import "NavigationBar.h"
-/// UIControl
+#pragma mark —— UIControl
 #import "UIControl+XY.h"
-/// UIButton
+#pragma mark —— UIButton
 #import "UIButton+ImageTitleSpacing.h"
+#pragma mark —— UIImageView
+/// BaseImageView
+#import "BaseImageView.h"
+/// UIImageView+Category
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 
 #pragma mark —— Manual_Add_ThirdParty
 #import "UserDefaultManager.h"
