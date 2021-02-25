@@ -69,6 +69,7 @@
 		C5914B2025384ADB007777A6 /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914B0F25384ADA007777A6 /* UIViewController+BackBtn.m */; };
 		C5914B2225384ADB007777A6 /* UIViewController+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914B1225384ADA007777A6 /* UIViewController+Shake.m */; };
 		C5914B2325384ADB007777A6 /* UIViewController+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914B1425384ADA007777A6 /* UIViewController+GifImageView.m */; };
+		C59433D425E7AAA2003BCA91 /* UITextView+IndicateWordLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C59433D125E7AAA2003BCA91 /* UITextView+IndicateWordLimit.m */; };
 		C595BDD3258641C4002A4531 /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BDD1258641C4002A4531 /* UIView+SuspendView.m */; };
 		C595D46F25871493002A4531 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C595D46725871493002A4531 /* SuspendBtn.m */; };
 		C595D47025871493002A4531 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C595D46B25871493002A4531 /* SuspendLab.m */; };
@@ -332,6 +333,9 @@
 		C5914B1425384ADA007777A6 /* UIViewController+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GifImageView.m"; sourceTree = "<group>"; };
 		C5914B1525384ADA007777A6 /* UIViewController+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BRPickerView.h"; sourceTree = "<group>"; };
 		C5914B1825384ADB007777A6 /* UIViewController+GifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GifImageView.h"; sourceTree = "<group>"; };
+		C59433D125E7AAA2003BCA91 /* UITextView+IndicateWordLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+IndicateWordLimit.m"; sourceTree = "<group>"; };
+		C59433D225E7AAA2003BCA91 /* UITextView+IndicateWordLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+IndicateWordLimit.h"; sourceTree = "<group>"; };
+		C59433D325E7AAA2003BCA91 /* UITextView+IndicateWordLimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView+IndicateWordLimit.png"; sourceTree = "<group>"; };
 		C595BDD1258641C4002A4531 /* UIView+SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuspendView.m"; sourceTree = "<group>"; };
 		C595BDD2258641C4002A4531 /* UIView+SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
 		C595D46725871493002A4531 /* SuspendBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
@@ -1071,6 +1075,16 @@
 				C58D94AC25B80CF900414ACB /* BaseTableViewCell.h */,
 			);
 			path = BaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		C59433D025E7AAA2003BCA91 /* UITextView+IndicateWordLimit */ = {
+			isa = PBXGroup;
+			children = (
+				C59433D225E7AAA2003BCA91 /* UITextView+IndicateWordLimit.h */,
+				C59433D125E7AAA2003BCA91 /* UITextView+IndicateWordLimit.m */,
+				C59433D325E7AAA2003BCA91 /* UITextView+IndicateWordLimit.png */,
+			);
+			path = "UITextView+IndicateWordLimit";
 			sourceTree = "<group>";
 		};
 		C595BDD0258641C4002A4531 /* UIView+SuspendView */ = {
@@ -1816,6 +1830,7 @@
 				C59BA4F625273E270039B485 /* UITableView */,
 				C5DDFFB724D3FD8400307DFA /* UITableViewCell */,
 				C5DDFF9F24D3F9F600307DFA /* UITextField */,
+				C59433D025E7AAA2003BCA91 /* UITextView+IndicateWordLimit */,
 				C5DDFFB224D3FA6A00307DFA /* UIView */,
 				C59C4A8324E3AB78002C2104 /* UIViewController */,
 			);
@@ -2166,6 +2181,7 @@
 				C5D77723257F5A220087FC92 /* JobsMagicTextField.m in Sources */,
 				C534E6B4257F901F00DBC3CE /* NSObject+Extras.m in Sources */,
 				C58D94AD25B80CF900414ACB /* BaseTableViewCell.m in Sources */,
+				C59433D425E7AAA2003BCA91 /* UITextView+IndicateWordLimit.m in Sources */,
 				C5A4398C25AAF7F1000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C552AECF2589DE8200A89501 /* UIImage+SYS.m in Sources */,
 				C59A3DD8258DD200005F6260 /* UserDefaultModel.m in Sources */,
