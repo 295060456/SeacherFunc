@@ -21,6 +21,7 @@
 #import "NSObject+SPAlertController.h"
 #import "NSObject+OpenURL.h"
 #import "NSObject+DataSave.h"
+#import "NSObject+CallBackInfoByBlock.h"
 #pragma mark —— NSString
 #import "NSString+Extras.h"
 #pragma mark —— UIView
@@ -36,7 +37,6 @@
 #import "UIView+EmptyData.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+ViewController.h"
-#import "UIView+CallBackInfoByBlock.h"
 #pragma mark ——  UIImageView
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 #import "UIImage+YBGIF.h"
@@ -58,7 +58,6 @@
 #import "UIViewController+Shake.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+EmptyData.h"
-#import "UIViewController+CallBackInfoByBlock.h"
 #pragma mark —— UINavigationController
 #import "BaseNavigationVC.h"
 #pragma mark —— UINavigationBar
