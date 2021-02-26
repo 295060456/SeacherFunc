@@ -44,6 +44,8 @@
 		C5676488259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676486259F1301006905A9 /* UICollectionViewCell+ShakeAnimation.m */; };
 		C5676489259F1301006905A9 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5676487259F1301006905A9 /* BaseCollectionViewCell.m */; };
 		C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBAC258799F30043C977 /* UIControl+XY.m */; };
+		C56BBBB325E90722001E1E69 /* UIViewController+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBB225E90721001E1E69 /* UIViewController+CallBackInfoByBlock.m */; };
+		C56BBBB725E9072B001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBBB625E9072B001E1E69 /* UIView+CallBackInfoByBlock.m */; };
 		C56BC00A25879B980043C977 /* NSObject+Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BC00925879B970043C977 /* NSObject+Sound.m */; };
 		C57276BC25408C2A002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276B725408C2A002373D7 /* BaseNavigationVC.m */; };
 		C57276BD25408C2A002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C57276BA25408C2A002373D7 /* NavigationBar.m */; };
@@ -282,6 +284,10 @@
 		C56BBBAB258799F30043C977 /* UIControl+XY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XY.h"; sourceTree = "<group>"; };
 		C56BBBAC258799F30043C977 /* UIControl+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XY.m"; sourceTree = "<group>"; };
 		C56BBBAD258799F30043C977 /* iOS小技巧：用runtime 解决UIButton 重复点击问题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS小技巧：用runtime 解决UIButton 重复点击问题.md"; sourceTree = "<group>"; };
+		C56BBBB125E90721001E1E69 /* UIViewController+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BBBB225E90721001E1E69 /* UIViewController+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
+		C56BBBB525E9072B001E1E69 /* UIView+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BBBB625E9072B001E1E69 /* UIView+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
 		C56BC00825879B970043C977 /* NSObject+Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sound.h"; sourceTree = "<group>"; };
 		C56BC00925879B970043C977 /* NSObject+Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sound.m"; sourceTree = "<group>"; };
 		C57276B725408C2A002373D7 /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
@@ -979,10 +985,10 @@
 		C567341025D77A6D008ABAF9 /* UIView+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C562DD7F25C7C452004D1AEA /* UIView+ViewController */,
-				C57296DB25BB0A6300726419 /* UIView+BackgroundImage */,
 				C595BDD7258641C8002A4531 /* UIView+Animation */,
 				C5460F87258C8F340008928C /* UIView+AOP */,
+				C57296DB25BB0A6300726419 /* UIView+BackgroundImage */,
+				C56BBBB425E9072B001E1E69 /* UIView+CallBackInfoByBlock */,
 				C595BDD9258641E3002A4531 /* UIView+Chain */,
 				C5D1C051258B203600784D2F /* UIView+EmptyData */,
 				C595BDD8258641CC002A4531 /* UIView+Extras */,
@@ -991,6 +997,7 @@
 				C55FEB7F25B426FB00D8C30D /* UIView+MJRefresh */,
 				C595BDDC258641F7002A4531 /* UIView+Rotate */,
 				C595BDD0258641C4002A4531 /* UIView+SuspendView */,
+				C562DD7F25C7C452004D1AEA /* UIView+ViewController */,
 			);
 			path = "UIView+Category";
 			sourceTree = "<group>";
@@ -1002,6 +1009,24 @@
 				C567341325D77A7D008ABAF9 /* BaseView.m */,
 			);
 			path = BaseView;
+			sourceTree = "<group>";
+		};
+		C56BBBB025E90721001E1E69 /* UIViewController+CallBackInfoByBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C56BBBB125E90721001E1E69 /* UIViewController+CallBackInfoByBlock.h */,
+				C56BBBB225E90721001E1E69 /* UIViewController+CallBackInfoByBlock.m */,
+			);
+			path = "UIViewController+CallBackInfoByBlock";
+			sourceTree = "<group>";
+		};
+		C56BBBB425E9072B001E1E69 /* UIView+CallBackInfoByBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C56BBBB525E9072B001E1E69 /* UIView+CallBackInfoByBlock.h */,
+				C56BBBB625E9072B001E1E69 /* UIView+CallBackInfoByBlock.m */,
+			);
+			path = "UIView+CallBackInfoByBlock";
 			sourceTree = "<group>";
 		};
 		C56BBBB625879A040043C977 /* UIButton */ = {
@@ -1660,6 +1685,7 @@
 				C544BD37258372EF00C6CF2A /* UIViewController+BaseVC */,
 				C544BD38258372F700C6CF2A /* UIViewController+BRPickerView */,
 				C544BD392583730000C6CF2A /* UIViewController+BWShareView */,
+				C56BBBB025E90721001E1E69 /* UIViewController+CallBackInfoByBlock */,
 				C5D1BB6D258B0CB000784D2F /* UIViewController+EmptyData */,
 				C544BD3A2583730A00C6CF2A /* UIViewController+GifImageView */,
 				C544BD3B2583731300C6CF2A /* UIViewController+JPImageresizerView */,
@@ -2220,6 +2246,7 @@
 				C57276CF25408CDF002373D7 /* UIViewController+NavigationBar.m in Sources */,
 				C5C65233259DF8D600FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5A4441025ABFBFD000F0CD2 /* WHToast+DDToast.m in Sources */,
+				C56BBBB325E90722001E1E69 /* UIViewController+CallBackInfoByBlock.m in Sources */,
 				C59A3DD9258DD200005F6260 /* UserDefaultManager.m in Sources */,
 				C5DDFF5424D3E2A600307DFA /* AppDelegate.m in Sources */,
 				C5DDFF9624D3E2C100307DFA /* SearchVC.m in Sources */,
@@ -2234,6 +2261,7 @@
 				C595BDD3258641C4002A4531 /* UIView+SuspendView.m in Sources */,
 				C530AF6E254D9A3C00EDEDC8 /* BaseCollectionReusableView.m in Sources */,
 				C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */,
+				C56BBBB725E9072B001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */,
 				C5D77727257F5A220087FC92 /* UITextField+Extend.m in Sources */,
 				C56BBBAE258799F30043C977 /* UIControl+XY.m in Sources */,
 				C5460F8A258C8F340008928C /* UIView+AOP.m in Sources */,
