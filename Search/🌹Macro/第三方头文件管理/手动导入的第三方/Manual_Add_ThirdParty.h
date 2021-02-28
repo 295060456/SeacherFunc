@@ -56,7 +56,7 @@
 #import "UIViewController+JXPagerViewListViewDelegate.h"
 #import "UIViewController+MJRefresh.h"
 #import "UIViewController+Shake.h"
-#import "UIViewController+NavigationBar.h"
+#import "UIViewController+BaseNavigationBar.h"
 #import "UIViewController+EmptyData.h"
 #pragma mark —— UINavigationController
 #import "BaseNavigationVC.h"
