@@ -77,6 +77,7 @@
 #import "MonitorNetwoking.h"
 #import "FileFolderHandleTool.h"
 #import "SearchVC.h"
+#import "DDCacheTool.h"
 
 #import "SuspendBtn.h"
 #import "SuspendLab.h"

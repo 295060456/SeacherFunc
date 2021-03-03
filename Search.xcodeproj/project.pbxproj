@@ -236,6 +236,7 @@
 		C5460F92258C8F470008928C /* ZYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
 		C54B3BF825525FC4003BE195 /* UIFont+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extras.h"; sourceTree = "<group>"; };
 		C54B3BF925525FC4003BE195 /* UIFont+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extras.m"; sourceTree = "<group>"; };
+		C54C637925EFC2D4007DD043 /* DDCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCacheTool.h; sourceTree = "<group>"; };
 		C54F85EA252B621400EE3DD0 /* UITableView+WWFoldableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WWFoldableTableView.h"; sourceTree = "<group>"; };
 		C54F85EB252B621400EE3DD0 /* UITableView+WWFoldableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WWFoldableTableView.m"; sourceTree = "<group>"; };
 		C54FE26B257671E600937C11 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -849,6 +850,14 @@
 				C542D59325EB799B00D776D8 /* UIFont+Extras */,
 			);
 			path = UIFont;
+			sourceTree = "<group>";
+		};
+		C54C637825EFC2D4007DD043 /* 清除缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				C54C637925EFC2D4007DD043 /* DDCacheTool.h */,
+			);
+			path = "清除缓存";
 			sourceTree = "<group>";
 		};
 		C54F85E3252B61CE00EE3DD0 /* UITableView 折叠功能 */ = {
@@ -1850,6 +1859,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C54C637825EFC2D4007DD043 /* 清除缓存 */,
 				C5CF15DA25AC7E5F00381935 /* LYLUnicode */,
 				C5A4398625AAF7F1000F0CD2 /* 手势滑动返回 */,
 				C59A3DD3258DD200005F6260 /* UserDefaultManager */,
