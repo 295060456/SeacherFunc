@@ -35,6 +35,7 @@
 		C552AED02589DE8200A89501 /* UIImage+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C552AEC62589DE8200A89501 /* UIImage+Overlay.m */; };
 		C552AED12589DE8200A89501 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C552AEC82589DE8200A89501 /* UIImage+Extras.m */; };
 		C552AED22589DE8200A89501 /* UIImage+Tailor.m in Sources */ = {isa = PBXBuildFile; fileRef = C552AECB2589DE8200A89501 /* UIImage+Tailor.m */; };
+		C5542CB825F324D5002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542CB725F324D5002D1CA6 /* CheckMemFreeVC.m */; };
 		C5569605255BFC7E005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C55695FF255BFC7E005C1361 /* NSString+Extras.m */; };
 		C55FEB8225B426FB00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FEB8025B426FB00D8C30D /* UIView+MJRefresh.m */; };
 		C561613024EE1F1E001CD851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDFF5924D3E2A600307DFA /* ViewController.m */; };
@@ -262,6 +263,8 @@
 		C552AEC92589DE8200A89501 /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
 		C552AECB2589DE8200A89501 /* UIImage+Tailor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tailor.m"; sourceTree = "<group>"; };
 		C552AECC2589DE8200A89501 /* UIImage+Tailor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tailor.h"; sourceTree = "<group>"; };
+		C5542CB625F324D5002D1CA6 /* CheckMemFreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMemFreeVC.h; sourceTree = "<group>"; };
+		C5542CB725F324D5002D1CA6 /* CheckMemFreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMemFreeVC.m; sourceTree = "<group>"; };
 		C55695FF255BFC7E005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C5569603255BFC7E005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C5580582258A461E0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
@@ -959,6 +962,15 @@
 				C552AECB2589DE8200A89501 /* UIImage+Tailor.m */,
 			);
 			path = "UIImage+Tailor";
+			sourceTree = "<group>";
+		};
+		C5542CB525F324D5002D1CA6 /* CheckMemFreeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C5542CB625F324D5002D1CA6 /* CheckMemFreeVC.h */,
+				C5542CB725F324D5002D1CA6 /* CheckMemFreeVC.m */,
+			);
+			path = CheckMemFreeVC;
 			sourceTree = "<group>";
 		};
 		C5580581258A46120078DB8F /* PodsManual */ = {
@@ -1859,6 +1871,7 @@
 		C5DDFF9A24D3F9E200307DFA /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C5542CB525F324D5002D1CA6 /* CheckMemFreeVC */,
 				C54C637825EFC2D4007DD043 /* 清除缓存 */,
 				C5CF15DA25AC7E5F00381935 /* LYLUnicode */,
 				C5A4398625AAF7F1000F0CD2 /* 手势滑动返回 */,
@@ -2347,6 +2360,7 @@
 				C5DF446025A899C100E91985 /* LOTAnimationMJRefreshHeader.m in Sources */,
 				C5A4441225ABFBFD000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C595D46F25871493002A4531 /* SuspendBtn.m in Sources */,
+				C5542CB825F324D5002D1CA6 /* CheckMemFreeVC.m in Sources */,
 				C5D77726257F5A220087FC92 /* CJTextField.m in Sources */,
 				C59BA50825273E490039B485 /* UITableView+XSAnimationKit.m in Sources */,
 				C57296DE25BB0A6300726419 /* UIView+BackgroundImage.m in Sources */,
